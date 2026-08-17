@@ -36,6 +36,12 @@ yarn-error.log*
 *.tsbuildinfo
 next-env.d.ts
 
+# Generated textbook HTML (run: npm run build:textbook-html)
+book/latexml_build/
+book/*.latexml.log
+content/textbook/
+public/textbook/figure/
+
 # LaTeX build artifacts (book/ source)
 book/*.aux
 book/*.log

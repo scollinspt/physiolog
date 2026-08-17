@@ -1,0 +1,29 @@
+% LaTeXML-compatible preamble: stand-ins for svmono-specific commands/environments
+% and packages LaTeXML can't parse directly (biblatex uses expl3 code its TeX
+% parser rejects), so the real content can convert cleanly to HTML.
+% This is NOT used for the PDF build (see preamble.tex for that).
+
+\usepackage{amsmath,amssymb,mathrsfs,amsfonts,dsfont}
+\usepackage{graphicx}
+\usepackage{tabularx}
+\usepackage{longtable}
+\usepackage{color}
+\usepackage{hyperref}
+\usepackage[capitalise]{cleveref}
+\usepackage{enumitem}
+\usepackage{mathtools}
+\usepackage{physics}
+\usepackage{comment}
+
+% biblatex itself uses expl3 code LaTeXML can't parse; stand in citation
+% commands as placeholders (real citation rendering is handled separately
+% in the web layer, e.g. from references.bib).
+\newcommand{\cite}[1]{[#1]}
+\newcommand{\printbibliography}{}
+
+% svmono.cls provides these; plain book.cls doesn't, so stand them in.
+\newcommand{\minitoc}{}
+\newenvironment{svgraybox}{\par\begin{quote}}{\end{quote}}
+\newenvironment{warning}[1]{\par\textbf{Warning: #1}\begin{quote}}{\end{quote}}
+\newenvironment{question}[1]{\par\textbf{Question: #1}\begin{quote}}{\end{quote}}
+\newenvironment{backgroundinformation}[1]{\par\textbf{Background: #1}\begin{quote}}{\end{quote}}

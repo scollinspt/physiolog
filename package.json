@@ -6,7 +6,8 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "eslint"
+    "lint": "eslint",
+    "build:textbook-html": "bash scripts/build-textbook-html.sh"
   },
   "dependencies": {
     "next": "16.3.1",

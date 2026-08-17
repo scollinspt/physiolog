@@ -1,0 +1,20 @@
+% Whole-book wrapper for LaTeXML HTML conversion (mirrors the chapter order in
+% book.tex's mainmatter, so cross-chapter \ref/\cref resolve correctly).
+% This is NOT used for the PDF build (see book.tex for that).
+\documentclass{book}
+\input{latexml-preamble.tex}
+\graphicspath{{./}{images/}}
+\begin{document}
+\include{chapter/introduction}
+\include{chapter/fundamentals}
+\include{chapter/tension}
+\include{chapter/excitation}
+\include{chapter/regulation}
+\include{chapter/energetics}
+\include{chapter/microcirculation}
+\include{chapter/renal_clearance}
+\include{chapter/circulation}
+\include{chapter/cardiac_pump}
+\include{chapter/respiration}
+\include{chapter/ventilation}
+\end{document}
