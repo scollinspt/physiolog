@@ -5,41 +5,62 @@ _Last updated: 2026-08-17_
 Working plan for turning the LaTeX textbook source into the live site, in order.
 Update this file as steps are completed or the plan changes.
 
-## 1. Finish the full-book HTML pipeline (in progress)
+## 1. Finish the full-book HTML pipeline — DONE
 
-Convert all chapters in `book/book.tex` (not just the `cardiac_pump.tex` prototype) to
-semantic HTML via LaTeXML, resolving cross-chapter references by converting the whole
-book together rather than chapter-by-chapter.
+Converted all 12 real chapters in `book/book.tex` (not just the `cardiac_pump.tex`
+prototype) to semantic HTML via LaTeXML, resolving cross-chapter references by
+converting the whole book together rather than chapter-by-chapter.
 
 - [x] Prototype LaTeXML conversion on one chapter (`cardiac_pump.tex`) — proven feasible.
-- [ ] Permanent LaTeXML-compatible preamble (stand-ins for `svmono`-specific
-      environments/commands: `svgraybox`, `warning`, `question`,
-      `backgroundinformation`, `\minitoc`, citation placeholders).
-- [ ] Wrapper document that `\include`s all real chapters in the same order as
-      `book.tex`, so cross-references between chapters resolve correctly.
-- [ ] Build script that runs LaTeXML once across the whole book, splits output
-      per chapter, and copies only the figures actually referenced.
-- [ ] Output landing spot decided (e.g. `content/textbook/<chapter-slug>/index.html`
-      + `public/textbook/figures/`).
+- [x] Permanent LaTeXML-compatible preamble (`book/latexml-preamble.tex`): stand-ins
+      for `svmono`-specific environments/commands (`svgraybox`, `warning`, `question`,
+      `backgroundinformation`, `\minitoc`) and `biblatex` citation placeholders.
+- [x] Whole-book wrapper (`book/latexml-book.tex`) that `\include`s all real chapters
+      in the same order as `book.tex`, so cross-references resolve correctly.
+- [x] Build script (`scripts/build-textbook-html.sh`, `npm run build:textbook-html`)
+      that runs LaTeXML once across the whole book, splits output per chapter, and
+      copies referenced figures + LaTeXML CSS.
+- [x] Output lands in `content/textbook/<chapter-slug>/index.html` +
+      `public/textbook/figure/` (both generated, gitignored, not committed).
 
-## 2. Wire generated HTML into the site
+## 2. Wire generated HTML into the site — DONE
 
-Replace the placeholder in `src/app/textbook/chapter/[chapter]/page.tsx` with real
-chapter content loaded from the generated HTML. Reconcile the current placeholder
-7-"chapter" table of contents in `src/app/textbook/page.tsx` with the actual 12 LaTeX
-chapter files (introduction, fundamentals, tension, excitation, regulation, energetics,
-microcirculation, renal_clearance, circulation, cardiac_pump, respiration, ventilation).
+Replaced the placeholder in `src/app/textbook/chapter/[chapter]/page.tsx` with real
+chapter content loaded from the generated HTML. Replaced the placeholder 7-"chapter"
+table of contents in `src/app/textbook/page.tsx` with the real 12-chapter/3-part
+structure (`src/app/textbook/chapters.ts`), using slug-based routing (e.g.
+`/textbook/chapter/cardiac_pump`). Verified with a full `next build`.
 
-## 3. Decide + lock in site hosting (Vercel vs GitHub Pages)
+## 3. Site hosting — DECIDED: GitHub Pages + separate VPS for the AI assistant
 
-Now decoupled from the AI assistant decision (see step 5) since that backend will be
-hosted separately either way. Pick whichever is simpler to maintain for the static site.
+Split architecture, decoupled from each other:
 
-## 4. Point physiolog.org at the chosen host
+- **Static site** (textbook, PDF, simulations, research pages) → **GitHub Pages**.
+  No variable cost — free hosting, matches the fixed-cost goal.
+- **AI assistant backend** (self-hosted quantized model + RAG/guardrail logic, see
+  step 5) → **a separate VPS**, reached via a subdomain (e.g. `api.physiolog.org`).
+  The static site's AI assistant page calls it via `fetch()`.
+
+**Outstanding work before this can go live:**
+- [ ] GitHub Pages requires Next.js static export. Add `output: "export"` to
+      `next.config.ts` (and `images: { unoptimized: true }`, since the Vercel image
+      optimizer isn't available under static export). This is a small, contained
+      change — not done yet.
+- [ ] Set up a GitHub Actions workflow to build (`build:textbook-html` + `next build`)
+      and publish `out/` to GitHub Pages. Given the preference for explicit,
+      deliberate publishing (same reasoning as the PDF), lean towards a
+      manually-triggered (`workflow_dispatch`) workflow rather than one that runs
+      automatically on every push.
+
+## 4. Point physiolog.org at GitHub Pages + api.physiolog.org at the VPS
 
 DNS is managed through Cloudflare (domain registrar). No credentials need to be shared —
-once step 3 is decided, exact DNS records to add in the Cloudflare dashboard will be
-provided.
+once step 3's static-export setup is done, exact DNS records to add in the Cloudflare
+dashboard will be provided:
+- `physiolog.org` (apex): 4 `A` records to GitHub Pages' IPs
+  (`185.199.108.153`, `.109.153`, `.110.153`, `.111.153`).
+- `api.physiolog.org`: 1 `A` record to the VPS's IP, with Cloudflare's proxy enabled
+  for free TLS + basic DDoS/bot protection in front of the VPS.
 
 ## 5. Build the self-hosted AI assistant backend
 
