@@ -1,0 +1,149 @@
+%%%%%%%%%%%%%%%%%%%% book.tex %%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+% sample root file for the chapters of your "monograph"
+%
+% Use this file as a template for your own input.
+%
+
+% RECOMMENDED %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\documentclass[graybox,envcountchap,sectrefs]{svmono}
+\input{./preamble.tex}
+% choose options for [] as required from the list
+% in the Reference Guide
+
+%\usepackage{mathptmx}
+%\usepackage{helvet}
+%\usepackage{courier}
+%
+\usepackage{type1cm}         
+
+\usepackage{makeidx}         % allows index generation
+\usepackage{graphicx}        % standard LaTeX graphics tool
+                             % when including figure files
+\usepackage{multicol}        % used for the two-column index
+\usepackage[bottom]{footmisc}% places footnotes at page bottom
+
+\usepackage{newtxtext}       % 
+\usepackage{newtxmath}       % selects Times Roman as basic font
+% svmono.cls already defines \c@minitocdepth for its own purposes;
+% clear it first so the real minitoc package can define its own counter.
+\makeatletter
+\let\c@minitocdepth\relax
+\makeatother
+\usepackage{minitoc}
+
+% see the list of further useful packages
+% in the Reference Guide
+
+\makeindex             % used for the subject index
+                       % please use the style svind.ist with
+                       % your makeindex program
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\graphicspath{{./}{images/}}
+
+\begin{document}
+
+\author{}
+
+\title{Clinical Physiology}
+\subtitle{A muscle centered approach \\ \\ \\ -- version 4 -- \\ \\ \\ \normalsize{Sean Collins} \\ \normalsize{Professor of Clinical Inquiry} \\ \\ \normalsize{Doctor of Physical Therapy Program} \normalsize{Plymouth State University} }
+
+\maketitle
+
+%--copyright--------------------------------------------------
+\pagebreak
+\thispagestyle{empty}
+\begin{flushleft}
+%{\small
+Copyright \copyright 2025 Sean Collins \\
+
+\vspace{0.2in}
+
+ISBN (eBook): 979-8-9907667-0-9 \\
+ISBN (Paperback): 979-8-9907667-1-6
+
+\vspace{0.2in}
+
+PT Centered Press       \\
+Ashland, NH, 03217
+
+\vspace{0.2in}
+
+Permission is granted to copy, distribute, and/or modify the text of this document under the terms of Creative Commons BY-NC-SA 4.0 DEED
+Attribution-NonCommercial-ShareAlike 4.0 International, which is available at \url{https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en}. This copyright only refers to the text of the book. Restrictions exist for figures rendered with BioRender and for permission to use any figure created with BioRender please contact the author for details. Permission to recreate a figure, capturing its essential concepts for example, is given through the CC BY-NC-SA 4.0 DEED license, but use of an exact figure which has been created in BioRender is restricted by the terms of the authors BioRender Academic License. In such instances this will require the requester to secure their own BioRender Account and follow the terms of that account.
+
+\vspace{0.2in}
+
+The original form of this book is \LaTeX\ source code.  Compiling this \LaTeX\ source has the effect of generating a device-independent representation of a textbook, which can be converted to other formats and printed. The code that developed this book is stored in a GitHub repository and can be made available upon request to the author at: scollinspt@tuta.com
+
+\end{flushleft}
+
+\vspace{0.2in}
+
+%} end small
+
+%---end--copyright--------------------------------------------------------
+
+\frontmatter%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\include{author/dedication}
+%\include{author/foreword}
+\include{author/preface}
+\include{author/contributors}
+%\include{author/tips}
+\include{author/acknowledgement}
+
+
+%\tableofcontents
+
+%%%%%%%%mini toc %%%%%%%%%
+\setcounter{minitocdepth}{1} 
+    \dominitoc% Initialization
+    \adjustmtc[0]% chp number shift
+    \tableofcontents
+    \label{toc-contents}
+
+%\include{author/acronym}
+
+
+\mainmatter%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\include{author/part1}
+\include{chapter/introduction}
+\include{chapter/fundamentals}
+\include{author/part2}
+\include{chapter/tension}
+\include{chapter/excitation}
+\include{chapter/regulation}
+\include{chapter/energetics}
+\include{author/part3}
+\include{chapter/microcirculation}
+\include{chapter/renal_clearance}
+\include{chapter/circulation}
+\include{chapter/cardiac_pump}
+\include{chapter/respiration}
+\include{chapter/ventilation}
+%\include{chapter/digestion_absorption_metabolism}
+%\include{author/part4}
+%\include{chapter/myostasis}
+%\include{chapter/defense}
+%\include{chapter/repair}
+%\include{author/part5}
+%\include{chapter/fick_equation}
+%\include{chapter/ex_prescription}
+
+\backmatter%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\include{author/nextsteps}
+%\include{author/glossary}
+%\include{author/solutions}
+%\printindex
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\end{document}
+
+
+
+
+

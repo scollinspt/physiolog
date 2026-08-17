@@ -35,3 +35,19 @@ yarn-error.log*
 # TypeScript
 *.tsbuildinfo
 next-env.d.ts
+
+# LaTeX build artifacts (book/ source)
+book/*.aux
+book/*.log
+book/*.out
+book/*.toc
+book/*.lof
+book/*.lot
+book/*.fls
+book/*.fdb_latexmk
+book/*.synctex.gz
+book/*.bbl
+book/*.blg
+book/*.nav
+book/*.snm
+book/*.vrb

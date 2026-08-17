@@ -1,0 +1,2763 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.3 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{10}
+  \datalist[entry]{anyt/global//global/global/global}
+    \entry{anjum2020rethinking}{book}{}{}
+      \name{author}{3}{}{%
+        {{hash=019d6820d63e2035dc2db811743ee33e}{%
+           family={Anjum},
+           familyi={A\bibinitperiod},
+           given={Rani\bibnamedelima Lill},
+           giveni={R\bibinitperiod\bibinitdelim L\bibinitperiod}}}%
+        {{hash=5cffa7755cf28ae3b67884214b8af515}{%
+           family={Copeland},
+           familyi={C\bibinitperiod},
+           given={Samantha},
+           giveni={S\bibinitperiod}}}%
+        {{hash=c52ef00df704e256945f5dac9ee6364c}{%
+           family={Rocca},
+           familyi={R\bibinitperiod},
+           given={Elena},
+           giveni={E\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Springer Nature}%
+      }
+      \strng{namehash}{e0dc81c55a8cb52ca67da469e1ebac84}
+      \strng{fullhash}{e0dc81c55a8cb52ca67da469e1ebac84}
+      \strng{fullhashraw}{e0dc81c55a8cb52ca67da469e1ebac84}
+      \strng{bibnamehash}{e0dc81c55a8cb52ca67da469e1ebac84}
+      \strng{authorbibnamehash}{e0dc81c55a8cb52ca67da469e1ebac84}
+      \strng{authornamehash}{e0dc81c55a8cb52ca67da469e1ebac84}
+      \strng{authorfullhash}{e0dc81c55a8cb52ca67da469e1ebac84}
+      \strng{authorfullhashraw}{e0dc81c55a8cb52ca67da469e1ebac84}
+      \field{labelalpha}{ACR20}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Rethinking causality, complexity and evidence for the unique patient: a {CauseHealth} {Resource} for healthcare professionals and the clinical encounter}
+      \field{year}{2020}
+    \endentry
+    \entry{feher_quantitative_2017}{book}{}{}
+      \name{author}{1}{}{%
+        {{hash=944b34925d4b50b383bca5c6d4f9fe63}{%
+           family={Feher},
+           familyi={F\bibinitperiod},
+           given={Joseph\bibnamedelima J},
+           giveni={J\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Academic press}%
+      }
+      \strng{namehash}{944b34925d4b50b383bca5c6d4f9fe63}
+      \strng{fullhash}{944b34925d4b50b383bca5c6d4f9fe63}
+      \strng{fullhashraw}{944b34925d4b50b383bca5c6d4f9fe63}
+      \strng{bibnamehash}{944b34925d4b50b383bca5c6d4f9fe63}
+      \strng{authorbibnamehash}{944b34925d4b50b383bca5c6d4f9fe63}
+      \strng{authornamehash}{944b34925d4b50b383bca5c6d4f9fe63}
+      \strng{authorfullhash}{944b34925d4b50b383bca5c6d4f9fe63}
+      \strng{authorfullhashraw}{944b34925d4b50b383bca5c6d4f9fe63}
+      \field{labelalpha}{Feh17}
+      \field{sortinit}{F}
+      \field{sortinithash}{2638baaa20439f1b5a8f80c6c08a13b4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Quantitative human physiology: an introduction}
+      \field{year}{2017}
+    \endentry
+    \entry{jones_skeletal_2006}{book}{}{}
+      \name{author}{3}{}{%
+        {{hash=eb0aecd83160d1f552629af8b8a74fba}{%
+           family={Jones},
+           familyi={J\bibinitperiod},
+           given={David},
+           giveni={D\bibinitperiod}}}%
+        {{hash=287f7540acc9824dece897f8ce04c152}{%
+           family={Round},
+           familyi={R\bibinitperiod},
+           given={Joan},
+           giveni={J\bibinitperiod}}}%
+        {{hash=6bd42845de42489c2e64e21dcf213059}{%
+           family={De\bibnamedelima Haan},
+           familyi={D\bibinitperiod\bibinitdelim H\bibinitperiod},
+           given={Arnold},
+           giveni={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{20d899b5f2b4f01c3029a45c2ca92a10}
+      \strng{fullhash}{20d899b5f2b4f01c3029a45c2ca92a10}
+      \strng{fullhashraw}{20d899b5f2b4f01c3029a45c2ca92a10}
+      \strng{bibnamehash}{20d899b5f2b4f01c3029a45c2ca92a10}
+      \strng{authorbibnamehash}{20d899b5f2b4f01c3029a45c2ca92a10}
+      \strng{authornamehash}{20d899b5f2b4f01c3029a45c2ca92a10}
+      \strng{authorfullhash}{20d899b5f2b4f01c3029a45c2ca92a10}
+      \strng{authorfullhashraw}{20d899b5f2b4f01c3029a45c2ca92a10}
+      \field{labelalpha}{JRD06}
+      \field{sortinit}{J}
+      \field{sortinithash}{b2f54a9081ace9966a7cb9413811edb4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Skeletal muscle: from molecules to movement}
+      \field{volume}{40}
+      \field{year}{2006}
+    \endentry
+    \entry{mota_effects_2020}{article}{}{}
+      \name{author}{5}{}{%
+        {{hash=20396800fde2994b9d7b91e6741e4ebb}{%
+           family={Mota},
+           familyi={M\bibinitperiod},
+           given={Gustavo\bibnamedelima R},
+           giveni={G\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
+        {{hash=204e6cb466699579715c8bfd36f3a934}{%
+           family={Simim},
+           familyi={S\bibinitperiod},
+           given={Mário\bibnamedelimb Antônio\bibnamedelimb de\bibnamedelima Moura},
+           giveni={M\bibinitperiod\bibinitdelim A\bibinitperiod\bibinitdelim d\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=df564d1668fefc9ad5d3ffe7e1372062}{%
+           family={Santos},
+           familyi={S\bibinitperiod},
+           given={Izabela\bibnamedelima Aparecida},
+           giveni={I\bibinitperiod\bibinitdelim A\bibinitperiod},
+           prefix={dos},
+           prefixi={d\bibinitperiod}}}%
+        {{hash=48439e612001484ca8d521df3527879d}{%
+           family={Sasaki},
+           familyi={S\bibinitperiod},
+           given={Jeffer\bibnamedelima Eidi},
+           giveni={J\bibinitperiod\bibinitdelim E\bibinitperiod}}}%
+        {{hash=0def197cea0f60f9001afe91b553b514}{%
+           family={Marocolo},
+           familyi={M\bibinitperiod},
+           given={Moacir},
+           giveni={M\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \strng{namehash}{dccf6dcff5f6da233dd2d44a35bae1c5}
+      \strng{fullhash}{955da9df24593661cb44f371fa0eb896}
+      \strng{fullhashraw}{955da9df24593661cb44f371fa0eb896}
+      \strng{bibnamehash}{dccf6dcff5f6da233dd2d44a35bae1c5}
+      \strng{authorbibnamehash}{dccf6dcff5f6da233dd2d44a35bae1c5}
+      \strng{authornamehash}{dccf6dcff5f6da233dd2d44a35bae1c5}
+      \strng{authorfullhash}{955da9df24593661cb44f371fa0eb896}
+      \strng{authorfullhashraw}{955da9df24593661cb44f371fa0eb896}
+      \field{labelalpha}{Mot+20}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{This systematic review investigated the effects of wearing below-knee compression stockings (CS) on exercise performance (or sports activity) and associated physiological and perceived indicators. We searched articles on PubMed using the following terms: “graduated compression stockings”; “compression stockings”; “graduated compression socks”; “compression socks” combined with “performance”, “athletes”, “exercise”, “exercise performance”, “fatigue”, “sports” and “recovery”, resulting in 1067 papers. After checking for inclusion criteria (e.g., original studies, healthy subjects, performance analysis), 21 studies were selected and analyzed. We conclude that wearing CS during exercise improved performance in a small number of studies. However, wearing CS could beneﬁt muscle function indicators and perceived muscle soreness during the recovery period. Future research should investigate the chronic effect of CS on Sports Medicine and athletic performance.}
+      \field{issn}{1179-1543}
+      \field{journaltitle}{Open Access Journal of Sports Medicine}
+      \field{month}{1}
+      \field{shorttitle}{Effects of {Wearing} {Compression} {Stockings} on {Exercise} {Performance} and {Associated} {Indicators}}
+      \field{title}{Effects of {Wearing} {Compression} {Stockings} on {Exercise} {Performance} and {Associated} {Indicators}: {A} {Systematic} {Review}}
+      \field{urlday}{23}
+      \field{urlmonth}{6}
+      \field{urlyear}{2022}
+      \field{volume}{Volume 11}
+      \field{year}{2020}
+      \field{urldateera}{ce}
+      \field{pages}{29\bibrangedash 42}
+      \range{pages}{14}
+      \verb{doi}
+      \verb 10.2147/OAJSM.S198809
+      \endverb
+      \verb{urlraw}
+      \verb https://www.dovepress.com/effects-of-wearing-compression-stockings-on-exercise-performance-and-a-peer-reviewed-article-OAJSM
+      \endverb
+      \verb{url}
+      \verb https://www.dovepress.com/effects-of-wearing-compression-stockings-on-exercise-performance-and-a-peer-reviewed-article-OAJSM
+      \endverb
+    \endentry
+  \enddatalist
+\endrefsection
+
+\refsection{11}
+  \datalist[entry]{anyt/global//global/global/global}
+    \entry{adams_skeletal_2006}{article}{}{}
+      \name{author}{2}{}{%
+        {{hash=c704780f2b073945726b3607512566cc}{%
+           family={Adams},
+           familyi={A\bibinitperiod},
+           given={Gregory\bibnamedelima R.},
+           giveni={G\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
+        {{hash=eaccd782d8fe89efbbb6e18c410beff8}{%
+           family={Vaziri},
+           familyi={V\bibinitperiod},
+           given={Nosratola\bibnamedelima D.},
+           giveni={N\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \strng{namehash}{e0c3d9bb045bc826853a236c96f08730}
+      \strng{fullhash}{e0c3d9bb045bc826853a236c96f08730}
+      \strng{fullhashraw}{e0c3d9bb045bc826853a236c96f08730}
+      \strng{bibnamehash}{e0c3d9bb045bc826853a236c96f08730}
+      \strng{authorbibnamehash}{e0c3d9bb045bc826853a236c96f08730}
+      \strng{authornamehash}{e0c3d9bb045bc826853a236c96f08730}
+      \strng{authorfullhash}{e0c3d9bb045bc826853a236c96f08730}
+      \strng{authorfullhashraw}{e0c3d9bb045bc826853a236c96f08730}
+      \field{labelalpha}{AV06}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{A number of chronic illnesses such as renal failure (CRF), obstructive pulmonary disease, and congestive heart failure result in a significant decrease in exercise tolerance. There is an increasing awareness that prescribed exercise, designed to restore some level of physical performance and quality of life, can be beneficial in these conditions. In CRF patients, muscle function can be affected by a number of direct and indirect mechanisms caused by renal disease as well as various treatment modalities. The aims of this review are twofold: first, to briefly discuss the mechanisms by which CRF negatively impacts skeletal muscle and, therefore, exercise capacity, and, second, to discuss the available data on the effects of programmed exercise on muscle function, exercise capacity, and various other parameters in CRF.}
+      \field{issn}{1931-857X, 1522-1466}
+      \field{journaltitle}{American Journal of Physiology-Renal Physiology}
+      \field{month}{4}
+      \field{number}{4}
+      \field{shorttitle}{Skeletal muscle dysfunction in chronic renal failure}
+      \field{title}{Skeletal muscle dysfunction in chronic renal failure: effects of exercise}
+      \field{urlday}{9}
+      \field{urlmonth}{7}
+      \field{urlyear}{2022}
+      \field{volume}{290}
+      \field{year}{2006}
+      \field{urldateera}{ce}
+      \field{pages}{F753\bibrangedash F761}
+      \range{pages}{-1}
+      \verb{doi}
+      \verb 10.1152/ajprenal.00296.2005
+      \endverb
+      \verb{urlraw}
+      \verb https://www.physiology.org/doi/10.1152/ajprenal.00296.2005
+      \endverb
+      \verb{url}
+      \verb https://www.physiology.org/doi/10.1152/ajprenal.00296.2005
+      \endverb
+      \keyw{renal}
+    \endentry
+    \entry{costanzo_physiology_2013}{book}{}{}
+      \name{author}{1}{}{%
+        {{hash=f087c89c9eab0494b6765a4e64f1baf8}{%
+           family={Costanzo},
+           familyi={C\bibinitperiod},
+           given={Linda\bibnamedelima S},
+           giveni={L\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Elsevier Health Sciences}%
+      }
+      \strng{namehash}{f087c89c9eab0494b6765a4e64f1baf8}
+      \strng{fullhash}{f087c89c9eab0494b6765a4e64f1baf8}
+      \strng{fullhashraw}{f087c89c9eab0494b6765a4e64f1baf8}
+      \strng{bibnamehash}{f087c89c9eab0494b6765a4e64f1baf8}
+      \strng{authorbibnamehash}{f087c89c9eab0494b6765a4e64f1baf8}
+      \strng{authornamehash}{f087c89c9eab0494b6765a4e64f1baf8}
+      \strng{authorfullhash}{f087c89c9eab0494b6765a4e64f1baf8}
+      \strng{authorfullhashraw}{f087c89c9eab0494b6765a4e64f1baf8}
+      \field{labelalpha}{Cos13}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Physiology}
+      \field{year}{2013}
+    \endentry
+    \entry{hall_guyton_2020}{book}{}{}
+      \name{author}{2}{}{%
+        {{hash=570554af6f0e5ad0570daf633fa752c3}{%
+           family={Hall},
+           familyi={H\bibinitperiod},
+           given={John\bibnamedelima E},
+           giveni={J\bibinitperiod\bibinitdelim E\bibinitperiod}}}%
+        {{hash=3660e53b392a8db5dde4212d4c5fe8aa}{%
+           family={Hall},
+           familyi={H\bibinitperiod},
+           given={Michael\bibnamedelima E},
+           giveni={M\bibinitperiod\bibinitdelim E\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Elsevier Health Sciences}%
+      }
+      \strng{namehash}{03e474d6da4c7a256c2da5c483b1367f}
+      \strng{fullhash}{03e474d6da4c7a256c2da5c483b1367f}
+      \strng{fullhashraw}{03e474d6da4c7a256c2da5c483b1367f}
+      \strng{bibnamehash}{03e474d6da4c7a256c2da5c483b1367f}
+      \strng{authorbibnamehash}{03e474d6da4c7a256c2da5c483b1367f}
+      \strng{authornamehash}{03e474d6da4c7a256c2da5c483b1367f}
+      \strng{authorfullhash}{03e474d6da4c7a256c2da5c483b1367f}
+      \strng{authorfullhashraw}{03e474d6da4c7a256c2da5c483b1367f}
+      \field{labelalpha}{HH20}
+      \field{sortinit}{H}
+      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Guyton and {Hall} {Textbook} of {Medical} {Physiology}}
+      \field{year}{2020}
+    \endentry
+    \entry{lorenzo_role_2019}{article}{}{}
+      \name{author}{3}{}{%
+        {{hash=a96e8f71351fbe70573b70189c0dd2bb}{%
+           family={{Lorenzo}},
+           familyi={L\bibinitperiod}}}%
+        {{hash=09bb24e5f4032e51c43c92558c12d29d}{%
+           family={{Serra-Prat}},
+           familyi={S\bibinitperiod}}}%
+        {{hash=e17b3e423d5cdd5b719a4b9e44ff88c4}{%
+           family={{Yébenes}},
+           familyi={Y\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \strng{namehash}{77d540889331560d07c2b98820a9e441}
+      \strng{fullhash}{77d540889331560d07c2b98820a9e441}
+      \strng{fullhashraw}{77d540889331560d07c2b98820a9e441}
+      \strng{bibnamehash}{77d540889331560d07c2b98820a9e441}
+      \strng{authorbibnamehash}{77d540889331560d07c2b98820a9e441}
+      \strng{authornamehash}{77d540889331560d07c2b98820a9e441}
+      \strng{authorfullhash}{77d540889331560d07c2b98820a9e441}
+      \strng{authorfullhashraw}{77d540889331560d07c2b98820a9e441}
+      \field{labelalpha}{LSY19}
+      \field{sortinit}{L}
+      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{Water, the main component of the body, is distributed in the extracellular and intracellular compartments. Water exchange between these compartments is mainly governed by osmotic pressure. Extracellular water osmolarity must remain within very narrow limits to be compatible with life. Older adults lose the thirst sensation and the ability to concentrate urine, and this favours increased extracellular osmolarity (hyperosmotic stress). This situation, in turn, leads to cell dehydration, which has severe consequences for the intracellular protein structure and function and, ultimately, results in cell damage. Moreover, the fact that water determines cell volume may act as a metabolic signal, with cell swelling acting as an anabolic signal and cell shrinkage acting as a catabolic signal. Ageing also leads to a progressive loss in muscle mass and strength. Muscle strength is the main determinant of functional capacity, and, in elderly people, depends more on muscle quality than on muscle quantity (or muscle mass). Intracellular water content in lean mass has been related to muscle strength, functional capacity, and frailty risk, and has been proposed as an indicator of muscle quality and cell hydration. This review aims to assess the role of hyperosmotic stress and cell dehydration on muscle function and frailty.}
+      \field{issn}{2072-6643}
+      \field{journaltitle}{Nutrients}
+      \field{month}{8}
+      \field{number}{8}
+      \field{shorttitle}{The {Role} of {Water} {Homeostasis} in {Muscle} {Function} and {Frailty}}
+      \field{title}{The {Role} of {Water} {Homeostasis} in {Muscle} {Function} and {Frailty}: {A} {Review}}
+      \field{urlday}{9}
+      \field{urlmonth}{7}
+      \field{urlyear}{2022}
+      \field{volume}{11}
+      \field{year}{2019}
+      \field{urldateera}{ce}
+      \field{pages}{1857}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.3390/nu11081857
+      \endverb
+      \verb{urlraw}
+      \verb https://www.mdpi.com/2072-6643/11/8/1857
+      \endverb
+      \verb{url}
+      \verb https://www.mdpi.com/2072-6643/11/8/1857
+      \endverb
+      \keyw{renal}
+    \endentry
+  \enddatalist
+  \missing{collins_heart_2015}
+\endrefsection
+
+\refsection{12}
+  \datalist[entry]{anyt/global//global/global/global}
+    \entry{bickley_bates_2012}{book}{}{}
+      \name{author}{2}{}{%
+        {{hash=00c1198e53f78d38701342da0a98233d}{%
+           family={Bickley},
+           familyi={B\bibinitperiod},
+           given={Lynn},
+           giveni={L\bibinitperiod}}}%
+        {{hash=719a889d685b9432d5a1fe9c843e3db8}{%
+           family={Szilagyi},
+           familyi={S\bibinitperiod},
+           given={Peter\bibnamedelima G},
+           giveni={P\bibinitperiod\bibinitdelim G\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Lippincott Williams \& Wilkins}%
+      }
+      \strng{namehash}{b67570767a3f55962324bfc3694f8667}
+      \strng{fullhash}{b67570767a3f55962324bfc3694f8667}
+      \strng{fullhashraw}{b67570767a3f55962324bfc3694f8667}
+      \strng{bibnamehash}{b67570767a3f55962324bfc3694f8667}
+      \strng{authorbibnamehash}{b67570767a3f55962324bfc3694f8667}
+      \strng{authornamehash}{b67570767a3f55962324bfc3694f8667}
+      \strng{authorfullhash}{b67570767a3f55962324bfc3694f8667}
+      \strng{authorfullhashraw}{b67570767a3f55962324bfc3694f8667}
+      \field{labelalpha}{BS12}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Bates' guide to physical examination and history-taking}
+      \field{year}{2012}
+    \endentry
+    \entry{collins_cardiac_2019}{incollection}{}{}
+      \name{author}{2}{}{%
+        {{hash=b19bfd1bcd3ed0daa14710b5be5eb272}{%
+           family={Collins},
+           familyi={C\bibinitperiod},
+           given={Sean\bibnamedelima M},
+           giveni={S\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=3c61108b8ac380ecb430f5de4a259ace}{%
+           family={Dias},
+           familyi={D\bibinitperiod},
+           given={Konrad\bibnamedelima J.},
+           giveni={K\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+      }
+      \name{editor}{2}{}{%
+        {{hash=02507c60c4c1f0c2233da69ff6cb7e25}{%
+           family={Paz},
+           familyi={P\bibinitperiod},
+           given={Jaime},
+           giveni={J\bibinitperiod}}}%
+        {{hash=1b41b9dbf2e5cb52ffb84ddd14a18d67}{%
+           family={West},
+           familyi={W\bibinitperiod},
+           given={Michele},
+           giveni={M\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Elsevier Health Sciences}%
+      }
+      \strng{namehash}{f033aa47cbdd8c6f15d85984259fe70d}
+      \strng{fullhash}{f033aa47cbdd8c6f15d85984259fe70d}
+      \strng{fullhashraw}{f033aa47cbdd8c6f15d85984259fe70d}
+      \strng{bibnamehash}{f033aa47cbdd8c6f15d85984259fe70d}
+      \strng{authorbibnamehash}{f033aa47cbdd8c6f15d85984259fe70d}
+      \strng{authornamehash}{f033aa47cbdd8c6f15d85984259fe70d}
+      \strng{authorfullhash}{f033aa47cbdd8c6f15d85984259fe70d}
+      \strng{authorfullhashraw}{f033aa47cbdd8c6f15d85984259fe70d}
+      \strng{editorbibnamehash}{106ec1b7e8eab0c336333848449c890d}
+      \strng{editornamehash}{106ec1b7e8eab0c336333848449c890d}
+      \strng{editorfullhash}{106ec1b7e8eab0c336333848449c890d}
+      \strng{editorfullhashraw}{106ec1b7e8eab0c336333848449c890d}
+      \field{labelalpha}{CD19}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Acute care handbook for physical therapists}
+      \field{title}{Cardiac {System}}
+      \field{year}{2019}
+    \endentry
+    \entry{dias_differences_2022}{article}{}{}
+      \name{author}{8}{}{%
+        {{hash=3c61108b8ac380ecb430f5de4a259ace}{%
+           family={Dias},
+           familyi={D\bibinitperiod},
+           given={Konrad\bibnamedelima J.},
+           giveni={K\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{hash=663f6fdf958cb2217b3117c539c66ba5}{%
+           family={DuClos},
+           familyi={D\bibinitperiod},
+           given={Ethan},
+           giveni={E\bibinitperiod}}}%
+        {{hash=bb7427d55964a8cf32e338bdc399b1c1}{%
+           family={Heath},
+           familyi={H\bibinitperiod},
+           given={James},
+           giveni={J\bibinitperiod}}}%
+        {{hash=fd9c82a8c7c304198a165cf1f3c7db51}{%
+           family={Nelson},
+           familyi={N\bibinitperiod},
+           given={Shelbi},
+           giveni={S\bibinitperiod}}}%
+        {{hash=f7fac64e72664d567e0c04e00f9dada2}{%
+           family={Coffey},
+           familyi={C\bibinitperiod},
+           given={Bethany},
+           giveni={B\bibinitperiod}}}%
+        {{hash=b96e4b10337f35c57742c4c9a60d94ca}{%
+           family={Schahl},
+           familyi={S\bibinitperiod},
+           given={Steven},
+           giveni={S\bibinitperiod}}}%
+        {{hash=7eed0dd5e2871405601f488d591eff4f}{%
+           family={Giacalone},
+           familyi={G\bibinitperiod},
+           given={Nicholas},
+           giveni={N\bibinitperiod}}}%
+        {{hash=b19bfd1bcd3ed0daa14710b5be5eb272}{%
+           family={Collins},
+           familyi={C\bibinitperiod},
+           given={Sean\bibnamedelima M.},
+           giveni={S\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \strng{namehash}{b3b3e7290fb248fee3a453de0b5056c7}
+      \strng{fullhash}{be5b17b28a4a13a1d993cfff960ed6cb}
+      \strng{fullhashraw}{be5b17b28a4a13a1d993cfff960ed6cb}
+      \strng{bibnamehash}{b3b3e7290fb248fee3a453de0b5056c7}
+      \strng{authorbibnamehash}{b3b3e7290fb248fee3a453de0b5056c7}
+      \strng{authornamehash}{b3b3e7290fb248fee3a453de0b5056c7}
+      \strng{authorfullhash}{be5b17b28a4a13a1d993cfff960ed6cb}
+      \strng{authorfullhashraw}{be5b17b28a4a13a1d993cfff960ed6cb}
+      \field{labelalpha}{Dia+22}
+      \field{sortinit}{D}
+      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{1541-7891}
+      \field{journaltitle}{Cardiopulmonary Physical Therapy Journal}
+      \field{number}{1}
+      \field{title}{Differences in {Blood} {Pressure} and {Workload} {Intensity} {During} {Arm} and {Leg} {Ergometry} at {Submaximal} {Target} {Heart} {Rates} in {College}-{Aged} {Individuals}}
+      \field{urlday}{6}
+      \field{urlmonth}{10}
+      \field{urlyear}{2021}
+      \field{volume}{33}
+      \field{year}{2022}
+      \field{urldateera}{ce}
+      \field{pages}{31\bibrangedash 39}
+      \range{pages}{9}
+      \verb{doi}
+      \verb 10.1097/CPT.0000000000000181
+      \endverb
+      \verb{urlraw}
+      \verb https://journals.lww.com/10.1097/CPT.0000000000000181
+      \endverb
+      \verb{url}
+      \verb https://journals.lww.com/10.1097/CPT.0000000000000181
+      \endverb
+    \endentry
+    \entry{hall_guyton_2020}{book}{}{}
+      \name{author}{2}{}{%
+        {{hash=570554af6f0e5ad0570daf633fa752c3}{%
+           family={Hall},
+           familyi={H\bibinitperiod},
+           given={John\bibnamedelima E},
+           giveni={J\bibinitperiod\bibinitdelim E\bibinitperiod}}}%
+        {{hash=3660e53b392a8db5dde4212d4c5fe8aa}{%
+           family={Hall},
+           familyi={H\bibinitperiod},
+           given={Michael\bibnamedelima E},
+           giveni={M\bibinitperiod\bibinitdelim E\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Elsevier Health Sciences}%
+      }
+      \strng{namehash}{03e474d6da4c7a256c2da5c483b1367f}
+      \strng{fullhash}{03e474d6da4c7a256c2da5c483b1367f}
+      \strng{fullhashraw}{03e474d6da4c7a256c2da5c483b1367f}
+      \strng{bibnamehash}{03e474d6da4c7a256c2da5c483b1367f}
+      \strng{authorbibnamehash}{03e474d6da4c7a256c2da5c483b1367f}
+      \strng{authornamehash}{03e474d6da4c7a256c2da5c483b1367f}
+      \strng{authorfullhash}{03e474d6da4c7a256c2da5c483b1367f}
+      \strng{authorfullhashraw}{03e474d6da4c7a256c2da5c483b1367f}
+      \field{labelalpha}{HH20}
+      \field{sortinit}{H}
+      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Guyton and {Hall} {Textbook} of {Medical} {Physiology}}
+      \field{year}{2020}
+    \endentry
+    \entry{rothe_mean_1993}{article}{}{}
+      \name{author}{1}{}{%
+        {{hash=d1b1345c1541b6c52948ca2d31424b17}{%
+           family={Rothe},
+           familyi={R\bibinitperiod},
+           given={C.\bibnamedelimi F.},
+           giveni={C\bibinitperiod\bibinitdelim F\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \strng{namehash}{d1b1345c1541b6c52948ca2d31424b17}
+      \strng{fullhash}{d1b1345c1541b6c52948ca2d31424b17}
+      \strng{fullhashraw}{d1b1345c1541b6c52948ca2d31424b17}
+      \strng{bibnamehash}{d1b1345c1541b6c52948ca2d31424b17}
+      \strng{authorbibnamehash}{d1b1345c1541b6c52948ca2d31424b17}
+      \strng{authornamehash}{d1b1345c1541b6c52948ca2d31424b17}
+      \strng{authorfullhash}{d1b1345c1541b6c52948ca2d31424b17}
+      \strng{authorfullhashraw}{d1b1345c1541b6c52948ca2d31424b17}
+      \field{labelalpha}{Rot93}
+      \field{sortinit}{R}
+      \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{The volume-pressure relationship of the vasculature of the body as a whole, its vascular capacitance, requires a measurement of the mean circulatory filling pressure (Pmcf). A change in vascular capacitance induced by reflexes, hormones, or drugs has physiological consequences similar to a rapid change in blood volume and thus strongly influences cardiac output. The Pmcf is defined as the mean vascular pressure that exists after a stop in cardiac output and redistribution of blood, so that all pressures are the same throughout the system. The Pmcf is thus related to the fullness of the circulatory system. A change in Pmcf provides a uniquely useful index of a change in overall venous smooth muscle tone if the blood volume is not concomitantly changed. The Pmcf also provides an estimate of the distending pressure in the small veins and venules, which contain most of the blood in the body and comprise most of the vascular compliance. Thus the Pmcf, which is normally independent of the magnitude of the cardiac output, provides an estimate of the upstream pressure that determines the rate of flow returning to the heart.}
+      \field{issn}{8750-7587, 1522-1601}
+      \field{journaltitle}{Journal of Applied Physiology}
+      \field{month}{2}
+      \field{number}{2}
+      \field{shorttitle}{Mean circulatory filling pressure}
+      \field{title}{Mean circulatory filling pressure: its meaning and measurement}
+      \field{urlday}{12}
+      \field{urlmonth}{7}
+      \field{urlyear}{2022}
+      \field{volume}{74}
+      \field{year}{1993}
+      \field{urldateera}{ce}
+      \field{pages}{499\bibrangedash 509}
+      \range{pages}{11}
+      \verb{doi}
+      \verb 10.1152/jappl.1993.74.2.499
+      \endverb
+      \verb{urlraw}
+      \verb https://www.physiology.org/doi/10.1152/jappl.1993.74.2.499
+      \endverb
+      \verb{url}
+      \verb https://www.physiology.org/doi/10.1152/jappl.1993.74.2.499
+      \endverb
+    \endentry
+  \enddatalist
+\endrefsection
+
+\refsection{14}
+  \datalist[entry]{anyt/global//global/global/global}
+    \entry{christmas_equations_2017}{article}{}{}
+      \name{author}{2}{}{%
+        {{hash=12b4b08a8bfb38e313212feb45c30dc8}{%
+           family={Christmas},
+           familyi={C\bibinitperiod},
+           given={Kevin\bibnamedelima M.},
+           giveni={K\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=3907964eb30431c41d621fe3f6abc982}{%
+           family={Bassingthwaighte},
+           familyi={B\bibinitperiod},
+           given={James\bibnamedelima B.},
+           giveni={J\bibinitperiod\bibinitdelim B\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \strng{namehash}{2822bd35a2b5180db6d95e410efca654}
+      \strng{fullhash}{2822bd35a2b5180db6d95e410efca654}
+      \strng{fullhashraw}{2822bd35a2b5180db6d95e410efca654}
+      \strng{bibnamehash}{2822bd35a2b5180db6d95e410efca654}
+      \strng{authorbibnamehash}{2822bd35a2b5180db6d95e410efca654}
+      \strng{authornamehash}{2822bd35a2b5180db6d95e410efca654}
+      \strng{authorfullhash}{2822bd35a2b5180db6d95e410efca654}
+      \strng{authorfullhashraw}{2822bd35a2b5180db6d95e410efca654}
+      \field{labelalpha}{CB17}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{Solubilities of respiratory gasses in water, saline, and plasma decrease with rising temperatures and solute concentrations. Henry’s Law, C = α·P, states that the equilibrium concentration of a dissolved gas is solubility times partial pressure. Solubilities in the water of a solution depend on temperature and the content of other solutes. Blood temperatures may differ more than 20°C between skin and heart, and an erythrocyte will undergo that range as blood circulates. The concentrations of O 2 and CO 2 are the driving forces for diffusion, exchanges, and for reactions. We provide an equation for O 2 and CO 2 solubilities, α, that allows for continuous changes in temperature, T, and solution density, ρ, in dynamically changing states:[Formula: see text] This two-exponential expression with a density scalar γ, and a density exponent β, accounts for solubility changes due to density changes of an aqueous solution. It fits experimental data on solubilities in water, saline, and plasma over temperatures from 20 to 40°C, and for plasma densities, ρ sol up to 1.020 g/ml with {\textasciitilde}0.3\% error. The amounts of additional bound O 2 (to Hb) and CO 2 (bicarbonate and carbamino) depend on the concentrations in the local water space and the reaction parameters. During exercise, solubility changes are large; both ρ sol and T change rapidly with spatial position and with time. In exercise hemoconcentration plasma, ρ sol exceeds 1.02, whereas T may range over 20°C. The six parameters for O 2 and the six for CO 2 are constants, so solubilities are calculable continuously as T and ρ sol change. NEW \& NOTEWORTHY Solubilities for oxygen and carbon dioxide are dependent on the density of the solution, on temperature, and on the partial pressure. We provide a brief equation suitable for hand calculators or mathematical modeling, accounting for these factors over a wide range of temperatures and solution densities for use in rapidly changing conditions, such as extreme exercise or osmotic transients, with better than 0.5\% accuracy.}
+      \field{issn}{8750-7587, 1522-1601}
+      \field{journaltitle}{Journal of Applied Physiology}
+      \field{month}{5}
+      \field{number}{5}
+      \field{shorttitle}{Equations for {O} $_{\textrm{2}}$ and {CO} $_{\textrm{2}}$ solubilities in saline and plasma}
+      \field{title}{Equations for {O} $_{\textrm{2}}$ and {CO} $_{\textrm{2}}$ solubilities in saline and plasma: combining temperature and density dependences}
+      \field{urlday}{31}
+      \field{urlmonth}{10}
+      \field{urlyear}{2021}
+      \field{volume}{122}
+      \field{year}{2017}
+      \field{urldateera}{ce}
+      \field{pages}{1313\bibrangedash 1320}
+      \range{pages}{8}
+      \verb{doi}
+      \verb 10.1152/japplphysiol.01124.2016
+      \endverb
+      \verb{urlraw}
+      \verb https://www.physiology.org/doi/10.1152/japplphysiol.01124.2016
+      \endverb
+      \verb{url}
+      \verb https://www.physiology.org/doi/10.1152/japplphysiol.01124.2016
+      \endverb
+      \keyw{jsim}
+    \endentry
+    \entry{courtney_investigating_2008}{article}{}{}
+      \name{author}{2}{}{%
+        {{hash=eb050b7924bf73d05fb4b8881bee626e}{%
+           family={Courtney},
+           familyi={C\bibinitperiod},
+           given={Rosalba},
+           giveni={R\bibinitperiod}}}%
+        {{hash=d57bcd645378f44206acd920e048781d}{%
+           family={Cohen},
+           familyi={C\bibinitperiod},
+           given={Marc},
+           giveni={M\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \strng{namehash}{f8009d0a4bdba414b38138ffd8bd5424}
+      \strng{fullhash}{f8009d0a4bdba414b38138ffd8bd5424}
+      \strng{fullhashraw}{f8009d0a4bdba414b38138ffd8bd5424}
+      \strng{bibnamehash}{f8009d0a4bdba414b38138ffd8bd5424}
+      \strng{authorbibnamehash}{f8009d0a4bdba414b38138ffd8bd5424}
+      \strng{authornamehash}{f8009d0a4bdba414b38138ffd8bd5424}
+      \strng{authorfullhash}{f8009d0a4bdba414b38138ffd8bd5424}
+      \strng{authorfullhashraw}{f8009d0a4bdba414b38138ffd8bd5424}
+      \field{labelalpha}{CC08}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{Objectives: Konstantin Buteyko, M.D., Ph.D., claimed that breath holding time (BHT) can be used to detect chronic hyperventilation and that BHT predicts alveolar CO2 (PaCO2) according to his patented mathematical formula. The Buteyko Breathing Technique (BBT) is believed to correct chronic hyperventilation as evidenced by increased BHT. In this study, we test Buteyko’s claims and explore the relationship between BHT and end-tidal carbon dioxide (ETCO2) as well as measures of dysfunctional breathing (DB) including the Nijmegen questionnaire, the Self Evaluation of Breathing Questionnaire, and thoracic dominant breathing pattern. Subjects: Eighty-three (83) adults healthy or suspected of having dysfunctional breathing, 29 with abnormal spirometry readings, 54 with normal spirometry. Outcome measures: BHT, performed according to BBT protocols, was measured along with ETCO2 and other measures of DB including the Nijmegen questionnaire, and manual assessment of respiratory motion, a palpatory technique for measuring thoraco-abdominal balance during breathing. Correlations between measures of DB were made in the whole sample and also in subgroups with normal or abnormal spirometry. DB measures were compared in normal and abnormal spirometry groups. Results: The results revealed a negative correlation between BHT and ETCO2 (r ϭ Ϫ0.241, p Ͻ 0.05), directly opposite to Buteyko’s claims. BHT was significantly shorter in people with abnormal spirometry (FEV1 or FVC Ͻ 15\% below predicted), with no difference in ETCO2 levels between the abnormal and normal spirometry groups. In the abnormal spirometry group, lower BHT was found to correlate with a thoracic dominant breathing pattern. (r ϭ Ϫ0.408, p Ͻ 0.028). Conclusions: Although BHT does not predict resting ETCO2, it does correlate with breathing pattern in subjects with abnormal spirometry. It is proposed that altered breathing pattern could contribute to breathing symptoms such as dyspnea and that breathing therapies such as BBT might influence symptoms by improving the efficiency of the biomechanics of breathing.}
+      \field{issn}{1075-5535, 1557-7708}
+      \field{journaltitle}{The Journal of Alternative and Complementary Medicine}
+      \field{month}{3}
+      \field{number}{2}
+      \field{shorttitle}{Investigating the {Claims} of {Konstantin} {Buteyko}, {M}.{D}., {Ph}.{D}.}
+      \field{title}{Investigating the {Claims} of {Konstantin} {Buteyko}, {M}.{D}., {Ph}.{D}.: {The} {Relationship} of {Breath} {Holding} {Time} to {End} {Tidal} {CO} $_{\textrm{2}}$ and {Other} {Proposed} {Measures} of {Dysfunctional} {Breathing}}
+      \field{urlday}{29}
+      \field{urlmonth}{3}
+      \field{urlyear}{2021}
+      \field{volume}{14}
+      \field{year}{2008}
+      \field{urldateera}{ce}
+      \field{pages}{115\bibrangedash 123}
+      \range{pages}{9}
+      \verb{doi}
+      \verb 10.1089/acm.2007.7204
+      \endverb
+      \verb{urlraw}
+      \verb http://www.liebertpub.com/doi/10.1089/acm.2007.7204
+      \endverb
+      \verb{url}
+      \verb http://www.liebertpub.com/doi/10.1089/acm.2007.7204
+      \endverb
+    \endentry
+    \entry{hall_guyton_2020}{book}{}{}
+      \name{author}{2}{}{%
+        {{hash=570554af6f0e5ad0570daf633fa752c3}{%
+           family={Hall},
+           familyi={H\bibinitperiod},
+           given={John\bibnamedelima E},
+           giveni={J\bibinitperiod\bibinitdelim E\bibinitperiod}}}%
+        {{hash=3660e53b392a8db5dde4212d4c5fe8aa}{%
+           family={Hall},
+           familyi={H\bibinitperiod},
+           given={Michael\bibnamedelima E},
+           giveni={M\bibinitperiod\bibinitdelim E\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Elsevier Health Sciences}%
+      }
+      \strng{namehash}{03e474d6da4c7a256c2da5c483b1367f}
+      \strng{fullhash}{03e474d6da4c7a256c2da5c483b1367f}
+      \strng{fullhashraw}{03e474d6da4c7a256c2da5c483b1367f}
+      \strng{bibnamehash}{03e474d6da4c7a256c2da5c483b1367f}
+      \strng{authorbibnamehash}{03e474d6da4c7a256c2da5c483b1367f}
+      \strng{authornamehash}{03e474d6da4c7a256c2da5c483b1367f}
+      \strng{authorfullhash}{03e474d6da4c7a256c2da5c483b1367f}
+      \strng{authorfullhashraw}{03e474d6da4c7a256c2da5c483b1367f}
+      \field{labelalpha}{HH20}
+      \field{sortinit}{H}
+      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Guyton and {Hall} {Textbook} of {Medical} {Physiology}}
+      \field{year}{2020}
+    \endentry
+    \entry{hayano_hypothesis_2003}{article}{}{}
+      \name{author}{2}{}{%
+        {{hash=e22d302b3e0a86f402163c5a0acbf76c}{%
+           family={Hayano},
+           familyi={H\bibinitperiod},
+           given={J},
+           giveni={J\bibinitperiod}}}%
+        {{hash=d05f8a3f20e75ad4e1a7ed5fd9f5dfb6}{%
+           family={Yasuma},
+           familyi={Y\bibinitperiod},
+           given={F},
+           giveni={F\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \strng{namehash}{2d95b4ff13cb5e8d3f884ccc3f3cfc93}
+      \strng{fullhash}{2d95b4ff13cb5e8d3f884ccc3f3cfc93}
+      \strng{fullhashraw}{2d95b4ff13cb5e8d3f884ccc3f3cfc93}
+      \strng{bibnamehash}{2d95b4ff13cb5e8d3f884ccc3f3cfc93}
+      \strng{authorbibnamehash}{2d95b4ff13cb5e8d3f884ccc3f3cfc93}
+      \strng{authornamehash}{2d95b4ff13cb5e8d3f884ccc3f3cfc93}
+      \strng{authorfullhash}{2d95b4ff13cb5e8d3f884ccc3f3cfc93}
+      \strng{authorfullhashraw}{2d95b4ff13cb5e8d3f884ccc3f3cfc93}
+      \field{labelalpha}{HY03}
+      \field{sortinit}{H}
+      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{A hypothesis is presented that explains the physiological reasons why the magnitude of respiratory sinus arrhythmia (RSA) appears to correlate with cardiac vagal tone. The hypothesis is that RSA is an intrinsic resting function of the cardiopulmonary system. Although RSA is mediated by respiratory modulation of cardiac vagal outﬂow and its magnitude is used as an index of cardiac vagal activity, RSA itself reﬂects cardiorespiratory interaction. RSA is universally observed among vertebrates throughout the evolution, suggesting that it may bear an intrinsic physiological role. Recent studies have shown that RSA improves pulmonary gas exchange efﬁciency by matching alveolar ventilation and capillary perfusion throughout respiration cycle. This suggests that in resting animals and humans, RSA could save cardiac and respiratory energy by suppressing unnecessary heartbeats during expiration and ineffective ventilation during waning phases of perfusion. Furthermore, evidence is accumulating for possible dissociation between the magnitude of RSA and vagal control of heart rate, suggesting separated and independent regulations for respiratory modulation of cardiac vagal outﬂow from those for cardiac vagal tone. By our hypothesis, the apparent associations between RSA and cardiac vagal tone are explained as indirect consequences; i.e., whenever the cardiac vagal tone changes in response to the resting level of the cardiopulmonary system, RSA appears to change parallel to it. Our hypothesis seems more consistent with both physiological and clinical evidence about RSA than that presuming RSA is an index of cardiac vagal activity.}
+      \field{issn}{00086363}
+      \field{journaltitle}{Cardiovascular Research}
+      \field{month}{4}
+      \field{number}{1}
+      \field{shorttitle}{Hypothesis}
+      \field{title}{Hypothesis: respiratory sinus arrhythmia is an intrinsic resting function of cardiopulmonary system}
+      \field{urlday}{19}
+      \field{urlmonth}{7}
+      \field{urlyear}{2022}
+      \field{volume}{58}
+      \field{year}{2003}
+      \field{urldateera}{ce}
+      \field{pages}{1\bibrangedash 9}
+      \range{pages}{9}
+      \verb{doi}
+      \verb 10.1016/S0008-6363(02)00851-9
+      \endverb
+      \verb{urlraw}
+      \verb https://academic.oup.com/cardiovascres/article-lookup/doi/10.1016/S0008-6363(02)00851-9
+      \endverb
+      \verb{url}
+      \verb https://academic.oup.com/cardiovascres/article-lookup/doi/10.1016/S0008-6363(02)00851-9
+      \endverb
+    \endentry
+    \entry{schenkman_myoglobin_1997}{article}{}{}
+      \name{author}{4}{}{%
+        {{hash=944fab2f729ed5bc8cb1e7cfc6500d30}{%
+           family={Schenkman},
+           familyi={S\bibinitperiod},
+           given={Kenneth\bibnamedelima A.},
+           giveni={K\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=1194745037cff90ba4c8c27b0a1d4ae8}{%
+           family={Marble},
+           familyi={M\bibinitperiod},
+           given={David\bibnamedelima R.},
+           giveni={D\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
+        {{hash=fd3fa9f742f096dda14ddd2490ed7f1d}{%
+           family={Burns},
+           familyi={B\bibinitperiod},
+           given={David\bibnamedelima H.},
+           giveni={D\bibinitperiod\bibinitdelim H\bibinitperiod}}}%
+        {{hash=3487ea8d1adbba38fa6f74a895caee5c}{%
+           family={Feigl},
+           familyi={F\bibinitperiod},
+           given={Eric\bibnamedelima O.},
+           giveni={E\bibinitperiod\bibinitdelim O\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \strng{namehash}{72ed8abc84f686307cf241d7c57670a3}
+      \strng{fullhash}{b0db4398732850b3d090ced59d23ba20}
+      \strng{fullhashraw}{b0db4398732850b3d090ced59d23ba20}
+      \strng{bibnamehash}{72ed8abc84f686307cf241d7c57670a3}
+      \strng{authorbibnamehash}{72ed8abc84f686307cf241d7c57670a3}
+      \strng{authornamehash}{72ed8abc84f686307cf241d7c57670a3}
+      \strng{authorfullhash}{b0db4398732850b3d090ced59d23ba20}
+      \strng{authorfullhashraw}{b0db4398732850b3d090ced59d23ba20}
+      \field{labelalpha}{Sch+97}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Schenkman, Kenneth A., David R. Marble, David H. Burns, and Eric O. Feigl. Myoglobin oxygen dissociation by multiwavelength spectroscopy. J. Appl. Physiol. 82(1): 86–92, 1997.—Multiwavelength optical spectroscopy was used to determine the oxygen-binding characteristics for equine myoglobin. Oxygen-binding relationships as a function of oxygen tension were determined for temperatures of 10, 25, 35, 37, and 40°C, at pH 7.0. In addition, dissociation curves were determined at 37°C for pH 6.5, 7.0, and 7.5. Equilibration was achieved with a myoglobin solution, at the desired temperature and pH, and 16 oxygen-nitrogen gas mixtures of known oxygen fraction. Correction for the inevitable presence of metmyoglobin was made by using a three-component least squares analysis and by correcting the end point oxymyoglobin spectra for the presence of metmyoglobin. The[Formula: see text] at which myoglobin is half-saturated with O 2 (P 50 ) was determined to be 2.39 Torr at pH 7.0 and 37°C. The myoglobin dissociation curve was well fit by the Hill equation [saturation =[Formula: see text]/([Formula: see text]+ P 50 )].}
+      \field{issn}{8750-7587, 1522-1601}
+      \field{journaltitle}{Journal of Applied Physiology}
+      \field{month}{1}
+      \field{number}{1}
+      \field{title}{Myoglobin oxygen dissociation by multiwavelength spectroscopy}
+      \field{urlday}{21}
+      \field{urlmonth}{7}
+      \field{urlyear}{2022}
+      \field{volume}{82}
+      \field{year}{1997}
+      \field{urldateera}{ce}
+      \field{pages}{86\bibrangedash 92}
+      \range{pages}{7}
+      \verb{doi}
+      \verb 10.1152/jappl.1997.82.1.86
+      \endverb
+      \verb{urlraw}
+      \verb https://www.physiology.org/doi/10.1152/jappl.1997.82.1.86
+      \endverb
+      \verb{url}
+      \verb https://www.physiology.org/doi/10.1152/jappl.1997.82.1.86
+      \endverb
+    \endentry
+  \enddatalist
+\endrefsection
+
+\refsection{15}
+  \datalist[entry]{anyt/global//global/global/global}
+    \entry{de_troyer_respiratory_2005}{article}{}{}
+      \name{author}{3}{}{%
+        {{hash=8582ddca6f4e29e317d748e59211d863}{%
+           family={De\bibnamedelima Troyer},
+           familyi={D\bibinitperiod\bibinitdelim T\bibinitperiod},
+           given={André},
+           giveni={A\bibinitperiod}}}%
+        {{hash=2f7e2ad5764a73165f331edde6ecab84}{%
+           family={Kirkwood},
+           familyi={K\bibinitperiod},
+           given={Peter\bibnamedelima A.},
+           giveni={P\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=3fcdf43266e1fbc3a4aca8d05fddc52c}{%
+           family={Wilson},
+           familyi={W\bibinitperiod},
+           given={Theodore\bibnamedelima A.},
+           giveni={T\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \strng{namehash}{db9783d7bacbdc99313d6963b5f8c160}
+      \strng{fullhash}{db9783d7bacbdc99313d6963b5f8c160}
+      \strng{fullhashraw}{db9783d7bacbdc99313d6963b5f8c160}
+      \strng{bibnamehash}{db9783d7bacbdc99313d6963b5f8c160}
+      \strng{authorbibnamehash}{db9783d7bacbdc99313d6963b5f8c160}
+      \strng{authornamehash}{db9783d7bacbdc99313d6963b5f8c160}
+      \strng{authorfullhash}{db9783d7bacbdc99313d6963b5f8c160}
+      \strng{authorfullhashraw}{db9783d7bacbdc99313d6963b5f8c160}
+      \field{labelalpha}{DKW05}
+      \field{sortinit}{D}
+      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{The mechanical advantages of the external and internal intercostals depend partly on the orientation of the muscle but mostly on interspace number and the position of the muscle within each interspace. Thus the external intercostals in the dorsal portion of the rostral interspaces have a large inspiratory mechanical advantage, but this advantage decreases ventrally and caudally such that in the ventral portion of the caudal interspaces, it is reversed into an expiratory mechanical advantage. The internal interosseous intercostals in the caudal interspaces also have a large expiratory mechanical advantage, but this advantage decreases cranially and, for the upper interspaces, ventrally as well. The intercartilaginous portion of the internal intercostals (the so-called parasternal intercostals), therefore, has an inspiratory mechanical advantage, whereas the triangularis sterni has a large expiratory mechanical advantage. These rostrocaudal gradients result from the nonuniform coupling between rib displacement and lung expansion, and the dorsoventral gradients result from the three-dimensional configuration of the rib cage. Such topographic differences in mechanical advantage imply that the functions of the muscles during breathing are largely determined by the topographic distributions of neural drive. The distributions of inspiratory and expiratory activity among the muscles are strikingly similar to the distributions of inspiratory and expiratory mechanical advantages, respectively. As a result, the external intercostals and the parasternal intercostals have an inspiratory function during breathing, whereas the internal interosseous intercostals and the triangularis sterni have an expiratory function.}
+      \field{issn}{0031-9333, 1522-1210}
+      \field{journaltitle}{Physiological Reviews}
+      \field{month}{4}
+      \field{number}{2}
+      \field{title}{Respiratory {Action} of the {Intercostal} {Muscles}}
+      \field{urlday}{27}
+      \field{urlmonth}{7}
+      \field{urlyear}{2022}
+      \field{volume}{85}
+      \field{year}{2005}
+      \field{urldateera}{ce}
+      \field{pages}{717\bibrangedash 756}
+      \range{pages}{40}
+      \verb{doi}
+      \verb 10.1152/physrev.00007.2004
+      \endverb
+      \verb{urlraw}
+      \verb https://www.physiology.org/doi/10.1152/physrev.00007.2004
+      \endverb
+      \verb{url}
+      \verb https://www.physiology.org/doi/10.1152/physrev.00007.2004
+      \endverb
+    \endentry
+    \entry{gilbert_recognizing_2014}{book}{}{}
+      \name{author}{3}{}{%
+        {{hash=65925f6faae98ad4d59feed47e6e626e}{%
+           family={Gilbert},
+           familyi={G\bibinitperiod},
+           given={Chris},
+           giveni={C\bibinitperiod}}}%
+        {{hash=ca4cd3848024a4addf4ea4b4b46ac117}{%
+           family={Chaitow},
+           familyi={C\bibinitperiod},
+           given={Leon},
+           giveni={L\bibinitperiod}}}%
+        {{hash=2924ad7e0555cfa3a1bcfe01e3b356d2}{%
+           family={Bradley},
+           familyi={B\bibinitperiod},
+           given={Dinah},
+           giveni={D\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Elsevier Health Sciences}%
+      }
+      \strng{namehash}{cffd4909260b4f5595e4cda66491931f}
+      \strng{fullhash}{cffd4909260b4f5595e4cda66491931f}
+      \strng{fullhashraw}{cffd4909260b4f5595e4cda66491931f}
+      \strng{bibnamehash}{cffd4909260b4f5595e4cda66491931f}
+      \strng{authorbibnamehash}{cffd4909260b4f5595e4cda66491931f}
+      \strng{authornamehash}{cffd4909260b4f5595e4cda66491931f}
+      \strng{authorfullhash}{cffd4909260b4f5595e4cda66491931f}
+      \strng{authorfullhashraw}{cffd4909260b4f5595e4cda66491931f}
+      \field{labelalpha}{GCB14}
+      \field{sortinit}{G}
+      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Recognizing and {Treating} {Breathing} {Disorders}}
+      \field{year}{2014}
+    \endentry
+    \entry{hall_guyton_2020}{book}{}{}
+      \name{author}{2}{}{%
+        {{hash=570554af6f0e5ad0570daf633fa752c3}{%
+           family={Hall},
+           familyi={H\bibinitperiod},
+           given={John\bibnamedelima E},
+           giveni={J\bibinitperiod\bibinitdelim E\bibinitperiod}}}%
+        {{hash=3660e53b392a8db5dde4212d4c5fe8aa}{%
+           family={Hall},
+           familyi={H\bibinitperiod},
+           given={Michael\bibnamedelima E},
+           giveni={M\bibinitperiod\bibinitdelim E\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Elsevier Health Sciences}%
+      }
+      \strng{namehash}{03e474d6da4c7a256c2da5c483b1367f}
+      \strng{fullhash}{03e474d6da4c7a256c2da5c483b1367f}
+      \strng{fullhashraw}{03e474d6da4c7a256c2da5c483b1367f}
+      \strng{bibnamehash}{03e474d6da4c7a256c2da5c483b1367f}
+      \strng{authorbibnamehash}{03e474d6da4c7a256c2da5c483b1367f}
+      \strng{authornamehash}{03e474d6da4c7a256c2da5c483b1367f}
+      \strng{authorfullhash}{03e474d6da4c7a256c2da5c483b1367f}
+      \strng{authorfullhashraw}{03e474d6da4c7a256c2da5c483b1367f}
+      \field{labelalpha}{HH20}
+      \field{sortinit}{H}
+      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Guyton and {Hall} {Textbook} of {Medical} {Physiology}}
+      \field{year}{2020}
+    \endentry
+    \entry{lumb_nunns_2020}{book}{}{}
+      \name{author}{2}{}{%
+        {{hash=9d30d0f0f20c54b109cf4ac6c525699d}{%
+           family={Lumb},
+           familyi={L\bibinitperiod},
+           given={Andrew\bibnamedelima B},
+           giveni={A\bibinitperiod\bibinitdelim B\bibinitperiod}}}%
+        {{hash=8ab16ef1b5c94a65afae8a0c71c5f8bb}{%
+           family={Thomas},
+           familyi={T\bibinitperiod},
+           given={Caroline\bibnamedelima R},
+           giveni={C\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Elsevier Health Sciences}%
+      }
+      \strng{namehash}{2b4cc8df8c52841679f3c2f259689c07}
+      \strng{fullhash}{2b4cc8df8c52841679f3c2f259689c07}
+      \strng{fullhashraw}{2b4cc8df8c52841679f3c2f259689c07}
+      \strng{bibnamehash}{2b4cc8df8c52841679f3c2f259689c07}
+      \strng{authorbibnamehash}{2b4cc8df8c52841679f3c2f259689c07}
+      \strng{authornamehash}{2b4cc8df8c52841679f3c2f259689c07}
+      \strng{authorfullhash}{2b4cc8df8c52841679f3c2f259689c07}
+      \strng{authorfullhashraw}{2b4cc8df8c52841679f3c2f259689c07}
+      \field{labelalpha}{LT20}
+      \field{sortinit}{L}
+      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Nunn's applied respiratory physiology}
+      \field{year}{2020}
+    \endentry
+    \entry{lundberg_nitric_2008}{article}{}{}
+      \name{author}{1}{}{%
+        {{hash=f3bed11db8e36ef2c181ab27be38679f}{%
+           family={Lundberg},
+           familyi={L\bibinitperiod},
+           given={Jon\bibnamedelima O.},
+           giveni={J\bibinitperiod\bibinitdelim O\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \strng{namehash}{f3bed11db8e36ef2c181ab27be38679f}
+      \strng{fullhash}{f3bed11db8e36ef2c181ab27be38679f}
+      \strng{fullhashraw}{f3bed11db8e36ef2c181ab27be38679f}
+      \strng{bibnamehash}{f3bed11db8e36ef2c181ab27be38679f}
+      \strng{authorbibnamehash}{f3bed11db8e36ef2c181ab27be38679f}
+      \strng{authornamehash}{f3bed11db8e36ef2c181ab27be38679f}
+      \strng{authorfullhash}{f3bed11db8e36ef2c181ab27be38679f}
+      \strng{authorfullhashraw}{f3bed11db8e36ef2c181ab27be38679f}
+      \field{labelalpha}{Lun08}
+      \field{sortinit}{L}
+      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{The discovery within the paranasal sinuses for the production of nitric oxide (NO) has altered the traditional explanations of sinus physiology. This review article reports the ongoing investigation of sinus physiology beginning with the discovery of NO gas production in the paranasal sinuses that occurred in 1995, and the impact that ﬁnding has had both in the basic science and clinical arenas. It was shown that healthy paranasal sinus epithelium expresses an inducible NO synthase that continuously generates large amounts of NO, a pluripotent gaseous messenger with potent vasodilating, and antimicrobial activity. This NO can be measured noninvasively in nasally exhaled breath. The role of NO in the sinuses is likely to enhance local host defense mechanisms via direct inhibition of pathogen growth and stimulation of mucociliary activity. The NO concentration in a healthy sinus exceeds those that are needed for antibacterial effects in vitro. In patients with primary ciliary dyskinesia (PCD) and in cystic ﬁbrosis, nasal NO is extremely low. This defect NO generation likely contributes to the great susceptibility to chronic sinusitis in these patients. In addition, the low-nasal NO is of diagnostic value especially in PCD, where nasal NO is very low or absent. Intriguingly, NO gas from the nose and sinuses is inhaled with every breath and reaches the lungs in a more diluted form to enhance pulmonary oxygen uptake via local vasodilation. In this sense NO may be regarded as an ‘‘aerocrine’’ hormone that is produced in the nose and sinuses and transported to a distal site of action with every inhalation. Anat Rec, 291:1479–1484, 2008. Ó 2008 Wiley-Liss, Inc.}
+      \field{issn}{19328486, 19328494}
+      \field{journaltitle}{The Anatomical Record: Advances in Integrative Anatomy and Evolutionary Biology}
+      \field{month}{11}
+      \field{number}{11}
+      \field{title}{Nitric {Oxide} and the {Paranasal} {Sinuses}}
+      \field{urlday}{26}
+      \field{urlmonth}{7}
+      \field{urlyear}{2022}
+      \field{volume}{291}
+      \field{year}{2008}
+      \field{urldateera}{ce}
+      \field{pages}{1479\bibrangedash 1484}
+      \range{pages}{6}
+      \verb{doi}
+      \verb 10.1002/ar.20782
+      \endverb
+      \verb{urlraw}
+      \verb https://onlinelibrary.wiley.com/doi/10.1002/ar.20782
+      \endverb
+      \verb{url}
+      \verb https://onlinelibrary.wiley.com/doi/10.1002/ar.20782
+      \endverb
+    \endentry
+    \entry{tornberg_nasal_2002}{article}{}{}
+      \name{author}{6}{}{%
+        {{hash=a0a576b881bb4973646c08454611e4fa}{%
+           family={Tornberg},
+           familyi={T\bibinitperiod},
+           given={D.C.F.},
+           giveni={D\bibinitperiod}}}%
+        {{hash=570b43575699ecd26b63fa155c416b31}{%
+           family={Marteus},
+           familyi={M\bibinitperiod},
+           given={H.},
+           giveni={H\bibinitperiod}}}%
+        {{hash=b12c12c58f41eeb1f633c306016c09d1}{%
+           family={Schedin},
+           familyi={S\bibinitperiod},
+           given={U.},
+           giveni={U\bibinitperiod}}}%
+        {{hash=0decfa7b03265ee805a4271eddd0a042}{%
+           family={Alving},
+           familyi={A\bibinitperiod},
+           given={K.},
+           giveni={K\bibinitperiod}}}%
+        {{hash=f00d3f960c8541d8259e15aa3844c27f}{%
+           family={Lundberg},
+           familyi={L\bibinitperiod},
+           given={J.O.N.},
+           giveni={J\bibinitperiod}}}%
+        {{hash=2c8389526848e072e3890caf404d6003}{%
+           family={Weitzberg},
+           familyi={W\bibinitperiod},
+           given={E.},
+           giveni={E\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \strng{namehash}{60f3a4efe67151a56cb6929436551463}
+      \strng{fullhash}{c3d9c43308928136dcaab9f47ce42ae9}
+      \strng{fullhashraw}{c3d9c43308928136dcaab9f47ce42ae9}
+      \strng{bibnamehash}{60f3a4efe67151a56cb6929436551463}
+      \strng{authorbibnamehash}{60f3a4efe67151a56cb6929436551463}
+      \strng{authornamehash}{60f3a4efe67151a56cb6929436551463}
+      \strng{authorfullhash}{c3d9c43308928136dcaab9f47ce42ae9}
+      \strng{authorfullhashraw}{c3d9c43308928136dcaab9f47ce42ae9}
+      \field{labelalpha}{Tor+02}
+      \field{sortinit}{T}
+      \field{sortinithash}{9af77f0292593c26bde9a56e688eaee9}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{Nitric oxide (NO) is produced at different sites in the human airways and may have several physiological effects. Orally-produced NO seems to contribute to the levels found in exhaled air. Autoinhalation of nasal NO increases oxygenation and reduces pulmonary artery pressure in humans. The aim of this study was to measure the concentration and output of NO during nasal, oral and tracheal controlled exhalation and inhalation.}
+      \field{issn}{0903-1936, 1399-3003}
+      \field{journaltitle}{European Respiratory Journal}
+      \field{month}{5}
+      \field{number}{5}
+      \field{shorttitle}{Nasal and oral contribution to inhaled and exhaled nitric oxide}
+      \field{title}{Nasal and oral contribution to inhaled and exhaled nitric oxide: a study in tracheotomized patients}
+      \field{urlday}{26}
+      \field{urlmonth}{7}
+      \field{urlyear}{2022}
+      \field{volume}{19}
+      \field{year}{2002}
+      \field{urldateera}{ce}
+      \field{pages}{859\bibrangedash 864}
+      \range{pages}{6}
+      \verb{doi}
+      \verb 10.1183/09031936.02.00273502
+      \endverb
+      \verb{urlraw}
+      \verb http://erj.ersjournals.com/cgi/doi/10.1183/09031936.02.00273502
+      \endverb
+      \verb{url}
+      \verb http://erj.ersjournals.com/cgi/doi/10.1183/09031936.02.00273502
+      \endverb
+    \endentry
+  \enddatalist
+\endrefsection
+
+\refsection{4}
+  \datalist[entry]{anyt/global//global/global/global}
+    \entry{collins_synthesis_2018}{article}{}{}
+      \name{author}{1}{}{%
+        {{hash=b19bfd1bcd3ed0daa14710b5be5eb272}{%
+           family={Collins},
+           familyi={C\bibinitperiod},
+           given={Sean\bibnamedelima M.},
+           giveni={S\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \strng{namehash}{b19bfd1bcd3ed0daa14710b5be5eb272}
+      \strng{fullhash}{b19bfd1bcd3ed0daa14710b5be5eb272}
+      \strng{fullhashraw}{b19bfd1bcd3ed0daa14710b5be5eb272}
+      \strng{bibnamehash}{b19bfd1bcd3ed0daa14710b5be5eb272}
+      \strng{authorbibnamehash}{b19bfd1bcd3ed0daa14710b5be5eb272}
+      \strng{authornamehash}{b19bfd1bcd3ed0daa14710b5be5eb272}
+      \strng{authorfullhash}{b19bfd1bcd3ed0daa14710b5be5eb272}
+      \strng{authorfullhashraw}{b19bfd1bcd3ed0daa14710b5be5eb272}
+      \field{labelalpha}{Col18}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{This article presents the 2018 Linda Crane Memorial Lecture Award on Synthesis: Causal Models, Causal Knowledge. The synthesis is that practice is based on causal knowledge and that we can encode causal knowledge with causal models. It proposes the use of causal models to provide a synthesis of what we know to develop causal knowledge from which to further develop with empirical evidence and from which knowledge we can practice. The synthesis is founded on critical realist epistemology that explicitly identifies the human mind as part of the process of knowledge and where the models that are constructed fit with reality even when we cannot empirically verify every component of such models; but where knowledge assumptions are encoded in the models clearly, combine knowledge with reasoning and are subject to empirical verification when possible.}
+      \field{issn}{1541-7891, 2374-8907}
+      \field{journaltitle}{Cardiopulmonary Physical Therapy Journal}
+      \field{month}{10}
+      \field{note}{tex.ids= collinsSynthesisCausalModels2018a}
+      \field{number}{4}
+      \field{shorttitle}{Synthesis}
+      \field{title}{Synthesis: {Causal} {Models}, {Causal} {Knowledge}}
+      \field{urlday}{14}
+      \field{urlmonth}{3}
+      \field{urlyear}{2024}
+      \field{volume}{29}
+      \field{year}{2018}
+      \field{urldateera}{ce}
+      \field{pages}{134\bibrangedash 143}
+      \range{pages}{10}
+      \verb{doi}
+      \verb 10.1097/CPT.0000000000000101
+      \endverb
+      \verb{urlraw}
+      \verb https://journals.lww.com/01823246-201810000-00002
+      \endverb
+      \verb{url}
+      \verb https://journals.lww.com/01823246-201810000-00002
+      \endverb
+    \endentry
+    \entry{hill_heat_1938}{article}{}{}
+      \name{author}{1}{}{%
+        {{hash=6ae176f07ec097ac68482b78d9a07746}{%
+           family={Hill},
+           familyi={H\bibinitperiod},
+           given={A.V.},
+           giveni={A\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \strng{namehash}{6ae176f07ec097ac68482b78d9a07746}
+      \strng{fullhash}{6ae176f07ec097ac68482b78d9a07746}
+      \strng{fullhashraw}{6ae176f07ec097ac68482b78d9a07746}
+      \strng{bibnamehash}{6ae176f07ec097ac68482b78d9a07746}
+      \strng{authorbibnamehash}{6ae176f07ec097ac68482b78d9a07746}
+      \strng{authornamehash}{6ae176f07ec097ac68482b78d9a07746}
+      \strng{authorfullhash}{6ae176f07ec097ac68482b78d9a07746}
+      \strng{authorfullhashraw}{6ae176f07ec097ac68482b78d9a07746}
+      \field{labelalpha}{Hil38}
+      \field{sortinit}{H}
+      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{The heat of shortening and the dynamic constants of muscle}
+      \field{year}{1938}
+      \field{pages}{60}
+      \range{pages}{1}
+    \endentry
+    \entry{noble_music_2008}{book}{}{}
+      \name{author}{1}{}{%
+        {{hash=b1d28206d86ce2357ac0ec6cad681c32}{%
+           family={Noble},
+           familyi={N\bibinitperiod},
+           given={Denis},
+           giveni={D\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Oxford University Press}%
+      }
+      \strng{namehash}{b1d28206d86ce2357ac0ec6cad681c32}
+      \strng{fullhash}{b1d28206d86ce2357ac0ec6cad681c32}
+      \strng{fullhashraw}{b1d28206d86ce2357ac0ec6cad681c32}
+      \strng{bibnamehash}{b1d28206d86ce2357ac0ec6cad681c32}
+      \strng{authorbibnamehash}{b1d28206d86ce2357ac0ec6cad681c32}
+      \strng{authornamehash}{b1d28206d86ce2357ac0ec6cad681c32}
+      \strng{authorfullhash}{b1d28206d86ce2357ac0ec6cad681c32}
+      \strng{authorfullhashraw}{b1d28206d86ce2357ac0ec6cad681c32}
+      \field{labelalpha}{Nob08}
+      \field{sortinit}{N}
+      \field{sortinithash}{22369a73d5f88983a108b63f07f37084}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{The music of life: biology beyond genes}
+      \field{year}{2008}
+    \endentry
+    \entry{woledge_energetic_1985}{article}{}{}
+      \name{author}{3}{}{%
+        {{hash=242fa2326c65efa8279d433b32300aa6}{%
+           family={Woledge},
+           familyi={W\bibinitperiod},
+           given={Roger\bibnamedelima C},
+           giveni={R\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+        {{hash=dac82a4e94fc005a5a72f47abf065905}{%
+           family={Curtin},
+           familyi={C\bibinitperiod},
+           given={Nancy\bibnamedelima A},
+           giveni={N\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=a4c049b54797f5eb874b204b24e09292}{%
+           family={Homsher},
+           familyi={H\bibinitperiod},
+           given={Earl},
+           giveni={E\bibinitperiod}}}%
+      }
+      \strng{namehash}{bd30ad4ed23d0f757e54b502dc90f286}
+      \strng{fullhash}{bd30ad4ed23d0f757e54b502dc90f286}
+      \strng{fullhashraw}{bd30ad4ed23d0f757e54b502dc90f286}
+      \strng{bibnamehash}{bd30ad4ed23d0f757e54b502dc90f286}
+      \strng{authorbibnamehash}{bd30ad4ed23d0f757e54b502dc90f286}
+      \strng{authornamehash}{bd30ad4ed23d0f757e54b502dc90f286}
+      \strng{authorfullhash}{bd30ad4ed23d0f757e54b502dc90f286}
+      \strng{authorfullhashraw}{bd30ad4ed23d0f757e54b502dc90f286}
+      \field{labelalpha}{WCH85}
+      \field{sortinit}{W}
+      \field{sortinithash}{4315d78024d0cea9b57a0c6f0e35ed0d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Monographs of the physiological society}
+      \field{title}{Energetic aspects of muscle contraction.}
+      \field{volume}{41}
+      \field{year}{1985}
+      \field{pages}{1\bibrangedash 357}
+      \range{pages}{357}
+    \endentry
+  \enddatalist
+  \missing{collins_heart_2015}
+\endrefsection
+
+\refsection{5}
+  \datalist[entry]{anyt/global//global/global/global}
+    \entry{cuthbert_effect_2020}{article}{}{}
+      \name{author}{6}{}{%
+        {{hash=9308854937388118e0011ab9e4eff10c}{%
+           family={Cuthbert},
+           familyi={C\bibinitperiod},
+           given={Matthew},
+           giveni={M\bibinitperiod}}}%
+        {{hash=94a0c5d51c93cc0b1cfdc672a2ad56b2}{%
+           family={Ripley},
+           familyi={R\bibinitperiod},
+           given={Nicholas},
+           giveni={N\bibinitperiod}}}%
+        {{hash=49da60c37d61f7c61ec54d5d435113d9}{%
+           family={McMahon},
+           familyi={M\bibinitperiod},
+           given={John\bibnamedelima J.},
+           giveni={J\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{hash=4d5d3977cd53cd282a512273fc1cb58d}{%
+           family={Evans},
+           familyi={E\bibinitperiod},
+           given={Martin},
+           giveni={M\bibinitperiod}}}%
+        {{hash=819cf6033089e9570fb6ae53ae419057}{%
+           family={Haff},
+           familyi={H\bibinitperiod},
+           given={G.\bibnamedelimi Gregory},
+           giveni={G\bibinitperiod\bibinitdelim G\bibinitperiod}}}%
+        {{hash=e3e5bdc1400d6878c7b2caeee4bf0f08}{%
+           family={Comfort},
+           familyi={C\bibinitperiod},
+           given={Paul},
+           giveni={P\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \strng{namehash}{26687487837c7c4311cf293f55fe4c18}
+      \strng{fullhash}{e6ad446af890e8a87b5ddd668715a102}
+      \strng{fullhashraw}{e6ad446af890e8a87b5ddd668715a102}
+      \strng{bibnamehash}{26687487837c7c4311cf293f55fe4c18}
+      \strng{authorbibnamehash}{26687487837c7c4311cf293f55fe4c18}
+      \strng{authornamehash}{26687487837c7c4311cf293f55fe4c18}
+      \strng{authorfullhash}{e6ad446af890e8a87b5ddd668715a102}
+      \strng{authorfullhashraw}{e6ad446af890e8a87b5ddd668715a102}
+      \field{labelalpha}{Cut+20}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{Background  Although performance of the Nordic hamstring exercise (NHE) has been shown to elicit adaptations that may reduce hamstring strain injury (HSI) risk and occurrence, compliance in NHE interventions in professional soccer teams is low despite a high occurrence of HSI in soccer. A possible reason for low compliance is the high dosages prescribed within the recommended interventions. The aim of this review was to investigate the effect of NHE-training volume on eccentric hamstring strength and biceps femoris fascicle length adaptations. Methods  A literature search was conducted using the SPORTDiscus, Ovid, and PubMed databases. A total of 293 studies were identified prior to application of the following inclusion criteria: (1) a minimum of 4 weeks of NHE training was completed; (2) mean ± standard deviation (SD) pre- and post-intervention were provided for the measured variables to allow for secondary analysis; and (3) biceps femoris muscle architecture was measured, which resulted in 13 studies identified for further analysis. The TESTEX criteria were used to assess the quality of studies with risk of bias assessment assessed using a fail-safe N (Rosenthal method). Consistency of studies was analysed using I2 as a test of heterogeneity and secondary analysis of studies included Hedges’ g effect sizes for strength and muscle architecture variables to provide comparison within studies, between-study differences were estimated using a random-effects model. Results  A range of scores (3–11 out of 15) from the TESTEX criteria were reported, showing variation in study quality. A ‘low risk of bias’ was observed in the randomized controlled trials included, with no study bias shown for both strength or architecture (N = 250 and 663, respectively; p {<} 0.001). Study consistency was moderate to high for strength (I2 = 62.49\%) and muscle architecture (I2 = 88.03\%). Within-study differences showed that following interventions of ≥ 6 weeks, very large positive effect sizes were seen in eccentric strength following both high volume (g = 2.12) and low volume (g = 2.28) NHE interventions. Similar results were reported for changes in fascicle length (g ≥ 2.58) and a large-to-very large positive reduction in pennation angle (g ≥ 1.31). Between-study differences were estimated to be at a magnitude of 0.374 (p = 0.009) for strength and 0.793 (p {<} 0.001) for architecture. Conclusions  Reducing NHE volume prescription does not negatively affect adaptations in eccentric strength and muscle architecture when compared with high dose interventions. These findings suggest that lower volumes of NHE may be more appropriate for athletes, with an aim to increase intervention compliance, potentially reducing the risk of HSI.}
+      \field{issn}{0112-1642, 1179-2035}
+      \field{journaltitle}{Sports Medicine}
+      \field{month}{1}
+      \field{number}{1}
+      \field{shorttitle}{The {Effect} of {Nordic} {Hamstring} {Exercise} {Intervention} {Volume} on {Eccentric} {Strength} and {Muscle} {Architecture} {Adaptations}}
+      \field{title}{The {Effect} of {Nordic} {Hamstring} {Exercise} {Intervention} {Volume} on {Eccentric} {Strength} and {Muscle} {Architecture} {Adaptations}: {A} {Systematic} {Review} and {Meta}-analyses}
+      \field{urlday}{19}
+      \field{urlmonth}{4}
+      \field{urlyear}{2022}
+      \field{volume}{50}
+      \field{year}{2020}
+      \field{urldateera}{ce}
+      \field{pages}{83\bibrangedash 99}
+      \range{pages}{17}
+      \verb{doi}
+      \verb 10.1007/s40279-019-01178-7
+      \endverb
+      \verb{urlraw}
+      \verb http://link.springer.com/10.1007/s40279-019-01178-7
+      \endverb
+      \verb{url}
+      \verb http://link.springer.com/10.1007/s40279-019-01178-7
+      \endverb
+    \endentry
+    \entry{kjaer_role_2004}{article}{}{}
+      \name{author}{1}{}{%
+        {{hash=fab85e2201d2aa0ace21875fd1b37935}{%
+           family={Kjær},
+           familyi={K\bibinitperiod},
+           given={Michael},
+           giveni={M\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \strng{namehash}{fab85e2201d2aa0ace21875fd1b37935}
+      \strng{fullhash}{fab85e2201d2aa0ace21875fd1b37935}
+      \strng{fullhashraw}{fab85e2201d2aa0ace21875fd1b37935}
+      \strng{bibnamehash}{fab85e2201d2aa0ace21875fd1b37935}
+      \strng{authorbibnamehash}{fab85e2201d2aa0ace21875fd1b37935}
+      \strng{authornamehash}{fab85e2201d2aa0ace21875fd1b37935}
+      \strng{authorfullhash}{fab85e2201d2aa0ace21875fd1b37935}
+      \strng{authorfullhashraw}{fab85e2201d2aa0ace21875fd1b37935}
+      \field{labelalpha}{Kjæ04}
+      \field{sortinit}{K}
+      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Kjær, Michael. Role of Extracellular Matrix in Adaptation of Tendon and Skeletal Muscle to Mechanical Loading. Physiol Rev 84: 649–698, 2004; 10.1152/physrev.00031.2003.—The extracellular matrix (ECM), and especially the connective tissue with its collagen, links tissues of the body together and plays an important role in the force transmission and tissue structure maintenance especially in tendons, ligaments, bone, and muscle. The ECM turnover is influenced by physical activity, and both collagen synthesis and degrading metalloprotease enzymes increase with mechanical loading. Both transcription and posttranslational modifications, as well as local and systemic release of growth factors, are enhanced following exercise. For tendons, metabolic activity, circulatory responses, and collagen turnover are demonstrated to be more pronounced in humans than hitherto thought. Conversely, inactivity markedly decreases collagen turnover in both tendon and muscle. Chronic loading in the form of physical training leads both to increased collagen turnover as well as, dependent on the type of collagen in question, some degree of net collagen synthesis. These changes will modify the mechanical properties and the viscoelastic characteristics of the tissue, decrease its stress, and likely make it more load resistant. Cross-linking in connective tissue involves an intimate, enzymatical interplay between collagen synthesis and ECM proteoglycan components during growth and maturation and influences the collagen-derived functional properties of the tissue. With aging, glycation contributes to additional cross-linking which modifies tissue stiffness. Physiological signaling pathways from mechanical loading to changes in ECM most likely involve feedback signaling that results in rapid alterations in the mechanical properties of the ECM. In developing skeletal muscle, an important interplay between muscle cells and the ECM is present, and some evidence from adult human muscle suggests common signaling pathways to stimulate contractile and ECM components. Unaccostumed overloading responses suggest an important role of ECM in the adaptation of myofibrillar structures in adult muscle. Development of overuse injury in tendons involve morphological and biochemical changes including altered collagen typing and fibril size, hypervascularization zones, accumulation of nociceptive substances, and impaired collagen degradation activity. Counteracting these phenomena requires adjusted loading rather than absence of loading in the form of immobilization. Full understanding of these physiological processes will provide the physiological basis for understanding of tissue overloading and injury seen in both tendons and muscle with repetitive work and leisure time physical activity.}
+      \field{issn}{0031-9333, 1522-1210}
+      \field{journaltitle}{Physiological Reviews}
+      \field{month}{4}
+      \field{number}{2}
+      \field{title}{Role of {Extracellular} {Matrix} in {Adaptation} of {Tendon} and {Skeletal} {Muscle} to {Mechanical} {Loading}}
+      \field{urlday}{18}
+      \field{urlmonth}{5}
+      \field{urlyear}{2022}
+      \field{volume}{84}
+      \field{year}{2004}
+      \field{urldateera}{ce}
+      \field{pages}{649\bibrangedash 698}
+      \range{pages}{50}
+      \verb{doi}
+      \verb 10.1152/physrev.00031.2003
+      \endverb
+      \verb{urlraw}
+      \verb https://www.physiology.org/doi/10.1152/physrev.00031.2003
+      \endverb
+      \verb{url}
+      \verb https://www.physiology.org/doi/10.1152/physrev.00031.2003
+      \endverb
+    \endentry
+    \entry{knudsen_human_2015}{article}{}{}
+      \name{author}{8}{}{%
+        {{hash=0bd7944fd5a0bc1258a0912bbd9470b8}{%
+           family={Knudsen},
+           familyi={K\bibinitperiod},
+           given={A.\bibnamedelimi B.},
+           giveni={A\bibinitperiod\bibinitdelim B\bibinitperiod}}}%
+        {{hash=b3a079a981cbf1a266bdefd6a1b85dd1}{%
+           family={Larsen},
+           familyi={L\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod}}}%
+        {{hash=5ddde877a0b64d80c2cfc7e702f50e44}{%
+           family={Mackey},
+           familyi={M\bibinitperiod},
+           given={A.\bibnamedelimi L.},
+           giveni={A\bibinitperiod\bibinitdelim L\bibinitperiod}}}%
+        {{hash=19db7164ce6565de2f484816784fc36d}{%
+           family={Hjort},
+           familyi={H\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod}}}%
+        {{hash=e0e8e971d77e51f5210063eea64ffef7}{%
+           family={Hansen},
+           familyi={H\bibinitperiod},
+           given={K.\bibnamedelimi K.},
+           giveni={K\bibinitperiod\bibinitdelim K\bibinitperiod}}}%
+        {{hash=71d532633a2e222444b17d8222f7c7f5}{%
+           family={Qvortrup},
+           familyi={Q\bibinitperiod},
+           given={K.},
+           giveni={K\bibinitperiod}}}%
+        {{hash=a7064f1debe86233df8c6bb51a78d1b1}{%
+           family={Kjaer},
+           familyi={K\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod}}}%
+        {{hash=a827e9f41c011f854ce1a028c627540d}{%
+           family={Krogsgaard},
+           familyi={K\bibinitperiod},
+           given={M.\bibnamedelimi R.},
+           giveni={M\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \strng{namehash}{c5304784fa1be904ae4b50840297ce92}
+      \strng{fullhash}{43cedd92192e7881f66eca74d484a1c2}
+      \strng{fullhashraw}{43cedd92192e7881f66eca74d484a1c2}
+      \strng{bibnamehash}{c5304784fa1be904ae4b50840297ce92}
+      \strng{authorbibnamehash}{c5304784fa1be904ae4b50840297ce92}
+      \strng{authornamehash}{c5304784fa1be904ae4b50840297ce92}
+      \strng{authorfullhash}{43cedd92192e7881f66eca74d484a1c2}
+      \strng{authorfullhashraw}{43cedd92192e7881f66eca74d484a1c2}
+      \field{labelalpha}{Knu+15}
+      \field{sortinit}{K}
+      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{issn}{09057188}
+      \field{journaltitle}{Scandinavian Journal of Medicine \& Science in Sports}
+      \field{month}{2}
+      \field{number}{1}
+      \field{shorttitle}{The human myotendinous junction}
+      \field{title}{The human myotendinous junction: {An} ultrastructural and {3D} analysis study: {The} human myotendinous junction}
+      \field{urlday}{18}
+      \field{urlmonth}{5}
+      \field{urlyear}{2022}
+      \field{volume}{25}
+      \field{year}{2015}
+      \field{urldateera}{ce}
+      \field{pages}{e116\bibrangedash e123}
+      \range{pages}{-1}
+      \verb{doi}
+      \verb 10.1111/sms.12221
+      \endverb
+      \verb{urlraw}
+      \verb https://onlinelibrary.wiley.com/doi/10.1111/sms.12221
+      \endverb
+      \verb{url}
+      \verb https://onlinelibrary.wiley.com/doi/10.1111/sms.12221
+      \endverb
+    \endentry
+    \entry{turrina_muscular_2013}{article}{}{}
+      \name{author}{3}{}{%
+        {{hash=0587374bfb1075b9bc73a35b858aeaa7}{%
+           family={Turrina},
+           familyi={T\bibinitperiod},
+           given={Andrea},
+           giveni={A\bibinitperiod}}}%
+        {{hash=a84d0c9f5a5551793bb77b93c7595528}{%
+           family={Martínez-González},
+           familyi={M\bibinithyphendelim G\bibinitperiod},
+           given={Miguel\bibnamedelima Antonio},
+           giveni={M\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=a2f462e3997d2c5ff49517a5f1cbdfd1}{%
+           family={Stecco},
+           familyi={S\bibinitperiod},
+           given={Carla},
+           giveni={C\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {eng}%
+      }
+      \strng{namehash}{7a0b48a45acbf5d4691eb245784a4968}
+      \strng{fullhash}{7a0b48a45acbf5d4691eb245784a4968}
+      \strng{fullhashraw}{7a0b48a45acbf5d4691eb245784a4968}
+      \strng{bibnamehash}{7a0b48a45acbf5d4691eb245784a4968}
+      \strng{authorbibnamehash}{7a0b48a45acbf5d4691eb245784a4968}
+      \strng{authornamehash}{7a0b48a45acbf5d4691eb245784a4968}
+      \strng{authorfullhash}{7a0b48a45acbf5d4691eb245784a4968}
+      \strng{authorfullhashraw}{7a0b48a45acbf5d4691eb245784a4968}
+      \field{labelalpha}{TMS13}
+      \field{sortinit}{T}
+      \field{sortinithash}{9af77f0292593c26bde9a56e688eaee9}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{The objective of this review is to analyze in detail the microscopic structure and relations among muscular fibers, endomysium, perimysium, epimysium and deep fasciae. In particular, the multilayer organization and the collagen fiber orientation of these elements are reported. The endomysium, perimysium, epimysium and deep fasciae have not just a role of containment, limiting the expansion of the muscle with the disposition in concentric layers of the collagen tissue, but are fundamental elements for the transmission of muscular force, each one with a specific role. From this review it appears that the muscular fibers should not be studied as isolated elements, but as a complex inseparable from their fibrous components. The force expressed by a muscle depends not only on its anatomical structure, but also the angle at which its fibers are attached to the intramuscular connective tissue and the relation with the epimysium and deep fasciae.}
+      \field{issn}{1532-9283 1360-8592}
+      \field{journaltitle}{Journal of bodywork and movement therapies}
+      \field{month}{1}
+      \field{note}{Place: United States}
+      \field{number}{1}
+      \field{title}{The muscular force transmission system: role of the intramuscular connective tissue.}
+      \field{volume}{17}
+      \field{year}{2013}
+      \field{pages}{95\bibrangedash 102}
+      \range{pages}{8}
+      \verb{doi}
+      \verb 10.1016/j.jbmt.2012.06.001
+      \endverb
+      \keyw{Connective Tissue/anatomy \& histology/*ultrastructure,Fascia/anatomy \& histology/ultrastructure,Humans,Microscopy,Electron,Scanning,Muscle Fibers,Skeletal/*ultrastructure,Muscle,Skeletal/anatomy \& histology/*ultrastructure,Musculoskeletal System/anatomy \& histology/ultrastructure,Role,Sarcomeres/ultrastructure,Sensitivity and Specificity,Stress,Mechanical}
+    \endentry
+  \enddatalist
+\endrefsection
+
+\refsection{6}
+  \datalist[entry]{anyt/global//global/global/global}
+    \entry{huxley_muscle_1957}{article}{}{}
+      \name{author}{1}{}{%
+        {{hash=7fdcc730bf64349a6b5d7abd25ae9402}{%
+           family={Huxley},
+           familyi={H\bibinitperiod},
+           given={A.F.},
+           giveni={A\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \strng{namehash}{7fdcc730bf64349a6b5d7abd25ae9402}
+      \strng{fullhash}{7fdcc730bf64349a6b5d7abd25ae9402}
+      \strng{fullhashraw}{7fdcc730bf64349a6b5d7abd25ae9402}
+      \strng{bibnamehash}{7fdcc730bf64349a6b5d7abd25ae9402}
+      \strng{authorbibnamehash}{7fdcc730bf64349a6b5d7abd25ae9402}
+      \strng{authornamehash}{7fdcc730bf64349a6b5d7abd25ae9402}
+      \strng{authorfullhash}{7fdcc730bf64349a6b5d7abd25ae9402}
+      \strng{authorfullhashraw}{7fdcc730bf64349a6b5d7abd25ae9402}
+      \field{labelalpha}{Hux57}
+      \field{sortinit}{H}
+      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{00964174}
+      \field{journaltitle}{Progress in Biophysics and Biophysical Chemistry}
+      \field{title}{Muscle {Structure} and {Theories} of {Contraction}}
+      \field{urlday}{25}
+      \field{urlmonth}{5}
+      \field{urlyear}{2022}
+      \field{volume}{7}
+      \field{year}{1957}
+      \field{urldateera}{ce}
+      \field{pages}{255\bibrangedash 318}
+      \range{pages}{64}
+      \verb{doi}
+      \verb 10.1016/S0096-4174(18)30128-8
+      \endverb
+      \verb{urlraw}
+      \verb https://linkinghub.elsevier.com/retrieve/pii/S0096417418301288
+      \endverb
+      \verb{url}
+      \verb https://linkinghub.elsevier.com/retrieve/pii/S0096417418301288
+      \endverb
+    \endentry
+    \entry{seow_hills_2013}{article}{}{}
+      \name{author}{1}{}{%
+        {{hash=a3f6c0701f223acac5f04c855bf4e8d0}{%
+           family={Seow},
+           familyi={S\bibinitperiod},
+           given={Chun\bibnamedelima Y.},
+           giveni={C\bibinitperiod\bibinitdelim Y\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \strng{namehash}{a3f6c0701f223acac5f04c855bf4e8d0}
+      \strng{fullhash}{a3f6c0701f223acac5f04c855bf4e8d0}
+      \strng{fullhashraw}{a3f6c0701f223acac5f04c855bf4e8d0}
+      \strng{bibnamehash}{a3f6c0701f223acac5f04c855bf4e8d0}
+      \strng{authorbibnamehash}{a3f6c0701f223acac5f04c855bf4e8d0}
+      \strng{authornamehash}{a3f6c0701f223acac5f04c855bf4e8d0}
+      \strng{authorfullhash}{a3f6c0701f223acac5f04c855bf4e8d0}
+      \strng{authorfullhashraw}{a3f6c0701f223acac5f04c855bf4e8d0}
+      \field{labelalpha}{Seo13}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Muscles shorten faster against light loads than they do against heavy loads. The hyperbolic equation first used by A.V. Hill over seven decades ago to illustrate the relationship between shortening velocity and load is still the predominant method used to characterize muscle performance, even though it has been regarded as purely empirical and lacking precision in predicting velocities at high and low loads. Popularity of the Hill equation has been sustained perhaps because of historical reasons, but its simplicity is certainly attractive. The descriptive nature of the equation does not diminish its role as a useful tool in our quest to understand animal locomotion and optimal design of muscle-powered devices like bicycles. In this Review, an analysis is presented to illustrate the connection between the historic Hill equation and the kinetics of myosin cross-bridge cycle based on the latest findings on myosin motor interaction with actin filaments within the structural confines of a sarcomere. In light of the new data and perspective, some previous studies of force–velocity relations of muscle are revisited to further our understanding of muscle mechanics and the underlying biochemical events, specifically how extracellular and intracellular environment, protein isoform expression, and posttranslational modification of contractile and regulatory proteins change the interaction between myosin and actin that in turn alter muscle force, shortening velocity, and the relationship between them.}
+      \field{issn}{1540-7748, 0022-1295}
+      \field{journaltitle}{Journal of General Physiology}
+      \field{month}{12}
+      \field{number}{6}
+      \field{title}{Hill’s equation of muscle performance and its hidden insight on molecular mechanisms}
+      \field{urlday}{25}
+      \field{urlmonth}{5}
+      \field{urlyear}{2022}
+      \field{volume}{142}
+      \field{year}{2013}
+      \field{urldateera}{ce}
+      \field{pages}{561\bibrangedash 573}
+      \range{pages}{13}
+      \verb{doi}
+      \verb 10.1085/jgp.201311107
+      \endverb
+      \verb{urlraw}
+      \verb https://rupress.org/jgp/article/142/6/561/43161/Hills-equation-of-muscle-performance-and-its
+      \endverb
+      \verb{url}
+      \verb https://rupress.org/jgp/article/142/6/561/43161/Hills-equation-of-muscle-performance-and-its
+      \endverb
+    \endentry
+    \entry{seow_molecular_2022}{article}{}{}
+      \name{author}{2}{}{%
+        {{hash=47473d60875c1190171f16d8c3962489}{%
+           family={Seow},
+           familyi={S\bibinitperiod},
+           given={Kathryn\bibnamedelima N.},
+           giveni={K\bibinitperiod\bibinitdelim N\bibinitperiod}}}%
+        {{hash=a3f6c0701f223acac5f04c855bf4e8d0}{%
+           family={Seow},
+           familyi={S\bibinitperiod},
+           given={Chun\bibnamedelima Y.},
+           giveni={C\bibinitperiod\bibinitdelim Y\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \strng{namehash}{2ebe67022facba60be3a989d23c61c83}
+      \strng{fullhash}{2ebe67022facba60be3a989d23c61c83}
+      \strng{fullhashraw}{2ebe67022facba60be3a989d23c61c83}
+      \strng{bibnamehash}{2ebe67022facba60be3a989d23c61c83}
+      \strng{authorbibnamehash}{2ebe67022facba60be3a989d23c61c83}
+      \strng{authornamehash}{2ebe67022facba60be3a989d23c61c83}
+      \strng{authorfullhash}{2ebe67022facba60be3a989d23c61c83}
+      \strng{authorfullhashraw}{2ebe67022facba60be3a989d23c61c83}
+      \field{labelalpha}{SS22}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Muscles convert chemical energy to mechanical work. Mechanical performance of a muscle is often assessed by the muscle’s ability to shorten and generate power over a range of loads or forces, characterized by the force–velocity and force–power relationships. The hyperbolic force–velocity relationship of muscle, for a long time, has been regarded as a pure empirical description of the force–velocity data. Connections between mechanical manifestation in terms of force–velocity properties and the kinetics of the crossbridge cycle have only been established recently. In this review, we describe how the model of Huxley’s crossbridge kinetics can be transformed to the hyperbolic Hill equation, and link the changes in force–velocity properties to molecular events within the crossbridge cycle driven by ATP hydrolysis. This allows us to reinterpret some findings from previous studies on experimental interventions that altered the force–velocity relationship and gain further insight into the molecular mechanisms of muscle contraction under physiological and pathophysiological conditions.}
+      \field{issn}{1664-042X}
+      \field{journaltitle}{Frontiers in Physiology}
+      \field{month}{3}
+      \field{title}{Molecular {Events} of the {Crossbridge} {Cycle} {Reflected} in the {Force}–{Velocity} {Relationship} of {Activated} {Muscle}}
+      \field{urlday}{25}
+      \field{urlmonth}{5}
+      \field{urlyear}{2022}
+      \field{volume}{13}
+      \field{year}{2022}
+      \field{urldateera}{ce}
+      \field{pages}{846284}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.3389/fphys.2022.846284
+      \endverb
+      \verb{urlraw}
+      \verb https://www.frontiersin.org/articles/10.3389/fphys.2022.846284/full
+      \endverb
+      \verb{url}
+      \verb https://www.frontiersin.org/articles/10.3389/fphys.2022.846284/full
+      \endverb
+    \endentry
+  \enddatalist
+\endrefsection
+
+\refsection{7}
+  \datalist[entry]{anyt/global//global/global/global}
+    \entry{adrian_action_1976}{article}{}{}
+      \name{author}{2}{}{%
+        {{hash=52629f7392ba333eb2e7ae2031369a7a}{%
+           family={Adrian},
+           familyi={A\bibinitperiod},
+           given={R\bibnamedelima H},
+           giveni={R\bibinitperiod\bibinitdelim H\bibinitperiod}}}%
+        {{hash=1bd65a4f802311af3424e9d26947322e}{%
+           family={Marshall},
+           familyi={M\bibinitperiod},
+           given={M\bibnamedelima W},
+           giveni={M\bibinitperiod\bibinitdelim W\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \strng{namehash}{345d0e3cbf76d9ba44623cf8e180f76f}
+      \strng{fullhash}{345d0e3cbf76d9ba44623cf8e180f76f}
+      \strng{fullhashraw}{345d0e3cbf76d9ba44623cf8e180f76f}
+      \strng{bibnamehash}{345d0e3cbf76d9ba44623cf8e180f76f}
+      \strng{authorbibnamehash}{345d0e3cbf76d9ba44623cf8e180f76f}
+      \strng{authornamehash}{345d0e3cbf76d9ba44623cf8e180f76f}
+      \strng{authorfullhash}{345d0e3cbf76d9ba44623cf8e180f76f}
+      \strng{authorfullhashraw}{345d0e3cbf76d9ba44623cf8e180f76f}
+      \field{labelalpha}{AM76}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{00223751}
+      \field{journaltitle}{The Journal of Physiology}
+      \field{month}{6}
+      \field{number}{1}
+      \field{title}{Action potentials reconstructed in normal and myotonic muscle fibres.}
+      \field{urlday}{1}
+      \field{urlmonth}{6}
+      \field{urlyear}{2022}
+      \field{volume}{258}
+      \field{year}{1976}
+      \field{urldateera}{ce}
+      \field{pages}{125\bibrangedash 143}
+      \range{pages}{19}
+      \verb{doi}
+      \verb 10.1113/jphysiol.1976.sp011410
+      \endverb
+      \verb{urlraw}
+      \verb https://onlinelibrary.wiley.com/doi/10.1113/jphysiol.1976.sp011410
+      \endverb
+      \verb{url}
+      \verb https://onlinelibrary.wiley.com/doi/10.1113/jphysiol.1976.sp011410
+      \endverb
+    \endentry
+    \entry{silverthorn_uncovering_2002}{article}{}{}
+      \name{author}{1}{}{%
+        {{hash=7db1c254f1870b6276f4d7aefbf76e5d}{%
+           family={Silverthorn},
+           familyi={S\bibinitperiod},
+           given={Dee\bibnamedelima U.},
+           giveni={D\bibinitperiod\bibinitdelim U\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \strng{namehash}{7db1c254f1870b6276f4d7aefbf76e5d}
+      \strng{fullhash}{7db1c254f1870b6276f4d7aefbf76e5d}
+      \strng{fullhashraw}{7db1c254f1870b6276f4d7aefbf76e5d}
+      \strng{bibnamehash}{7db1c254f1870b6276f4d7aefbf76e5d}
+      \strng{authorbibnamehash}{7db1c254f1870b6276f4d7aefbf76e5d}
+      \strng{authornamehash}{7db1c254f1870b6276f4d7aefbf76e5d}
+      \strng{authorfullhash}{7db1c254f1870b6276f4d7aefbf76e5d}
+      \strng{authorfullhashraw}{7db1c254f1870b6276f4d7aefbf76e5d}
+      \field{labelalpha}{Sil02}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{1043-4046, 1522-1229}
+      \field{journaltitle}{Advances in Physiology Education}
+      \field{month}{6}
+      \field{number}{2}
+      \field{title}{Uncovering misconceptions about the resting membrane potential}
+      \field{urlday}{1}
+      \field{urlmonth}{6}
+      \field{urlyear}{2022}
+      \field{volume}{26}
+      \field{year}{2002}
+      \field{urldateera}{ce}
+      \field{pages}{69\bibrangedash 71}
+      \range{pages}{3}
+      \verb{doi}
+      \verb 10.1152/advan.00012.2002
+      \endverb
+      \verb{urlraw}
+      \verb https://www.physiology.org/doi/10.1152/advan.00012.2002
+      \endverb
+      \verb{url}
+      \verb https://www.physiology.org/doi/10.1152/advan.00012.2002
+      \endverb
+    \endentry
+  \enddatalist
+\endrefsection
+
+\refsection{8}
+  \datalist[entry]{anyt/global//global/global/global}
+    \entry{bodine_maximal_1987}{article}{}{}
+      \name{author}{4}{}{%
+        {{hash=ddbd3b4a6569e24fd471ab729ad35855}{%
+           family={Bodine},
+           familyi={B\bibinitperiod},
+           given={S.\bibnamedelimi C.},
+           giveni={S\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+        {{hash=c9eae524ea98a9c0feb333a0942157a7}{%
+           family={Roy},
+           familyi={R\bibinitperiod},
+           given={R.\bibnamedelimi R.},
+           giveni={R\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
+        {{hash=f72defedb03296439fcebcc328f082d0}{%
+           family={Eldred},
+           familyi={E\bibinitperiod},
+           given={E.},
+           giveni={E\bibinitperiod}}}%
+        {{hash=e3e6dbfa60cff2da3c75f0ff0332ff3f}{%
+           family={Edgerton},
+           familyi={E\bibinitperiod},
+           given={V.\bibnamedelimi R.},
+           giveni={V\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \strng{namehash}{cd6ae7bf1e6b3e3db05a69a9a95717aa}
+      \strng{fullhash}{65945761e2b876673b09aed53459fcc5}
+      \strng{fullhashraw}{65945761e2b876673b09aed53459fcc5}
+      \strng{bibnamehash}{cd6ae7bf1e6b3e3db05a69a9a95717aa}
+      \strng{authorbibnamehash}{cd6ae7bf1e6b3e3db05a69a9a95717aa}
+      \strng{authornamehash}{cd6ae7bf1e6b3e3db05a69a9a95717aa}
+      \strng{authorfullhash}{65945761e2b876673b09aed53459fcc5}
+      \strng{authorfullhashraw}{65945761e2b876673b09aed53459fcc5}
+      \field{labelalpha}{Bod+87}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{In 11 tibialis anterior muscles of the cat, a single motor unit was characterized physiologically and subsequently depleted of its glycogen through repetitive stimulation of an isolated ventral root filament. Muscle cross sections were stained for glycogen using a periodic acid-Schiff reaction, and single-fiber optical densities were determined to identify those fibers belonging to the stimulated motor unit. Innervation ratios were determined by counting the total number of muscle fibers in a motor unit in sections taken through several levels of the muscle. The average innervation ratios for the fast, fatigueable (FF) and fast, fatigue-resistant (FR) units were similar. However, the slow units (S) contained 61\% fewer fibers than the fast units (FF and FR). Muscle fibers belonging to S and FR units were similar in cross-sectional area, whereas fibers belonging to FF units were significantly larger than fibers belonging to either S or FR units. Additionally, muscle fibers innervated by a single motoneuron varied by two- to eightfold in cross-sectional area. Specific tensions, based on total cross-sectional area determined by summing the areas of all muscle fibers of each unit, showed a modest difference between fast and slow units, the means being 23.5 and 17.2 N X cm-2, respectively. Variations in maximum tension among units could be explained principally by innervation ratio, although fiber cross-sectional area and specific tension did contribute to differences between unit types.}
+      \field{issn}{0022-3077, 1522-1598}
+      \field{journaltitle}{Journal of Neurophysiology}
+      \field{month}{6}
+      \field{number}{6}
+      \field{title}{Maximal force as a function of anatomical features of motor units in the cat tibialis anterior}
+      \field{volume}{57}
+      \field{year}{1987}
+      \field{pages}{1730\bibrangedash 1745}
+      \range{pages}{16}
+      \verb{doi}
+      \verb 10.1152/jn.1987.57.6.1730
+      \endverb
+    \endentry
+    \entry{buchthal_motor_1980}{article}{}{}
+      \name{author}{2}{}{%
+        {{hash=359621e6de0f576fa47cb67f109a67cc}{%
+           family={Buchthal},
+           familyi={B\bibinitperiod},
+           given={F},
+           giveni={F\bibinitperiod}}}%
+        {{hash=eb76a25cb6fe0bcadbae44eceda19b02}{%
+           family={Schmalbruch},
+           familyi={S\bibinitperiod},
+           given={H},
+           giveni={H\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \strng{namehash}{1d745c2949fca381e324b1d6d8b586c4}
+      \strng{fullhash}{1d745c2949fca381e324b1d6d8b586c4}
+      \strng{fullhashraw}{1d745c2949fca381e324b1d6d8b586c4}
+      \strng{bibnamehash}{1d745c2949fca381e324b1d6d8b586c4}
+      \strng{authorbibnamehash}{1d745c2949fca381e324b1d6d8b586c4}
+      \strng{authornamehash}{1d745c2949fca381e324b1d6d8b586c4}
+      \strng{authorfullhash}{1d745c2949fca381e324b1d6d8b586c4}
+      \strng{authorfullhashraw}{1d745c2949fca381e324b1d6d8b586c4}
+      \field{labelalpha}{BS80}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{0031-9333, 1522-1210}
+      \field{journaltitle}{Physiological Reviews}
+      \field{month}{1}
+      \field{number}{1}
+      \field{title}{Motor unit of mammalian muscle.}
+      \field{volume}{60}
+      \field{year}{1980}
+      \field{pages}{90\bibrangedash 142}
+      \range{pages}{53}
+      \verb{doi}
+      \verb 10.1152/physrev.1980.60.1.90
+      \endverb
+    \endentry
+    \entry{cao_reference_2020}{article}{}{}
+      \name{author}{8}{}{%
+        {{hash=a2beb715c3737b112a450ee07ef8d187}{%
+           family={Cao},
+           familyi={C\bibinitperiod},
+           given={Bei},
+           giveni={B\bibinitperiod}}}%
+        {{hash=a8ee9ae06a0dfd2791a6742212f0ffa5}{%
+           family={Gu},
+           familyi={G\bibinitperiod},
+           given={Xiaojing},
+           giveni={X\bibinitperiod}}}%
+        {{hash=9db3e81a73d7692afe488fcdedc3d8d0}{%
+           family={Zhang},
+           familyi={Z\bibinitperiod},
+           given={Lingyu},
+           giveni={L\bibinitperiod}}}%
+        {{hash=f326ea6070c45717d9a1a6bc652bd136}{%
+           family={Hou},
+           familyi={H\bibinitperiod},
+           given={Yanbing},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=d731d478575cd2b9e039036f5ae41718}{%
+           family={Chen},
+           familyi={C\bibinitperiod},
+           given={Yongping},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=34f34346e35faadd57d586fab62b85ca}{%
+           family={Wei},
+           familyi={W\bibinitperiod},
+           given={Qianqian},
+           giveni={Q\bibinitperiod}}}%
+        {{hash=a0f52594f3891b9130199943761d7834}{%
+           family={Ou},
+           familyi={O\bibinitperiod},
+           given={Ruwei},
+           giveni={R\bibinitperiod}}}%
+        {{hash=14604be65b53572ccf54516da39d1985}{%
+           family={Shang},
+           familyi={S\bibinitperiod},
+           given={Huifang},
+           giveni={H\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \strng{namehash}{a59a70717a97795dce39d68e3281533b}
+      \strng{fullhash}{c472f7c3b0a8095cfd34a9c757eeb5bf}
+      \strng{fullhashraw}{c472f7c3b0a8095cfd34a9c757eeb5bf}
+      \strng{bibnamehash}{a59a70717a97795dce39d68e3281533b}
+      \strng{authorbibnamehash}{a59a70717a97795dce39d68e3281533b}
+      \strng{authornamehash}{a59a70717a97795dce39d68e3281533b}
+      \strng{authorfullhash}{c472f7c3b0a8095cfd34a9c757eeb5bf}
+      \strng{authorfullhashraw}{c472f7c3b0a8095cfd34a9c757eeb5bf}
+      \field{labelalpha}{Cao+20}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{0148-639X, 1097-4598}
+      \field{journaltitle}{Muscle \& Nerve}
+      \field{month}{5}
+      \field{number}{5}
+      \field{title}{Reference values for the motor unit number index and the motor unit size index in five muscles}
+      \field{volume}{61}
+      \field{year}{2020}
+      \field{pages}{657\bibrangedash 661}
+      \range{pages}{5}
+      \verb{doi}
+      \verb 10.1002/mus.26837
+      \endverb
+    \endentry
+    \entry{dao_sarcopenia_2020}{article}{}{}
+      \name{author}{9}{}{%
+        {{hash=9a1b9a4ffbfb50cc9bd615147ba0c960}{%
+           family={Dao},
+           familyi={D\bibinitperiod},
+           given={Tam},
+           giveni={T\bibinitperiod}}}%
+        {{hash=9fc54df0127d9f7845fa5f9d42d32017}{%
+           family={Green},
+           familyi={G\bibinitperiod},
+           given={Alexander\bibnamedelima E.},
+           giveni={A\bibinitperiod\bibinitdelim E\bibinitperiod}}}%
+        {{hash=a9b688a7167644c3a6d10bbee8354609}{%
+           family={Kim},
+           familyi={K\bibinitperiod},
+           given={Yun\bibnamedelima A},
+           giveni={Y\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=8b042ff98bc291ec5d85364b881e58cf}{%
+           family={Bae},
+           familyi={B\bibinitperiod},
+           given={Sung-Jin},
+           giveni={S\bibinithyphendelim J\bibinitperiod}}}%
+        {{hash=7b11597fe4a8bd789b0271c48d2994a1}{%
+           family={Ha},
+           familyi={H\bibinitperiod},
+           given={Ki-Tae},
+           giveni={K\bibinithyphendelim T\bibinitperiod}}}%
+        {{hash=3dd654581b47243a7d48e26b5759c15b}{%
+           family={Gariani},
+           familyi={G\bibinitperiod},
+           given={Karim},
+           giveni={K\bibinitperiod}}}%
+        {{hash=8ee2c2689891dd989db60eff61926ae5}{%
+           family={Lee},
+           familyi={L\bibinitperiod},
+           given={Mi-ra},
+           giveni={M\bibinithyphendelim r\bibinitperiod}}}%
+        {{hash=64d69efaef2692c4a874cedc2034250b}{%
+           family={Menzies},
+           familyi={M\bibinitperiod},
+           given={Keir\bibnamedelima J.},
+           giveni={K\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{hash=c61f328109ef3f24d3b264be03655efa}{%
+           family={Ryu},
+           familyi={R\bibinitperiod},
+           given={Dongryeol},
+           giveni={D\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \strng{namehash}{767afc271fd10c5edcc28346ad4766db}
+      \strng{fullhash}{e59eddad09a6cdd9712c9a67acbea3b8}
+      \strng{fullhashraw}{e59eddad09a6cdd9712c9a67acbea3b8}
+      \strng{bibnamehash}{767afc271fd10c5edcc28346ad4766db}
+      \strng{authorbibnamehash}{767afc271fd10c5edcc28346ad4766db}
+      \strng{authornamehash}{767afc271fd10c5edcc28346ad4766db}
+      \strng{authorfullhash}{e59eddad09a6cdd9712c9a67acbea3b8}
+      \strng{authorfullhashraw}{e59eddad09a6cdd9712c9a67acbea3b8}
+      \field{labelalpha}{Dao+20}
+      \field{sortinit}{D}
+      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{issn}{2093-596X, 2093-5978}
+      \field{journaltitle}{Endocrinology and Metabolism}
+      \field{month}{12}
+      \field{number}{4}
+      \field{shorttitle}{Sarcopenia and {Muscle} {Aging}}
+      \field{title}{Sarcopenia and {Muscle} {Aging}: {A} {Brief} {Overview}}
+      \field{volume}{35}
+      \field{year}{2020}
+      \field{pages}{716\bibrangedash 732}
+      \range{pages}{17}
+      \verb{doi}
+      \verb 10.3803/EnM.2020.405
+      \endverb
+    \endentry
+    \entry{fatehi_utility_2018}{article}{}{}
+      \name{author}{5}{}{%
+        {{hash=176a991731971c5a3de14d68ef882d4c}{%
+           family={Fatehi},
+           familyi={F\bibinitperiod},
+           given={Farzad},
+           giveni={F\bibinitperiod}}}%
+        {{hash=d3fff64d994a806e425f7f45c27cbd2e}{%
+           family={Grapperon},
+           familyi={G\bibinitperiod},
+           given={Aude-Marie},
+           giveni={A\bibinithyphendelim M\bibinitperiod}}}%
+        {{hash=8263912d43b16fb607fb8d25aef802c0}{%
+           family={Fathi},
+           familyi={F\bibinitperiod},
+           given={Davood},
+           giveni={D\bibinitperiod}}}%
+        {{hash=425e0219ff91d50a36ab04c70bd6783b}{%
+           family={Delmont},
+           familyi={D\bibinitperiod},
+           given={Emilien},
+           giveni={E\bibinitperiod}}}%
+        {{hash=6ad771dbddcccc1e5968cfb05df308f7}{%
+           family={Attarian},
+           familyi={A\bibinitperiod},
+           given={Shahram},
+           giveni={S\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \strng{namehash}{8870c3b41f5faf6e943190df2724710b}
+      \strng{fullhash}{cc08bfc935d0a93a4eb4c71b3d55c8d2}
+      \strng{fullhashraw}{cc08bfc935d0a93a4eb4c71b3d55c8d2}
+      \strng{bibnamehash}{8870c3b41f5faf6e943190df2724710b}
+      \strng{authorbibnamehash}{8870c3b41f5faf6e943190df2724710b}
+      \strng{authornamehash}{8870c3b41f5faf6e943190df2724710b}
+      \strng{authorfullhash}{cc08bfc935d0a93a4eb4c71b3d55c8d2}
+      \strng{authorfullhashraw}{cc08bfc935d0a93a4eb4c71b3d55c8d2}
+      \field{labelalpha}{Fat+18}
+      \field{sortinit}{F}
+      \field{sortinithash}{2638baaa20439f1b5a8f80c6c08a13b4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{The need for a valid biomarker for assessing disease progression and for use in clinical trials on amyotrophic lateral sclerosis (ALS) has stimulated the study of methods that could measure the number of motor units. Motor unit number index (MUNIX) is a newly developed neurophysiological technique that was demonstrated to have a good correlation with the number of motor units in a given muscle, even though it does not necessarily accurately express the actual number of viable motor neurons. Several studies demonstrated the technique is reproducible and capable of following motor neuron loss in patients with ALS and peripheral polyneuropathies. The main goal of this review was to conduct an extensive review of the literature using MUNIX. We conducted a systematic search in English medical literature published in two databases (PubMed and SCOPUS). In this review, we aimed to answer the following queries: Comparison of MUNIX with other MUNE techniques; the reproducibility of MUNIX; the utility of MUNIX in ALS and preclinical muscles, peripheral neuropathies, and other neurological disorders.}
+      \field{issn}{09877053}
+      \field{journaltitle}{Neurophysiologie Clinique}
+      \field{month}{10}
+      \field{number}{5}
+      \field{shorttitle}{The utility of motor unit number index}
+      \field{title}{The utility of motor unit number index: {A} systematic review}
+      \field{volume}{48}
+      \field{year}{2018}
+      \field{pages}{251\bibrangedash 259}
+      \range{pages}{9}
+      \verb{doi}
+      \verb 10.1016/j.neucli.2018.09.001
+      \endverb
+    \endentry
+    \entry{feher_quantitative_2017}{book}{}{}
+      \name{author}{1}{}{%
+        {{hash=944b34925d4b50b383bca5c6d4f9fe63}{%
+           family={Feher},
+           familyi={F\bibinitperiod},
+           given={Joseph\bibnamedelima J},
+           giveni={J\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Academic press}%
+      }
+      \strng{namehash}{944b34925d4b50b383bca5c6d4f9fe63}
+      \strng{fullhash}{944b34925d4b50b383bca5c6d4f9fe63}
+      \strng{fullhashraw}{944b34925d4b50b383bca5c6d4f9fe63}
+      \strng{bibnamehash}{944b34925d4b50b383bca5c6d4f9fe63}
+      \strng{authorbibnamehash}{944b34925d4b50b383bca5c6d4f9fe63}
+      \strng{authornamehash}{944b34925d4b50b383bca5c6d4f9fe63}
+      \strng{authorfullhash}{944b34925d4b50b383bca5c6d4f9fe63}
+      \strng{authorfullhashraw}{944b34925d4b50b383bca5c6d4f9fe63}
+      \field{labelalpha}{Feh17}
+      \field{sortinit}{F}
+      \field{sortinithash}{2638baaa20439f1b5a8f80c6c08a13b4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Quantitative human physiology: an introduction}
+      \field{year}{2017}
+    \endentry
+    \entry{henneman_rank_1974}{article}{}{}
+      \name{author}{4}{}{%
+        {{hash=bc335586235e6567a529490f411b1c7f}{%
+           family={Henneman},
+           familyi={H\bibinitperiod},
+           given={E},
+           giveni={E\bibinitperiod}}}%
+        {{hash=684ca446be435cc397fe81f8c0000d95}{%
+           family={Clamann},
+           familyi={C\bibinitperiod},
+           given={H\bibnamedelima P},
+           giveni={H\bibinitperiod\bibinitdelim P\bibinitperiod}}}%
+        {{hash=4b34859ed65b5f6b71cabaea2af712e6}{%
+           family={Gillies},
+           familyi={G\bibinitperiod},
+           given={J\bibnamedelima D},
+           giveni={J\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
+        {{hash=f5af8076625d489acff3710e1edf337e}{%
+           family={Skinner},
+           familyi={S\bibinitperiod},
+           given={R\bibnamedelima D},
+           giveni={R\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \strng{namehash}{472447bd0ef8dda6351a3eedc2691fb0}
+      \strng{fullhash}{83998398fc239dad2870c124cd63a097}
+      \strng{fullhashraw}{83998398fc239dad2870c124cd63a097}
+      \strng{bibnamehash}{472447bd0ef8dda6351a3eedc2691fb0}
+      \strng{authorbibnamehash}{472447bd0ef8dda6351a3eedc2691fb0}
+      \strng{authornamehash}{472447bd0ef8dda6351a3eedc2691fb0}
+      \strng{authorfullhash}{83998398fc239dad2870c124cd63a097}
+      \strng{authorfullhashraw}{83998398fc239dad2870c124cd63a097}
+      \field{labelalpha}{Hen+74}
+      \field{sortinit}{H}
+      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{issn}{0022-3077, 1522-1598}
+      \field{journaltitle}{Journal of Neurophysiology}
+      \field{month}{11}
+      \field{number}{6}
+      \field{shorttitle}{Rank order of motoneurons within a pool}
+      \field{title}{Rank order of motoneurons within a pool: law of combination.}
+      \field{volume}{37}
+      \field{year}{1974}
+      \field{pages}{1338\bibrangedash 1349}
+      \range{pages}{12}
+      \verb{doi}
+      \verb 10.1152/jn.1974.37.6.1338
+      \endverb
+    \endentry
+    \entry{jones_skeletal_2006}{book}{}{}
+      \name{author}{3}{}{%
+        {{hash=eb0aecd83160d1f552629af8b8a74fba}{%
+           family={Jones},
+           familyi={J\bibinitperiod},
+           given={David},
+           giveni={D\bibinitperiod}}}%
+        {{hash=287f7540acc9824dece897f8ce04c152}{%
+           family={Round},
+           familyi={R\bibinitperiod},
+           given={Joan},
+           giveni={J\bibinitperiod}}}%
+        {{hash=6bd42845de42489c2e64e21dcf213059}{%
+           family={De\bibnamedelima Haan},
+           familyi={D\bibinitperiod\bibinitdelim H\bibinitperiod},
+           given={Arnold},
+           giveni={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{20d899b5f2b4f01c3029a45c2ca92a10}
+      \strng{fullhash}{20d899b5f2b4f01c3029a45c2ca92a10}
+      \strng{fullhashraw}{20d899b5f2b4f01c3029a45c2ca92a10}
+      \strng{bibnamehash}{20d899b5f2b4f01c3029a45c2ca92a10}
+      \strng{authorbibnamehash}{20d899b5f2b4f01c3029a45c2ca92a10}
+      \strng{authornamehash}{20d899b5f2b4f01c3029a45c2ca92a10}
+      \strng{authorfullhash}{20d899b5f2b4f01c3029a45c2ca92a10}
+      \strng{authorfullhashraw}{20d899b5f2b4f01c3029a45c2ca92a10}
+      \field{labelalpha}{JRD06}
+      \field{sortinit}{J}
+      \field{sortinithash}{b2f54a9081ace9966a7cb9413811edb4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Skeletal muscle: from molecules to movement}
+      \field{volume}{40}
+      \field{year}{2006}
+    \endentry
+    \entry{lieber_skeletal_2010}{book}{}{}
+      \name{author}{1}{}{%
+        {{hash=4d5fc27cf1e5daf1807a65ae79ec516e}{%
+           family={Lieber},
+           familyi={L\bibinitperiod},
+           given={Richard\bibnamedelima L},
+           giveni={R\bibinitperiod\bibinitdelim L\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Lippincott Williams \& Wilkins}%
+      }
+      \strng{namehash}{4d5fc27cf1e5daf1807a65ae79ec516e}
+      \strng{fullhash}{4d5fc27cf1e5daf1807a65ae79ec516e}
+      \strng{fullhashraw}{4d5fc27cf1e5daf1807a65ae79ec516e}
+      \strng{bibnamehash}{4d5fc27cf1e5daf1807a65ae79ec516e}
+      \strng{authorbibnamehash}{4d5fc27cf1e5daf1807a65ae79ec516e}
+      \strng{authornamehash}{4d5fc27cf1e5daf1807a65ae79ec516e}
+      \strng{authorfullhash}{4d5fc27cf1e5daf1807a65ae79ec516e}
+      \strng{authorfullhashraw}{4d5fc27cf1e5daf1807a65ae79ec516e}
+      \field{labelalpha}{Lie10}
+      \field{sortinit}{L}
+      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Skeletal muscle structure, function, and plasticity, 3rd edition}
+      \field{year}{2010}
+    \endentry
+    \entry{larsson_maximum_1993}{article}{}{}
+      \name{author}{2}{}{%
+        {{hash=ba4ad7a66abe0cbf58530e1cc654357c}{%
+           family={Larsson},
+           familyi={L\bibinitperiod},
+           given={L},
+           giveni={L\bibinitperiod}}}%
+        {{hash=1aed0d60ac83f3c07a6cba7c057a9e6c}{%
+           family={Moss},
+           familyi={M\bibinitperiod},
+           given={R\bibnamedelima L},
+           giveni={R\bibinitperiod\bibinitdelim L\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \strng{namehash}{40597b2765ded0567e05201acae54904}
+      \strng{fullhash}{40597b2765ded0567e05201acae54904}
+      \strng{fullhashraw}{40597b2765ded0567e05201acae54904}
+      \strng{bibnamehash}{40597b2765ded0567e05201acae54904}
+      \strng{authorbibnamehash}{40597b2765ded0567e05201acae54904}
+      \strng{authornamehash}{40597b2765ded0567e05201acae54904}
+      \strng{authorfullhash}{40597b2765ded0567e05201acae54904}
+      \strng{authorfullhashraw}{40597b2765ded0567e05201acae54904}
+      \field{labelalpha}{LM93}
+      \field{sortinit}{L}
+      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{00223751}
+      \field{journaltitle}{The Journal of Physiology}
+      \field{month}{12}
+      \field{number}{1}
+      \field{title}{Maximum velocity of shortening in relation to myosin isoform composition in single fibres from human skeletal muscles.}
+      \field{volume}{472}
+      \field{year}{1993}
+      \field{pages}{595\bibrangedash 614}
+      \range{pages}{20}
+      \verb{doi}
+      \verb 10.1113/jphysiol.1993.sp019964
+      \endverb
+    \endentry
+    \entry{macefield_physiological_2005}{article}{}{}
+      \name{author}{1}{}{%
+        {{hash=b6bd8da9ee6b2801480aac7dc71b7290}{%
+           family={Macefield},
+           familyi={M\bibinitperiod},
+           given={Vaughan\bibnamedelima G},
+           giveni={V\bibinitperiod\bibinitdelim G\bibinitperiod}}}%
+      }
+      \strng{namehash}{b6bd8da9ee6b2801480aac7dc71b7290}
+      \strng{fullhash}{b6bd8da9ee6b2801480aac7dc71b7290}
+      \strng{fullhashraw}{b6bd8da9ee6b2801480aac7dc71b7290}
+      \strng{bibnamehash}{b6bd8da9ee6b2801480aac7dc71b7290}
+      \strng{authorbibnamehash}{b6bd8da9ee6b2801480aac7dc71b7290}
+      \strng{authornamehash}{b6bd8da9ee6b2801480aac7dc71b7290}
+      \strng{authorfullhash}{b6bd8da9ee6b2801480aac7dc71b7290}
+      \strng{authorfullhashraw}{b6bd8da9ee6b2801480aac7dc71b7290}
+      \field{labelalpha}{Mac05}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{SUMMARY 1. The development of microneurography, in which an insulated tungsten microelectrode is inserted into an accessible peripheral or cranial nerve in awake human subjects, has allowed detailed analyses of the signalling capacities of single mechanoreceptive afferents from the skin, muscles and joints. For example, we know much about how the two classes of rapidly adapting (Meissner and Pacinian) and two classes of slowly adapting (Merkel and Ruffini) cutaneous mechanoreceptors encode forces applied normal or tangential to the skin of the hand and the similarities and differences in glabrous versus non-glabrous skin (and receptors associated with hairs). We also know about stretch- and force-sensitive endings in muscle (the muscle spindle and Golgi tendon organ, respectively) and how they behave during passive or active movements or during isometric contractions. In addition, we have characterized the firing properties of mechanoreceptors in the joint capsules of the fingers. However, we know little about sensory nerves in the periosteum, other than that nociceptors and Pacinian corpuscles exist. 2. In addition to studies on the physiology of sensory endings in human subjects, microstimulation through the recording microelectrode has revealed how the brain deals with the sensory information conveyed by a single afferent. From this work, we know that there is specificity in the sensory channels: electrical stimulation of a single Meissner or Pacinian corpuscle generates frequency dependent illusions of ‘flutter’ or ‘vibration’, whereas microstimulation of a single Merkel afferent can produce a percept of ‘pressure’ and stimulation of a single joint afferent can evoke a sensation of ‘joint rotation’. Interestingly, the input from a single Ruffini ending in the skin cannot be perceived and the same is true of muscle spindle afferents. So, where does this leave us with osseoperception from the mouth? Given that the periodontal receptors in the vicinity have been lost, which mechanoreceptive endings could encode forces applied to a bone-implanted prosthesis? 3. Meissner and Merkel endings have very small receptive fields and respond only to local forces. Pacinian corpuscles have an exquisite sensitivity to brisk mechanical events and could respond to such stimuli transmitted through the bone to a remote receptor, but would not be able to encode sustained forces. Ruffini endings also respond to forces applied remote to the receptive field and, unlike the Pacinian corpuscles, respond in a sustained fashion, but would their signals be perceived? Like muscle spindles, it is possible that the coactivation of many Ruffini endings could provide meaningful information. Finally, as we have seen, the input from a single joint receptor can be perceived, but they mostly respond at the limits of joint rotation, so it is unlikely that any associated with the temporomandibular joint could contribute to osseoperception.}
+      \field{journaltitle}{Clinical and Experimental Pharmacology and Physiology}
+      \field{number}{1-2}
+      \field{title}{Physiological characteristics of low-threshold mechanoreceptors in joints, muscle and skin in human subjects}
+      \field{volume}{32}
+      \field{year}{2005}
+      \field{pages}{135\bibrangedash 144}
+      \range{pages}{10}
+      \verb{doi}
+      \verb https://doi.org/10.1111/j.1440-1681.2005.04143.x
+      \endverb
+      \keyw{Golgi tendon organs,joint afferents,muscle spindles,osseoperception,tactile afferents}
+    \endentry
+    \entry{merletti_surface_2016}{book}{}{}
+      \name{author}{2}{}{%
+        {{hash=e09dccbc246dde2988300838f5e0042d}{%
+           family={Merletti},
+           familyi={M\bibinitperiod},
+           given={Roberto},
+           giveni={R\bibinitperiod}}}%
+        {{hash=6d54cc7049c27dd477c5b429e76778ea}{%
+           family={Farina},
+           familyi={F\bibinitperiod},
+           given={Dario},
+           giveni={D\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {John Wiley \& Sons}%
+      }
+      \strng{namehash}{c21c83a9539a81011a91ca42504ec3ab}
+      \strng{fullhash}{c21c83a9539a81011a91ca42504ec3ab}
+      \strng{fullhashraw}{c21c83a9539a81011a91ca42504ec3ab}
+      \strng{bibnamehash}{c21c83a9539a81011a91ca42504ec3ab}
+      \strng{authorbibnamehash}{c21c83a9539a81011a91ca42504ec3ab}
+      \strng{authornamehash}{c21c83a9539a81011a91ca42504ec3ab}
+      \strng{authorfullhash}{c21c83a9539a81011a91ca42504ec3ab}
+      \strng{authorfullhashraw}{c21c83a9539a81011a91ca42504ec3ab}
+      \field{labelalpha}{MF16}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Surface electromyography: physiology, engineering, and applications}
+      \field{year}{2016}
+    \endentry
+    \entry{nandedkar_motor_2004}{article}{}{}
+      \name{author}{4}{}{%
+        {{hash=a4d0db8253bbc46afb0bc87211aba16e}{%
+           family={Nandedkar},
+           familyi={N\bibinitperiod},
+           given={Sanjeev\bibnamedelima D},
+           giveni={S\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
+        {{hash=1c38767a3fb2f5fa3e40ee1f2d54ad26}{%
+           family={Nandedkar},
+           familyi={N\bibinitperiod},
+           given={Desh\bibnamedelima S},
+           giveni={D\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+        {{hash=81ab86d734a21fff14729b9ff79a70fc}{%
+           family={Barkhaus},
+           familyi={B\bibinitperiod},
+           given={Paul\bibnamedelima E},
+           giveni={P\bibinitperiod\bibinitdelim E\bibinitperiod}}}%
+        {{hash=9dad72503a66db50839c264c8dea08fa}{%
+           family={Stalberg},
+           familyi={S\bibinitperiod},
+           given={Erik\bibnamedelima V},
+           giveni={E\bibinitperiod\bibinitdelim V\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {IEEE}%
+      }
+      \strng{namehash}{37f1b65fbf9e8f28cc39b4a0ace8d9d8}
+      \strng{fullhash}{4120b73838f7ec62c79750c34de6e016}
+      \strng{fullhashraw}{4120b73838f7ec62c79750c34de6e016}
+      \strng{bibnamehash}{37f1b65fbf9e8f28cc39b4a0ace8d9d8}
+      \strng{authorbibnamehash}{37f1b65fbf9e8f28cc39b4a0ace8d9d8}
+      \strng{authornamehash}{37f1b65fbf9e8f28cc39b4a0ace8d9d8}
+      \strng{authorfullhash}{4120b73838f7ec62c79750c34de6e016}
+      \strng{authorfullhashraw}{4120b73838f7ec62c79750c34de6e016}
+      \field{labelalpha}{Nan+04}
+      \field{sortinit}{N}
+      \field{sortinithash}{22369a73d5f88983a108b63f07f37084}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{IEEE transactions on biomedical engineering}
+      \field{number}{12}
+      \field{title}{Motor unit number index ({MUNIX})}
+      \field{volume}{51}
+      \field{year}{2004}
+      \field{pages}{2209\bibrangedash 2211}
+      \range{pages}{3}
+    \endentry
+  \enddatalist
+  \missing{schiaffino_molecular_1996}
+\endrefsection
+
+\refsection{9}
+  \datalist[entry]{anyt/global//global/global/global}
+    \entry{alessandro_effects_2015}{article}{}{}
+      \name{author}{8}{}{%
+        {{hash=361857abd0368f9300092568351db1fb}{%
+           family={Alessandro},
+           familyi={A\bibinitperiod},
+           given={Rubini},
+           giveni={R\bibinitperiod}}}%
+        {{hash=8b2d3d48c0cff3dc8692e6280f10e008}{%
+           family={Gerardo},
+           familyi={G\bibinitperiod},
+           given={Bosco},
+           giveni={B\bibinitperiod}}}%
+        {{hash=06539d59c29c49247c71c843c2bc468e}{%
+           family={Alessandra},
+           familyi={A\bibinitperiod},
+           given={Lodi},
+           giveni={L\bibinitperiod}}}%
+        {{hash=d18862b44efb7911aa5ab5b02abc4bfd}{%
+           family={Lorenzo},
+           familyi={L\bibinitperiod},
+           given={Cenci},
+           giveni={C\bibinitperiod}}}%
+        {{hash=5e5e963f7b68b0880886a306c99079cd}{%
+           family={Andrea},
+           familyi={A\bibinitperiod},
+           given={Parmagnani},
+           giveni={P\bibinitperiod}}}%
+        {{hash=0132a7157613c45ff48a2359cb8d3e64}{%
+           family={Keith},
+           familyi={K\bibinitperiod},
+           given={Grimaldi},
+           giveni={G\bibinitperiod}}}%
+        {{hash=f3ea3a918a5481fdebd75b69f000516f}{%
+           family={Yang},
+           familyi={Y\bibinitperiod},
+           given={Zhongjin},
+           giveni={Z\bibinitperiod}}}%
+        {{hash=cc9d22d6b0be989b13e0718426d52aec}{%
+           family={Antonio},
+           familyi={A\bibinitperiod},
+           given={Paoli},
+           giveni={P\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \strng{namehash}{02f0448dd1e11723a2c2e89e5e88ce41}
+      \strng{fullhash}{adb1909048e3f82fd1ca13317a2b5244}
+      \strng{fullhashraw}{adb1909048e3f82fd1ca13317a2b5244}
+      \strng{bibnamehash}{02f0448dd1e11723a2c2e89e5e88ce41}
+      \strng{authorbibnamehash}{02f0448dd1e11723a2c2e89e5e88ce41}
+      \strng{authornamehash}{02f0448dd1e11723a2c2e89e5e88ce41}
+      \strng{authorfullhash}{adb1909048e3f82fd1ca13317a2b5244}
+      \strng{authorfullhashraw}{adb1909048e3f82fd1ca13317a2b5244}
+      \field{labelalpha}{Ale+15}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Purpose The effects of the ketogenic diet (KD) on weight loss, metabolic, and respiratory parameters were investigated in healthy subjects.}
+      \field{issn}{0341-2040, 1432-1750}
+      \field{journaltitle}{Lung}
+      \field{month}{12}
+      \field{number}{6}
+      \field{title}{Effects of {Twenty} {Days} of the {Ketogenic} {Diet} on {Metabolic} and {Respiratory} {Parameters} in {Healthy} {Subjects}}
+      \field{urlday}{18}
+      \field{urlmonth}{6}
+      \field{urlyear}{2022}
+      \field{volume}{193}
+      \field{year}{2015}
+      \field{urldateera}{ce}
+      \field{pages}{939\bibrangedash 945}
+      \range{pages}{7}
+      \verb{doi}
+      \verb 10.1007/s00408-015-9806-7
+      \endverb
+      \verb{urlraw}
+      \verb http://link.springer.com/10.1007/s00408-015-9806-7
+      \endverb
+      \verb{url}
+      \verb http://link.springer.com/10.1007/s00408-015-9806-7
+      \endverb
+    \endentry
+    \entry{feher_quantitative_2017}{book}{}{}
+      \name{author}{1}{}{%
+        {{hash=944b34925d4b50b383bca5c6d4f9fe63}{%
+           family={Feher},
+           familyi={F\bibinitperiod},
+           given={Joseph\bibnamedelima J},
+           giveni={J\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Academic press}%
+      }
+      \strng{namehash}{944b34925d4b50b383bca5c6d4f9fe63}
+      \strng{fullhash}{944b34925d4b50b383bca5c6d4f9fe63}
+      \strng{fullhashraw}{944b34925d4b50b383bca5c6d4f9fe63}
+      \strng{bibnamehash}{944b34925d4b50b383bca5c6d4f9fe63}
+      \strng{authorbibnamehash}{944b34925d4b50b383bca5c6d4f9fe63}
+      \strng{authornamehash}{944b34925d4b50b383bca5c6d4f9fe63}
+      \strng{authorfullhash}{944b34925d4b50b383bca5c6d4f9fe63}
+      \strng{authorfullhashraw}{944b34925d4b50b383bca5c6d4f9fe63}
+      \field{labelalpha}{Feh17}
+      \field{sortinit}{F}
+      \field{sortinithash}{2638baaa20439f1b5a8f80c6c08a13b4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Quantitative human physiology: an introduction}
+      \field{year}{2017}
+    \endentry
+    \entry{jones_skeletal_2006}{book}{}{}
+      \name{author}{3}{}{%
+        {{hash=eb0aecd83160d1f552629af8b8a74fba}{%
+           family={Jones},
+           familyi={J\bibinitperiod},
+           given={David},
+           giveni={D\bibinitperiod}}}%
+        {{hash=287f7540acc9824dece897f8ce04c152}{%
+           family={Round},
+           familyi={R\bibinitperiod},
+           given={Joan},
+           giveni={J\bibinitperiod}}}%
+        {{hash=6bd42845de42489c2e64e21dcf213059}{%
+           family={De\bibnamedelima Haan},
+           familyi={D\bibinitperiod\bibinitdelim H\bibinitperiod},
+           given={Arnold},
+           giveni={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{20d899b5f2b4f01c3029a45c2ca92a10}
+      \strng{fullhash}{20d899b5f2b4f01c3029a45c2ca92a10}
+      \strng{fullhashraw}{20d899b5f2b4f01c3029a45c2ca92a10}
+      \strng{bibnamehash}{20d899b5f2b4f01c3029a45c2ca92a10}
+      \strng{authorbibnamehash}{20d899b5f2b4f01c3029a45c2ca92a10}
+      \strng{authornamehash}{20d899b5f2b4f01c3029a45c2ca92a10}
+      \strng{authorfullhash}{20d899b5f2b4f01c3029a45c2ca92a10}
+      \strng{authorfullhashraw}{20d899b5f2b4f01c3029a45c2ca92a10}
+      \field{labelalpha}{JRD06}
+      \field{sortinit}{J}
+      \field{sortinithash}{b2f54a9081ace9966a7cb9413811edb4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Skeletal muscle: from molecules to movement}
+      \field{volume}{40}
+      \field{year}{2006}
+    \endentry
+    \entry{krajcarski_time_2008}{article}{}{}
+      \name{author}{2}{}{%
+        {{hash=f2f66dad46ca7ae33c17c72d34220ec0}{%
+           family={Krajcarski},
+           familyi={K\bibinitperiod},
+           given={S.},
+           giveni={S\bibinitperiod}}}%
+        {{hash=ccd660ef1c6dab9f1bf64f409ed716d7}{%
+           family={Wells},
+           familyi={W\bibinitperiod},
+           given={R.},
+           giveni={R\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \strng{namehash}{e2c36668c7544250d49ec2c530b5ae7f}
+      \strng{fullhash}{e2c36668c7544250d49ec2c530b5ae7f}
+      \strng{fullhashraw}{e2c36668c7544250d49ec2c530b5ae7f}
+      \strng{bibnamehash}{e2c36668c7544250d49ec2c530b5ae7f}
+      \strng{authorbibnamehash}{e2c36668c7544250d49ec2c530b5ae7f}
+      \strng{authornamehash}{e2c36668c7544250d49ec2c530b5ae7f}
+      \strng{authorfullhash}{e2c36668c7544250d49ec2c530b5ae7f}
+      \strng{authorfullhashraw}{e2c36668c7544250d49ec2c530b5ae7f}
+      \field{labelalpha}{KW08}
+      \field{sortinit}{K}
+      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{1463-922X, 1464-536X}
+      \field{journaltitle}{Theoretical Issues in Ergonomics Science}
+      \field{month}{1}
+      \field{note}{tex.ids= krajcarskiTimeVariationPattern2008a}
+      \field{number}{1}
+      \field{title}{The time variation pattern of mechanical exposure and the reporting of low back pain}
+      \field{urlday}{16}
+      \field{urlmonth}{6}
+      \field{urlyear}{2022}
+      \field{volume}{9}
+      \field{year}{2008}
+      \field{urldateera}{ce}
+      \field{pages}{45\bibrangedash 71}
+      \range{pages}{27}
+      \verb{doi}
+      \verb 10.1080/14639220600758720
+      \endverb
+      \verb{urlraw}
+      \verb http://www.tandfonline.com/doi/abs/10.1080/14639220600758720
+      \endverb
+      \verb{url}
+      \verb http://www.tandfonline.com/doi/abs/10.1080/14639220600758720
+      \endverb
+    \endentry
+    \entry{mcswiney_keto-adaptation_2018}{article}{}{}
+      \name{author}{6}{}{%
+        {{hash=5a77b485ff9517efe74742554adefb81}{%
+           family={McSwiney},
+           familyi={M\bibinitperiod},
+           given={Fionn\bibnamedelima T.},
+           giveni={F\bibinitperiod\bibinitdelim T\bibinitperiod}}}%
+        {{hash=eb4fdbf6b868ff4969419d7c0f0a5723}{%
+           family={Wardrop},
+           familyi={W\bibinitperiod},
+           given={Bruce},
+           giveni={B\bibinitperiod}}}%
+        {{hash=924b753cad35e036ab89d4a9a011e4f1}{%
+           family={Hyde},
+           familyi={H\bibinitperiod},
+           given={Parker\bibnamedelima N.},
+           giveni={P\bibinitperiod\bibinitdelim N\bibinitperiod}}}%
+        {{hash=a443aff6a91f0e969a30e273ab0d34f4}{%
+           family={Lafountain},
+           familyi={L\bibinitperiod},
+           given={Richard\bibnamedelima A.},
+           giveni={R\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=34b28b9239b2d85bff8adf871a69a0e2}{%
+           family={Volek},
+           familyi={V\bibinitperiod},
+           given={Jeff\bibnamedelima S.},
+           giveni={J\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+        {{hash=7cab2379e9bc605ab633f783a3f18ae0}{%
+           family={Doyle},
+           familyi={D\bibinitperiod},
+           given={Lorna},
+           giveni={L\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \strng{namehash}{2bccfc53fb5c9aeeef0c35a13a81e915}
+      \strng{fullhash}{6d8b75bb284e3757cd5faf372d60ccbd}
+      \strng{fullhashraw}{6d8b75bb284e3757cd5faf372d60ccbd}
+      \strng{bibnamehash}{2bccfc53fb5c9aeeef0c35a13a81e915}
+      \strng{authorbibnamehash}{2bccfc53fb5c9aeeef0c35a13a81e915}
+      \strng{authornamehash}{2bccfc53fb5c9aeeef0c35a13a81e915}
+      \strng{authorfullhash}{6d8b75bb284e3757cd5faf372d60ccbd}
+      \strng{authorfullhashraw}{6d8b75bb284e3757cd5faf372d60ccbd}
+      \field{labelalpha}{McS+18}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Background. Low-carbohydrate diets have recently grown in popularity among endurance athletes, yet little is known about the long-term ({>}4 wk) performance implications of consuming a low-carbohydrate high fat ketogenic diet (LCKD) in well-trained athletes. Methods. Twenty male endurance-trained athletes (age 33 ± 11 y, body mass 80 ± 11 kg; BMI 24.7 ± 3.1 kg/m2) who habitually consumed a carbohydrate-based diet, self-selected into a high-carbohydrate (HC) group (n = 11, \%carbohydrate:protein:fat = 65:14:20), or a LCKD group (n = 9, 6:17:77). Both groups performed the same training intervention (endurance, strength and high intensity interval training (HIIT)). Prior to and following successful completion of 12-weeks of diet and training, participants had their body composition assessed, and completed a 100 km time trial (TT), six second (SS) sprint, and a critical power test (CPT). During post-intervention testing the HC group consumed 30–60 g/h carbohydrate, whereas the LCKD group consumed water, and electrolytes. Results. The LCKD group experienced a significantly greater decrease in body mass (HC − 0.8 kg, LCKD −5.9 kg; P = 0.006, effect size (ES): 0.338) and percentage body fat percentage (HC − 0.7\%, LCKD −5.2\%; P = 0.008, ES: 0.346). Fasting serum beta-hydroxybutyrate (βHB) significantly increased from 0.1 at baseline to 0.5 mmol/L in the LCKD group (P = 0.011, ES: 0.403) in week 12. There was no significant change in performance of the 100 km TT between groups (HC − 1.13 min·s, LCKD −4.07 min·s, P = 0.057, ES: 0.196). SS sprint peak power increased by 0.8 watts per kilogram bodyweight (w/kg) in the LCKD group, versus a −0.1 w/kg reduction in the HC group (P = 0.025, ES: 0.263). CPT peak power decreased by −0.7 w/kg in the HC group, and increased by 1.4 w/kg in the LCKD group (P = 0.047, ES: 0.212). Fat oxidation in the LCKD group was significantly greater throughout the 100 km TT. Conclusions. Compared to a HC comparison group, a 12-week period of keto-adaptation and exercise training, enhanced body composition, fat oxidation during exercise, and specific measures of performance relevant to competitive endurance athletes.}
+      \field{issn}{00260495}
+      \field{journaltitle}{Metabolism}
+      \field{month}{4}
+      \field{title}{Keto-adaptation enhances exercise performance and body composition responses to training in endurance athletes}
+      \field{urlday}{18}
+      \field{urlmonth}{6}
+      \field{urlyear}{2022}
+      \field{volume}{81}
+      \field{year}{2018}
+      \field{urldateera}{ce}
+      \field{pages}{25\bibrangedash 34}
+      \range{pages}{10}
+      \verb{doi}
+      \verb 10.1016/j.metabol.2017.10.010
+      \endverb
+      \verb{urlraw}
+      \verb https://linkinghub.elsevier.com/retrieve/pii/S0026049517302986
+      \endverb
+      \verb{url}
+      \verb https://linkinghub.elsevier.com/retrieve/pii/S0026049517302986
+      \endverb
+    \endentry
+    \entry{tornroth-horsefield_opening_2008}{article}{}{}
+      \name{author}{2}{}{%
+        {{hash=71676791dbffd68dc49eac7939106a85}{%
+           family={Törnroth-Horsefield},
+           familyi={T\bibinithyphendelim H\bibinitperiod},
+           given={Susanna},
+           giveni={S\bibinitperiod}}}%
+        {{hash=8050fec8b521b49653b69709bdf45d26}{%
+           family={Neutze},
+           familyi={N\bibinitperiod},
+           given={Richard},
+           giveni={R\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \strng{namehash}{2cc3e039f771d80be80cbb82d0705365}
+      \strng{fullhash}{2cc3e039f771d80be80cbb82d0705365}
+      \strng{fullhashraw}{2cc3e039f771d80be80cbb82d0705365}
+      \strng{bibnamehash}{2cc3e039f771d80be80cbb82d0705365}
+      \strng{authorbibnamehash}{2cc3e039f771d80be80cbb82d0705365}
+      \strng{authornamehash}{2cc3e039f771d80be80cbb82d0705365}
+      \strng{authorfullhash}{2cc3e039f771d80be80cbb82d0705365}
+      \strng{authorfullhashraw}{2cc3e039f771d80be80cbb82d0705365}
+      \field{labelalpha}{TN08}
+      \field{sortinit}{T}
+      \field{sortinithash}{9af77f0292593c26bde9a56e688eaee9}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{0027-8424, 1091-6490}
+      \field{journaltitle}{Proceedings of the National Academy of Sciences}
+      \field{month}{12}
+      \field{number}{50}
+      \field{title}{Opening and closing the metabolite gate}
+      \field{urlday}{18}
+      \field{urlmonth}{6}
+      \field{urlyear}{2022}
+      \field{volume}{105}
+      \field{year}{2008}
+      \field{urldateera}{ce}
+      \field{pages}{19565\bibrangedash 19566}
+      \range{pages}{2}
+      \verb{doi}
+      \verb 10.1073/pnas.0810654106
+      \endverb
+      \verb{urlraw}
+      \verb https://pnas.org/doi/full/10.1073/pnas.0810654106
+      \endverb
+      \verb{url}
+      \verb https://pnas.org/doi/full/10.1073/pnas.0810654106
+      \endverb
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+
