@@ -1,14 +1,5 @@
 import Link from "next/link";
-
-const chapters = [
-  { number: 1, title: "Foundations of Clinical Physiology", summary: "Core principles of physiology as a fundamental science for clinical reasoning." },
-  { number: 2, title: "Cardiovascular Physiology", summary: "Cardiac mechanics, vascular function, and hemodynamic regulation." },
-  { number: 3, title: "Respiratory Physiology", summary: "Ventilation, perfusion, gas exchange, and acid-base balance." },
-  { number: 4, title: "Renal Physiology", summary: "Fluid, electrolyte, and acid-base homeostasis through renal mechanisms." },
-  { number: 5, title: "Neuromuscular Physiology", summary: "Motor control, muscle function, and neuromuscular integration." },
-  { number: 6, title: "Endocrine & Metabolic Physiology", summary: "Hormonal regulation and metabolic homeostasis." },
-  { number: 7, title: "Integrative Physiology & Clinical Inference", summary: "Systems integration and mechanistic reasoning in clinical practice." },
-];
+import { textbookParts } from "./chapters";
 
 export default function TextbookPage() {
   return (
@@ -32,26 +23,32 @@ export default function TextbookPage() {
 
       <section>
         <h2 className="text-xl font-bold mb-6 text-gray-800 dark:text-gray-100">Table of Contents</h2>
-        <ol className="space-y-4">
-          {chapters.map((ch) => (
-            <li key={ch.number}>
-              <Link
-                href={`/textbook/chapter/${ch.number}`}
-                className="group flex items-start gap-4 p-5 rounded-xl border border-gray-200 dark:border-gray-700 bg-white dark:bg-gray-900 hover:border-blue-400 dark:hover:border-blue-500 transition-colors"
-              >
-                <span className="shrink-0 w-10 h-10 flex items-center justify-center rounded-full bg-blue-100 dark:bg-blue-900 text-blue-700 dark:text-blue-300 font-bold text-sm">
-                  {ch.number}
-                </span>
-                <div>
-                  <p className="font-semibold text-gray-900 dark:text-white group-hover:text-blue-700 dark:group-hover:text-blue-400 transition-colors">
-                    {ch.title}
-                  </p>
-                  <p className="text-sm text-gray-500 dark:text-gray-400 mt-0.5">{ch.summary}</p>
-                </div>
-              </Link>
-            </li>
-          ))}
-        </ol>
+        {textbookParts.map((part) => (
+          <div key={part.title} className="mb-10">
+            <h3 className="text-sm font-semibold uppercase tracking-wide text-gray-500 dark:text-gray-400 mb-4">
+              {part.title}
+            </h3>
+            <ol className="space-y-4">
+              {part.chapters.map((ch) => (
+                <li key={ch.slug}>
+                  <Link
+                    href={`/textbook/chapter/${ch.slug}`}
+                    className="group flex items-start gap-4 p-5 rounded-xl border border-gray-200 dark:border-gray-700 bg-white dark:bg-gray-900 hover:border-blue-400 dark:hover:border-blue-500 transition-colors"
+                  >
+                    <span className="shrink-0 w-10 h-10 flex items-center justify-center rounded-full bg-blue-100 dark:bg-blue-900 text-blue-700 dark:text-blue-300 font-bold text-sm">
+                      {ch.number}
+                    </span>
+                    <div>
+                      <p className="font-semibold text-gray-900 dark:text-white group-hover:text-blue-700 dark:group-hover:text-blue-400 transition-colors">
+                        {ch.title}
+                      </p>
+                    </div>
+                  </Link>
+                </li>
+              ))}
+            </ol>
+          </div>
+        ))}
       </section>
 
       <section className="mt-14 p-6 rounded-xl bg-blue-50 dark:bg-blue-950 border border-blue-200 dark:border-blue-800">
@@ -65,3 +62,4 @@ export default function TextbookPage() {
     </div>
   );
 }
+

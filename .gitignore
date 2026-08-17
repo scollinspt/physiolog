@@ -41,6 +41,8 @@ book/latexml_build/
 book/*.latexml.log
 content/textbook/
 public/textbook/figure/
+public/textbook/LaTeXML.css
+public/textbook/ltx-book.css
 
 # LaTeX build artifacts (book/ source)
 book/*.aux

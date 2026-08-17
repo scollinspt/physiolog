@@ -42,6 +42,7 @@ rm -rf "$CONTENT_DIR" "$FIGURE_DIR"
 mkdir -p "$CONTENT_DIR" "$FIGURE_DIR"
 
 cp -R latexml_build/figure/. "$FIGURE_DIR/"
+cp latexml_build/LaTeXML.css latexml_build/ltx-book.css "$REPO_ROOT/public/textbook/"
 
 for i in "${!CHAPTERS[@]}"; do
   n=$((i + 1))
