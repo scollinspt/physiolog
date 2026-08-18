@@ -58,12 +58,26 @@ Split architecture, decoupled from each other:
 ## 4. Point physiolog.org at GitHub Pages + api.physiolog.org at the VPS
 
 DNS is managed through Cloudflare (domain registrar). No credentials need to be shared —
-once step 3's static-export setup is done, exact DNS records to add in the Cloudflare
-dashboard will be provided:
-- `physiolog.org` (apex): 4 `A` records to GitHub Pages' IPs
-  (`185.199.108.153`, `.109.153`, `.110.153`, `.111.153`).
-- `api.physiolog.org`: 1 `A` record to the VPS's IP, with Cloudflare's proxy enabled
-  for free TLS + basic DDoS/bot protection in front of the VPS.
+these are manual steps for the user to do in the Cloudflare/GitHub dashboards.
+
+- [x] `public/CNAME` added (contains `physiolog.org`), so every deploy keeps the
+      custom domain association — needed since GitHub Pages is deployed via Actions
+      artifact, not a branch.
+- [ ] Cloudflare DNS: add 4 `A` records for `physiolog.org` (apex/`@`) to GitHub
+      Pages' IPs: `185.199.108.153`, `185.199.109.153`, `185.199.110.153`,
+      `185.199.111.153`. Set them to **DNS only** (grey cloud, not proxied) at
+      first — GitHub's automatic HTTPS certificate provisioning is more reliable
+      unproxied; proxying can be re-enabled later once HTTPS is confirmed working.
+- [ ] Optional: `www` → `CNAME` record pointing to `scollinspt.github.io` if `www`
+      access is wanted too.
+- [ ] GitHub repo Settings → Pages → Custom domain: enter `physiolog.org`, save.
+      DNS propagation + GitHub's verification can take from minutes to ~24 hours.
+      Once verified, enable "Enforce HTTPS".
+- [ ] Once the custom domain is verified, re-run the `Deploy site to GitHub Pages`
+      workflow so the deployed `out/CNAME` matches.
+- [ ] Later: `api.physiolog.org`: 1 `A` record to the VPS's IP (once step 5's VPS
+      exists), with Cloudflare's proxy enabled for free TLS + basic DDoS/bot
+      protection in front of the VPS.
 
 ## 5. Build the self-hosted AI assistant backend
 
