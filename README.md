@@ -41,6 +41,18 @@ Open [http://localhost:3000](http://localhost:3000) in your browser.
 See [EDITING.md](EDITING.md) for how to edit the book and the site, and how to publish
 changes to [physiolog.org](https://physiolog.org).
 
+## Licensing
+
+The website and supporting software in this repository are licensed under the MIT
+License; see [LICENSE](LICENSE). The textbook content in `book/`, including its text
+and LaTeX source, remains under the Creative Commons BY-NC-SA 4.0 license stated on
+the book's copyright page. This is a deliberate split: the MIT license does not grant
+commercial rights to the textbook content.
+
+Figures created with BioRender may have additional restrictions under the applicable
+BioRender account license. See the copyright page in [book/book.tex](book/book.tex)
+before reusing book figures.
+
 ## Use of AI
 
 The textbook content is authored by Sean Collins; no part of it has been written by AI.

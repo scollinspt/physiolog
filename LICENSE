@@ -1,3 +1,8 @@
+This MIT License applies to the Physiolog website and supporting software. The
+textbook content and LaTeX source in `book/` are separately licensed under the
+Creative Commons BY-NC-SA 4.0 license stated in `book/book.tex`. BioRender
+figures may have additional restrictions; see the book copyright page before reuse.
+
 MIT License
 
 Copyright (c) 2026 Sean Collins

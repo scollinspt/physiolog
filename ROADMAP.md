@@ -6,10 +6,10 @@ Working plan for turning the LaTeX textbook source into the live site, in order.
 Update this file as steps are completed or the plan changes.
 
 **Current status:** the site is live at <https://physiolog.org> with the full textbook
-(12 chapters, HTML + PDF download). Steps 1–4 are done. **Next session starts with
-step 5, the licensing review** (repo is MIT, book is CC BY-NC-SA — needs reconciling).
-Then step 6, the self-hosted AI assistant backend. See `EDITING.md` for how to make and
-publish changes.
+(12 chapters, HTML + PDF download). Steps 1–5 are done. The website and supporting
+software remain MIT-licensed, while the textbook content and LaTeX source remain
+CC BY-NC-SA 4.0-licensed. Then step 6, the self-hosted AI assistant backend. See
+`EDITING.md` for how to make and publish changes.
 
 **Note:** deploying is publishing — the site is public, and a deploy is a manual step
 (Actions tab → "Deploy site to GitHub Pages"). Iterate locally with `npm run dev` and
@@ -112,31 +112,18 @@ Site is live at https://physiolog.org, DNS verified, HTTPS enforced.
       exists), with Cloudflare's proxy enabled for free TLS + basic DDoS/bot
       protection in front of the VPS.
 
-## 5. Licensing review — START HERE NEXT SESSION
+## 5. Licensing review — DECIDED: separate website and book licenses
 
-The repository and the book currently carry **different, potentially conflicting
-licenses**, and the book source now lives in this repo:
+The website and supporting software remain under the root MIT license. The textbook
+content, including the LaTeX source in `book/`, remains under CC BY-NC-SA 4.0 as
+stated on the book copyright page. This preserves the book's existing published
+license while keeping the website's software permissively licensed.
 
-- `LICENSE` (repo root): **MIT**, Copyright (c) 2026 Sean Collins — permissive,
-  allows commercial use, applies to the whole repository by default.
-- Book copyright page (`book/book.tex`): **CC BY-NC-SA 4.0**, Copyright 2025 Sean
-  Collins — non-commercial, share-alike. Also notes that BioRender-created figures
-  carry separate restrictions beyond the CC license.
-
-Since the `.tex` sources are in the repo, a blanket MIT license nominally covers
-content the author has separately declared non-commercial — these need reconciling.
-
-Not yet decided. Options to think through (author wants time to consider):
-- Dual licensing: MIT (or similar) for code/tooling, CC BY-NC-SA for book content,
-  with a clear statement of which files fall under which.
-- Change the repo license to match the book.
-- Change the book license (note: ISBNs are already registered and the current license
-  is printed in the published PDF, so changing this has downstream implications).
-- Separately: confirm how the BioRender figure restrictions should be represented,
-  since those images are committed to the repo.
-
-Also worth revisiting alongside the revenue ideas in step 7, since license choice
-constrains some of them (e.g. paid print edition, institutional licensing).
+- The root `LICENSE` applies to the website and supporting software.
+- The book's text and LaTeX source are governed by the CC BY-NC-SA 4.0 notice in
+      `book/book.tex`; the MIT license does not grant commercial rights to that content.
+- BioRender figures may carry additional restrictions under the applicable BioRender
+      account license and must be reviewed separately before reuse.
 
 ## 6. Build the self-hosted AI assistant backend
 
