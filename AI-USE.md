@@ -43,10 +43,8 @@ book actually says. It does not modify the textbook.
 When it is live, its behavior and limitations will be documented here and on the
 assistant's page.
 
-## Why this distinction matters
+## The importance of this distinction
 
-The scholarly claims in this textbook should be attributable to a human author who is
-accountable for them. Software tooling is a different matter — it is infrastructure,
-not scholarship, and AI assistance there does not affect the integrity of the content.
+The scholarly claims in this textbook should be attributable to a human author who is accountable for them. Software tooling is a different matter — it is infrastructure, not scholarship, and AI assistance there does not affect the integrity of the content.
 
 Questions about any of this are welcome via the project repository.

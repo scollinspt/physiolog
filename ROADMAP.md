@@ -170,3 +170,10 @@ to undefined-reference warnings.
 
 A few `\cite` keys have no matching entry in `references.bib` (e.g.
 `collins_heart_2015`, `schiaffino_molecular_1996`), producing warnings in the PDF build.
+
+## Surface the AI use disclosure on the site
+
+`AI-USE.md` currently lives in the repository only. Since its purpose is reader
+transparency, it should also be reachable from the site itself — e.g. a footer link,
+an About page, and/or a section on the AI Assistant page. Decide placement and wording
+before the AI assistant goes live.
