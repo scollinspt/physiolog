@@ -6,8 +6,10 @@ Working plan for turning the LaTeX textbook source into the live site, in order.
 Update this file as steps are completed or the plan changes.
 
 **Current status:** the site is live at <https://physiolog.org> with the full textbook
-(12 chapters, HTML + PDF download). Steps 1–4 are done. Next up is step 5, the
-self-hosted AI assistant backend. See `EDITING.md` for how to make and publish changes.
+(12 chapters, HTML + PDF download). Steps 1–4 are done. **Next session starts with
+step 5, the licensing review** (repo is MIT, book is CC BY-NC-SA — needs reconciling).
+Then step 6, the self-hosted AI assistant backend. See `EDITING.md` for how to make and
+publish changes.
 
 **Note:** deploying is publishing — the site is public, and a deploy is a manual step
 (Actions tab → "Deploy site to GitHub Pages"). Iterate locally with `npm run dev` and
@@ -110,7 +112,33 @@ Site is live at https://physiolog.org, DNS verified, HTTPS enforced.
       exists), with Cloudflare's proxy enabled for free TLS + basic DDoS/bot
       protection in front of the VPS.
 
-## 5. Build the self-hosted AI assistant backend
+## 5. Licensing review — START HERE NEXT SESSION
+
+The repository and the book currently carry **different, potentially conflicting
+licenses**, and the book source now lives in this repo:
+
+- `LICENSE` (repo root): **MIT**, Copyright (c) 2026 Sean Collins — permissive,
+  allows commercial use, applies to the whole repository by default.
+- Book copyright page (`book/book.tex`): **CC BY-NC-SA 4.0**, Copyright 2025 Sean
+  Collins — non-commercial, share-alike. Also notes that BioRender-created figures
+  carry separate restrictions beyond the CC license.
+
+Since the `.tex` sources are in the repo, a blanket MIT license nominally covers
+content the author has separately declared non-commercial — these need reconciling.
+
+Not yet decided. Options to think through (author wants time to consider):
+- Dual licensing: MIT (or similar) for code/tooling, CC BY-NC-SA for book content,
+  with a clear statement of which files fall under which.
+- Change the repo license to match the book.
+- Change the book license (note: ISBNs are already registered and the current license
+  is printed in the published PDF, so changing this has downstream implications).
+- Separately: confirm how the BioRender figure restrictions should be represented,
+  since those images are committed to the repo.
+
+Also worth revisiting alongside the revenue ideas in step 7, since license choice
+constrains some of them (e.g. paid print edition, institutional licensing).
+
+## 6. Build the self-hosted AI assistant backend
 
 Decision made: self-hosted, fixed-cost approach (CPU VPS + quantized open model via
 Ollama/llama.cpp, ~$20-40/mo) instead of per-token API billing, to avoid variable costs
@@ -124,7 +152,7 @@ scaling with traffic before there's a revenue mechanism in place.
   custom GPT wandering beyond the book's scope).
 - Wire `src/app/ai-assistant/page.tsx` to call this backend.
 
-## 6. Simulations, research page content, revenue/cost-control features
+## 7. Simulations, research page content, revenue/cost-control features
 
 Lower priority, iterate after the core site + AI assistant are live. Revenue ideas
 under consideration: paid print/eBook edition (ISBNs already reserved), freemium AI
