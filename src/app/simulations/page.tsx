@@ -20,6 +20,15 @@ const simulations = [
     href: "/simulations/poiseuille",
   },
   {
+    id: "blood-pressure",
+    title: "Blood Pressure Equation Explorer",
+    description:
+      "See how stroke volume creates pulse pressure while heart rate and peripheral resistance shape diastolic runoff.",
+    status: "live" as const,
+    tags: ["Cardiovascular", "Blood Pressure"],
+    href: "/simulations/blood-pressure",
+  },
+  {
     id: "ventilation-perfusion",
     title: "Ventilation-Perfusion Matching",
     description:
