@@ -1,9 +1,18 @@
 # Physiolog Roadmap
 
-_Last updated: 2026-08-17_
+_Last updated: 2026-08-18_
 
 Working plan for turning the LaTeX textbook source into the live site, in order.
 Update this file as steps are completed or the plan changes.
+
+**Current status:** the site is live at <https://physiolog.org> with the full textbook
+(12 chapters, HTML + PDF download). Steps 1–4 are done. Next up is step 5, the
+self-hosted AI assistant backend. See `EDITING.md` for how to make and publish changes.
+
+**Note:** deploying is publishing — the site is public, and a deploy is a manual step
+(Actions tab → "Deploy site to GitHub Pages"). Iterate locally with `npm run dev` and
+deploy when you reach a good stopping point. Pushed commits are backed up but not live
+until that workflow is run.
 
 ## 1. Finish the full-book HTML pipeline — DONE
 
