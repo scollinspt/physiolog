@@ -1,10 +1,16 @@
 # Physiolog
 
-**physiolog.org** — An integrative clinical physiology resource.
+**physiolog.org** — An open clinical physiology resource for physical therapy students and clinicians.
 
 ## Overview
 
-Physiolog is a multi-purpose site serving as:
+Physiolog is built around *Clinical Physiology: A Muscle Centered Approach* — a textbook that begins
+at the muscle fiber, asks what it needs to generate tension, and treats circulation, respiration, and
+renal function as the systems that support movement. It is written primarily for physical therapy
+students and clinicians, and is also useful for exercise science, athletic training, and anyone
+studying human movement.
+
+The site serves as:
 
 1. **Clinical Physiology Textbook** — The textbook is authored in LaTeX (see `book/`). The web version hosts it chapter-by-chapter with embedded video explanations and interactive figures. A compiled PDF is available for download.
 

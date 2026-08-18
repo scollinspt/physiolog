@@ -3,9 +3,9 @@ import Link from "next/link";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "Physiolog | Clinical Physiology",
+  title: "Physiolog | Clinical Physiology, Muscle Centered",
   description:
-    "An integrative resource for clinical physiology: textbook, interactive simulations, AI-assisted learning, and ongoing research.",
+    "An open clinical physiology textbook and learning resource for physical therapy students and clinicians — with interactive simulations, AI-assisted learning, and integrative research.",
 };
 
 const navLinks = [

@@ -4,28 +4,28 @@ const features = [
   {
     title: "Clinical Physiology Textbook",
     description:
-      "Read the textbook online with embedded videos and interactive figures, or download the full PDF.",
+      "The full Clinical Physiology: A Muscle Centered Approach — read online with interactive figures, or download the PDF. Written for DPT programs and practicing clinicians.",
     href: "/textbook",
     icon: "📖",
   },
   {
     title: "Interactive Simulations",
     description:
-      "Explore dynamic physiology models and interactive simulations that bring core concepts to life.",
+      "Explore cardiovascular, respiratory, and renal models hands-on — see how support systems respond to the demands of movement and exercise.",
     href: "/simulations",
     icon: "⚗️",
   },
   {
     title: "AI Learning Assistant",
     description:
-      "An NLP/LLM AI agent trained on the textbook and curated research to support deeper understanding.",
+      "Ask questions and get explanations grounded in the textbook itself — built to develop mechanistic reasoning, not surface recall.",
     href: "/ai-assistant",
     icon: "🤖",
   },
   {
     title: "Integrative Research",
     description:
-      "Ongoing research in clinical physiology supporting mechanistic reasoning in clinical inference.",
+      "Ongoing work on clinical physiology as the mechanistic foundation for clinical reasoning, including the Clinical Inference Engine and models4PT projects.",
     href: "/research",
     icon: "🔬",
   },
@@ -37,11 +37,16 @@ export default function Home() {
       {/* Hero */}
       <section className="text-center mb-20">
         <h1 className="text-5xl font-extrabold tracking-tight mb-6 text-gray-900 dark:text-white">
-          Clinical Physiology, <span className="text-blue-700 dark:text-blue-400">Integrated</span>
+          Clinical Physiology, <span className="text-blue-700 dark:text-blue-400">Muscle Centered</span>
         </h1>
-        <p className="text-xl text-gray-600 dark:text-gray-300 max-w-2xl mx-auto mb-8">
-          Physiolog is an open resource combining a comprehensive textbook, interactive simulations,
-          AI-assisted learning, and integrative research — all grounded in mechanistic clinical reasoning.
+        <p className="text-xl text-gray-600 dark:text-gray-300 max-w-2xl mx-auto mb-4">
+          An open textbook and learning resource for physical therapy students and clinicians. It
+          starts with a simple premise: begin at the muscle fiber, ask what it needs to generate
+          tension, and every other system — circulation, respiration, renal — comes into focus as
+          support for movement.
+        </p>
+        <p className="text-sm text-gray-500 dark:text-gray-400 max-w-2xl mx-auto mb-8">
+          Also useful for exercise science, athletic training, and anyone studying human movement.
         </p>
         <div className="flex flex-wrap justify-center gap-4">
           <Link
@@ -62,7 +67,7 @@ export default function Home() {
       {/* Feature grid */}
       <section>
         <h2 className="text-2xl font-bold text-center mb-10 text-gray-800 dark:text-gray-100">
-          What You&apos;ll Find Here
+          A Complete Learning Resource
         </h2>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
           {features.map((f) => (
