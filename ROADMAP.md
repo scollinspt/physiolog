@@ -8,8 +8,10 @@ Update this file as steps are completed or the plan changes.
 **Current status:** the site is live at <https://physiolog.org> with the full textbook
 (12 chapters, HTML + PDF download). Steps 1–5 are done. The website and supporting
 software remain MIT-licensed, while the textbook content and LaTeX source remain
-CC BY-NC-SA 4.0-licensed. Then step 6, the self-hosted AI assistant backend. See
-`EDITING.md` for how to make and publish changes.
+CC BY-NC-SA 4.0-licensed. Current work is a simulation sidebar: the site now has
+dedicated cardiovascular simulation routes, with the backlog in `SIMULATION TODO.md`.
+The self-hosted AI assistant backend remains the next major phase after the
+simulation work. See `EDITING.md` for how to make and publish changes.
 
 **Note:** deploying is publishing — the site is public, and a deploy is a manual step
 (Actions tab → "Deploy site to GitHub Pages"). Iterate locally with `npm run dev` and
@@ -141,9 +143,19 @@ scaling with traffic before there's a revenue mechanism in place.
 
 ## 7. Simulations, research page content, revenue/cost-control features
 
-Lower priority, iterate after the core site + AI assistant are live. Revenue ideas
-under consideration: paid print/eBook edition (ISBNs already reserved), freemium AI
-assistant usage cap, institutional licensing, CEU content, donations, grants.
+Simulation development is now an active sidebar before the AI assistant backend.
+The simulation backlog is maintained in `SIMULATION TODO.md` and is organized by
+textbook chapter. The first dedicated routes are:
+
+- `/simulations/cardiac-output` — cardiac output and Frank-Starling teaching model.
+- `/simulations/poiseuille` — Poiseuille's Law and radius teaching model.
+- `/simulations/blood-pressure` — blood pressure equation and pressure-wave teaching
+      model; waveform revision is the next simulation task.
+
+Research page content and revenue/cost-control features remain lower priority.
+Revenue ideas under consideration: paid print/eBook edition (ISBNs already reserved),
+freemium AI assistant usage cap, institutional licensing, CEU content, donations,
+grants.
 
 ---
 
