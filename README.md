@@ -6,7 +6,7 @@
 
 Physiolog is a multi-purpose site serving as:
 
-1. **Clinical Physiology Textbook** — The textbook is authored in LaTeX (Overleaf). The web version hosts it chapter-by-chapter with embedded video explanations and interactive figures. A compiled PDF is available for download.
+1. **Clinical Physiology Textbook** — The textbook is authored in LaTeX (see `book/`). The web version hosts it chapter-by-chapter with embedded video explanations and interactive figures. A compiled PDF is available for download.
 
 2. **Interactive Simulations** — Dynamic, browser-based physiology simulations that allow hands-on exploration of cardiovascular, respiratory, renal, and other physiological models.
 

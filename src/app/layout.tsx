@@ -40,7 +40,31 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         </header>
         <main className="flex-1">{children}</main>
         <footer className="border-t border-gray-200 dark:border-gray-800 py-6 text-center text-sm text-gray-500 dark:text-gray-400">
-          © {new Date().getFullYear()} Physiolog &mdash; physiolog.org
+          <p>
+            Sean Collins, Professor of Clinical Inquiry, Doctor of Physical Therapy Program,
+            Plymouth State University
+          </p>
+          <p className="mt-1 flex justify-center gap-4">
+            <a
+              href="https://www.linkedin.com/in/sean-collins-868b3a391/"
+              className="hover:text-blue-700 dark:hover:text-blue-400 transition-colors"
+            >
+              LinkedIn
+            </a>
+            <a
+              href="https://github.com/scollinspt"
+              className="hover:text-blue-700 dark:hover:text-blue-400 transition-colors"
+            >
+              GitHub Profile
+            </a>
+            <a
+              href="https://github.com/scollinspt/physiolog"
+              className="hover:text-blue-700 dark:hover:text-blue-400 transition-colors"
+            >
+              Project Repository
+            </a>
+          </p>
+          <p className="mt-2">© {new Date().getFullYear()} Physiolog &mdash; physiolog.org</p>
         </footer>
       </body>
     </html>

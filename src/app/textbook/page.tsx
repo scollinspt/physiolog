@@ -54,9 +54,15 @@ export default function TextbookPage() {
       <section className="mt-14 p-6 rounded-xl bg-blue-50 dark:bg-blue-950 border border-blue-200 dark:border-blue-800">
         <h2 className="text-lg font-bold mb-2 text-blue-900 dark:text-blue-200">About This Textbook</h2>
         <p className="text-sm text-blue-800 dark:text-blue-300 leading-relaxed">
-          This textbook is written in LaTeX and maintained as an Overleaf project. The web version is
-          generated from the same source, allowing embedded video explanations and interactive
-          physiology simulations alongside the written content.
+          This textbook is written in LaTeX and maintained in this project&apos;s{" "}
+          <a
+            href="https://github.com/scollinspt/physiolog"
+            className="underline hover:text-blue-900 dark:hover:text-blue-200"
+          >
+            GitHub repository
+          </a>
+          . The web version is generated from the same source, allowing embedded video
+          explanations and interactive physiology simulations alongside the written content.
         </p>
       </section>
     </div>
