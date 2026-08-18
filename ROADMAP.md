@@ -84,6 +84,39 @@ PDF).
 Both paths use the identical deploy step — the only difference is which source
 files change.
 
+See `EDITING.md` for the detailed, step-by-step version of this workflow.
+
+## 3c. Fix citations/references in the HTML build
+
+Currently the web version has **no working citations or bibliography**. `biblatex`
+uses expl3 code LaTeXML's TeX parser rejects, so `book/latexml-preamble.tex` stubs
+citation commands out:
+
+```latex
+\newcommand{\cite}[1]{[#1]}
+\newcommand{\printbibliography}{}
+```
+
+The result is that `\cite{hall_guyton_2020}` renders on the site as the literal text
+`[hall_guyton_2020]`, and there is no reference list on chapter pages. The PDF build
+is unaffected and renders citations correctly — this is a web-only gap.
+
+Options to evaluate (pick one):
+1. **Parse `references.bib` into structured data** (JSON) at build time, then render
+   citations as links to a per-chapter or site-wide references section built by a
+   React component. Most control, keeps LaTeX source untouched.
+2. **Pre-resolve citations into the LaTeX before conversion** — e.g. generate a
+   LaTeXML-safe `.bbl`-like set of definitions from Biber output so `\cite` expands
+   to real formatted citation text.
+3. **Switch the HTML build's citation handling to natbib/BibTeX**, which LaTeXML
+   supports natively (the PDF build would keep using biblatex).
+
+Requirements regardless of approach:
+- Citation markers in the text should link to the matching reference entry.
+- Each chapter (or the site) needs a rendered reference list.
+- Must not require editing the `.tex` chapter sources, so the LaTeX stays the single
+  source of truth for both PDF and web.
+
 ## 4. Point physiolog.org at GitHub Pages + api.physiolog.org at the VPS — DONE
 
 Site is live at https://physiolog.org, DNS verified, HTTPS enforced.

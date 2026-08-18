@@ -32,15 +32,25 @@ npm run dev
 
 Open [http://localhost:3000](http://localhost:3000) in your browser.
 
+See [EDITING.md](EDITING.md) for how to edit the book and the site, and how to publish
+changes to [physiolog.org](https://physiolog.org).
+
 ## Project Structure
 
 ```
+book/                     # LaTeX source for the textbook (single source of truth)
+  book.tex                # Root file for the PDF build
+  latexml-book.tex        # Root file for the HTML build
+  chapter/                # Chapter sources
+scripts/
+  build-textbook-html.sh  # LaTeX -> per-chapter HTML (npm run build:textbook-html)
 src/
   app/
     page.tsx              # Landing page
     layout.tsx            # Root layout with navigation
     textbook/             # Textbook pages
       page.tsx            # Table of contents
+      chapters.ts         # Chapter/part structure
       chapter/[chapter]/  # Individual chapters
     simulations/          # Interactive simulations
     ai-assistant/         # AI assistant interface
