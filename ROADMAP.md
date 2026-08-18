@@ -52,29 +52,49 @@ Split architecture, decoupled from each other:
       Manually triggered (`workflow_dispatch`) only — matches the explicit,
       deliberate publishing preference already used for the PDF, nothing deploys
       automatically on push.
-- [ ] Not yet done: enabling GitHub Pages in the repo's Settings (source: GitHub
-      Actions), and running the workflow for the first time.
+- [x] Not yet done: enabling GitHub Pages in the repo's Settings (source: GitHub
+      Actions), and running the workflow for the first time. — DONE, site is live.
 
-## 4. Point physiolog.org at GitHub Pages + api.physiolog.org at the VPS
+## 3b. Content update workflow
 
-DNS is managed through Cloudflare (domain registrar). No credentials need to be shared —
-these are manual steps for the user to do in the Cloudflare/GitHub dashboards.
+Two independent update paths, but **nothing goes live until the "Deploy site to
+GitHub Pages" workflow is run manually from the Actions tab** — a plain `git push`
+alone never publishes anything, by design (same explicit-publish preference as the
+PDF).
 
-- [x] `public/CNAME` added (contains `physiolog.org`), so every deploy keeps the
-      custom domain association — needed since GitHub Pages is deployed via Actions
-      artifact, not a branch.
-- [ ] Cloudflare DNS: add 4 `A` records for `physiolog.org` (apex/`@`) to GitHub
-      Pages' IPs: `185.199.108.153`, `185.199.109.153`, `185.199.110.153`,
-      `185.199.111.153`. Set them to **DNS only** (grey cloud, not proxied) at
-      first — GitHub's automatic HTTPS certificate provisioning is more reliable
-      unproxied; proxying can be re-enabled later once HTTPS is confirmed working.
-- [ ] Optional: `www` → `CNAME` record pointing to `scollinspt.github.io` if `www`
-      access is wanted too.
-- [ ] GitHub repo Settings → Pages → Custom domain: enter `physiolog.org`, save.
-      DNS propagation + GitHub's verification can take from minutes to ~24 hours.
-      Once verified, enable "Enforce HTTPS".
-- [ ] Once the custom domain is verified, re-run the `Deploy site to GitHub Pages`
-      workflow so the deployed `out/CNAME` matches.
+**A. Textbook content (LaTeX edits)**
+1. Edit files under `book/chapter/`, `book/author/`, etc.
+2. (Optional, for local preview only) `npm run build:textbook-html` regenerates
+   `content/textbook/` + figures locally — not committed, CI regenerates its own copy.
+3. (Optional) Recompile the PDF: `cd book && latexmk -pdf book.tex && cp book.pdf
+   ../public/textbook/clinical-physiology.pdf` (see `book/README.md`) — the PDF *is*
+   committed, since it's treated as a deliberate, versioned artifact like before.
+4. Commit + push the changed `.tex` source files (and the recompiled PDF, if
+   applicable). Do not commit `content/textbook/` or `public/textbook/figure/`.
+5. Go to the **Actions** tab → "Deploy site to GitHub Pages" → **Run workflow**.
+   This rebuilds the HTML from LaTeX source, builds the site, and publishes it.
+
+**B. Website features (React/TSX/CSS under `src/app/`)**
+1. Edit pages/components/styles under `src/app/`.
+2. Preview locally with `npm run dev` (run `build:textbook-html` once first if
+   previewing textbook pages and `content/textbook/` doesn't exist locally yet).
+3. Commit + push.
+4. Run the same "Deploy site to GitHub Pages" workflow to publish.
+
+Both paths use the identical deploy step — the only difference is which source
+files change.
+
+## 4. Point physiolog.org at GitHub Pages + api.physiolog.org at the VPS — DONE
+
+Site is live at https://physiolog.org, DNS verified, HTTPS enforced.
+
+- [x] `public/CNAME` added (contains `physiolog.org`).
+- [x] Cloudflare DNS: 4 `A` records for `physiolog.org` (apex) to GitHub Pages'
+      IPs, plus `www` → `CNAME` → `scollinspt.github.io`, all DNS-only (unproxied).
+- [x] GitHub repo Settings → Pages → Custom domain verified, HTTPS enforced.
+- [x] Confirmed working end-to-end: home page, textbook table of contents,
+      chapter pages (real content), and PDF download all load correctly at
+      the custom domain.
 - [ ] Later: `api.physiolog.org`: 1 `A` record to the VPS's IP (once step 5's VPS
       exists), with Cloudflare's proxy enabled for free TLS + basic DDoS/bot
       protection in front of the VPS.
