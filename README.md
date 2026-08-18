@@ -35,6 +35,12 @@ Open [http://localhost:3000](http://localhost:3000) in your browser.
 See [EDITING.md](EDITING.md) for how to edit the book and the site, and how to publish
 changes to [physiolog.org](https://physiolog.org).
 
+## Use of AI
+
+The textbook content is authored by Sean Collins; no part of it has been written by AI.
+The website and supporting software were built with AI assistance (GitHub Copilot).
+See [AI-USE.md](AI-USE.md) for details.
+
 ## Project Structure
 
 ```
