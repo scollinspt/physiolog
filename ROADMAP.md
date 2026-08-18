@@ -42,15 +42,18 @@ Split architecture, decoupled from each other:
   The static site's AI assistant page calls it via `fetch()`.
 
 **Outstanding work before this can go live:**
-- [ ] GitHub Pages requires Next.js static export. Add `output: "export"` to
-      `next.config.ts` (and `images: { unoptimized: true }`, since the Vercel image
-      optimizer isn't available under static export). This is a small, contained
-      change — not done yet.
-- [ ] Set up a GitHub Actions workflow to build (`build:textbook-html` + `next build`)
-      and publish `out/` to GitHub Pages. Given the preference for explicit,
-      deliberate publishing (same reasoning as the PDF), lean towards a
-      manually-triggered (`workflow_dispatch`) workflow rather than one that runs
-      automatically on every push.
+- [x] GitHub Pages requires Next.js static export. Added `output: "export"` +
+      `images: { unoptimized: true }` to `next.config.ts`. Verified with a full
+      build — `out/` contains all pages, the PDF, and figures correctly.
+- [x] Added `public/.nojekyll` (GitHub Pages runs Jekyll by default, which ignores
+      `_next/` since it starts with `_` — this bypasses that).
+- [x] GitHub Actions workflow (`.github/workflows/deploy-pages.yml`): builds
+      (`build:textbook-html` + `next build`) and publishes `out/` to GitHub Pages.
+      Manually triggered (`workflow_dispatch`) only — matches the explicit,
+      deliberate publishing preference already used for the PDF, nothing deploys
+      automatically on push.
+- [ ] Not yet done: enabling GitHub Pages in the repo's Settings (source: GitHub
+      Actions), and running the workflow for the first time.
 
 ## 4. Point physiolog.org at GitHub Pages + api.physiolog.org at the VPS
 
