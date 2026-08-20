@@ -31,6 +31,57 @@ setup; keep the issue parked here for the next simulation pass.
       higher HR and SV during exercise, lower TPR, higher PP, and DBP that does
       not rise simply because HR is higher.
 
+## Physiome model families for the current simulation backlog
+
+This section identifies the closest public model families in the Physiome repository
+and is intended as a reference layer for the teaching simulations below. The goal is
+not to copy the full research model into the site, but to anchor each interactive
+teaching model in an established physiology model family and then simplify it for
+student-friendly use.
+
+### Best first candidates for the site
+
+These are the highest-value starting points because they match the current backlog and
+have strong public model analogues in the Physiome repository.
+
+| Priority | Simulation from this backlog | Closest Physiome model family | Why this is a good fit | Example model link |
+|---|---|---|---|---|
+| 1 | Blood Pressure Equation Explorer | Cardiovascular circulation / haemodynamic lumped-parameter models | Strong match for arterial pressure, compliance, TPR, and heart-rate-dependent waveform behavior. | [Smith et al. 2004 minimal haemodynamic model](https://models.physiomeproject.org/exposure/9d046663ba5cac5c8a61ac146183614b/smith_chase_nokes_shaw_wake_2004.cellml/view) |
+| 2 | Orthostatic baroreflex | Cardiovascular circulation + autonomic control models | Good conceptual anchor for venous pooling, baroreceptor compensation, and pressure recovery. | [Heldt et al. 2002 cardiovascular response to orthostatic stress](https://models.physiomeproject.org/exposure/ff8be5f140e68612284488cf9879eb5f/lpc.cellml/view) |
+| 3 | Cardiac Pump pressure-volume loop | Cardiac electromechanical and ventricular mechanics models | Directly relevant to preload, afterload, stroke volume, and pressure-volume loop behavior. | [Hunter, McCulloch, ter Keurs 1998 modelling the mechanical properties of cardiac muscle](https://models.physiomeproject.org/exposure/81b442d5d866cde17186144e0d848021/hunter_mcculloch_terkeurs_1998.cellml/view) |
+| 4 | Tension length-tension relationship | Myofilament mechanics and muscle mechanics models | Good fit for active tension, passive tension, and overlap-dependent force behavior. | [Campbell & Chandra 2006 functions of stretch activation in heart muscle](https://models.physiomeproject.org/exposure/62183706711e435ff002b46088540850/campbell_chandra_2006.cellml/view) |
+| 5 | Cardiac cycle pressure sequence | Cardiac electromechanical models | Useful for connecting ECG, valve events, and ventricular/arterial pressure sequence. | [Nash & Panfilov 2004 electromechanical model of excitable tissue](https://models.physiomeproject.org/exposure/d96a64b94d824692955e06ec878a2d09/nash_panfilov_2004.cellml/view) |
+
+### Additional Physiome references by chapter
+
+| Chapter / simulation theme | Closest Physiome family | Suggested model(s) |
+|---|---|---|
+| Circulation / blood pressure / hemodynamics | Cardiovascular circulation | [Guyton full cardiovascular circulation model](https://models.physiomeproject.org/exposure/cd10322c000e6ff64441464f8773ed83/Guyton_Model_1-0.cellml/view), [Smith et al. 2004](https://models.physiomeproject.org/exposure/9d046663ba5cac5c8a61ac146183614b/smith_chase_nokes_shaw_wake_2004.cellml/view) |
+| Orthostatic stress and autonomic compensation | Cardiovascular circulation | [Heldt et al. 2002](https://models.physiomeproject.org/exposure/ff8be5f140e68612284488cf9879eb5f/lpc.cellml/view), [Guyton autonomics module](https://models.physiomeproject.org/exposure/827af05888f8e152f448d9cd8c6a8d09/guyton_autonomics_2008.cellml/view) |
+| Cardiac pump and pressure-volume behavior | Cardiac electromechanics / ventricular mechanics | [Hunter et al. 1998](https://models.physiomeproject.org/exposure/81b442d5d866cde17186144e0d848021/hunter_mcculloch_terkeurs_1998.cellml/view), [Nash & Panfilov 2004](https://models.physiomeproject.org/exposure/d96a64b94d824692955e06ec878a2d09/nash_panfilov_2004.cellml/view) |
+| Action potential / rhythm / AP sequence | Electrophysiology | [Luo & Rudy 1991 ventricular action potential model](https://models.physiomeproject.org/exposure/2d2ce7737b42a4f72d6bf8b67f6eb5a2/luo_rudy_1991.cellml/view), [Grandi et al. 2009 human ventricle model](https://models.physiomeproject.org/e/96/grandi_pasqualini_bers_2010.cellml/view) |
+| Muscle tension and sarcomere mechanics | Myofilament mechanics | [Campbell & Chandra 2006](https://models.physiomeproject.org/exposure/62183706711e435ff002b46088540850/campbell_chandra_2006.cellml/view), [Hunter et al. 1998](https://models.physiomeproject.org/exposure/81b442d5d866cde17186144e0d848021/hunter_mcculloch_terkeurs_1998.cellml/view) |
+| Motor unit recruitment / twitch summation | Neurobiology / electrophysiology | [Morris & Lecar 1981](https://models.physiomeproject.org/e/3c/morris_1981_reduced.cellml/view) for a simple excitability model; this is a useful educational reference rather than a direct motor-unit model |
+| Ventilation control / respiratory rhythm | Electrophysiology / respiratory rhythm models | [Butera, Rinzel, Smith 1999](https://models.physiomeproject.org/e/427/butera_rinzel_smith_1999.cellml/view) is a relevant respiratory rhythm-generation reference, but there is not a single obvious unified ventilation model in the curated Physiome categories |
+| Renal clearance | Cardiovascular circulation / kidney modules | [Guyton kidney module](https://models.physiomeproject.org/exposure/b897ad1b96031d40293b2e2e10684ffe/guyton_kidney_2008.cellml/view) is the best nearby model family, but the site should still favor a simplified teaching tool over a full renal physiology model |
+
+### Recommended build order using Physiome as the reference layer
+
+1. Blood Pressure Equation Explorer — use the haemodynamic models as the conceptual anchor.
+2. Orthostatic Baroreflex — use the orthostatic stress and autonomic circulation models.
+3. Cardiac Pump pressure-volume loop — use the ventricular mechanics/electromechanical models.
+4. Tension length-tension relationship — use myofilament mechanics as the reference model.
+5. Cardiac cycle pressure sequence / ECG rhythm analysis — use electrophysiology cell models and electromechanical ventricular models.
+6. Ventilation and renal simulations — use textbook equations first unless a stronger Physiome model is identified later.
+
+### Practical design guidance
+
+- Use Physiome models as a reference for physiological structure and parameter realism.
+- Reduce the model to a teaching model with only the variables that matter to the learning goal.
+- Keep the public-source model citations visible in the simulation page metadata where helpful.
+- Prefer a small set of causal variables over a large high-fidelity parameter set.
+- For the early site rollout, start with cardiovascular and muscle models; they are the most directly supported by the Physiome repository and best align with the current backlog.
+
 ## Chapter-by-Chapter Ideas
 
 ### Chapter 1: Introduction
